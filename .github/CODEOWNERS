@@ -1,0 +1,5 @@
+# CODEOWNERS file for software-design-resources
+# This file defines who owns and is responsible for code in the repository
+
+# Default owner for everything in the repo
+* @tbfangel
