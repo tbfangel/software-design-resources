@@ -11,6 +11,12 @@ This repository includes automation for maintaining the knowledge base:
 
 ---
 
+## Acknowledgments
+
+This knowledge base exists thanks to practitioners who generously share their insights publicly. **Thank you** to Mathias Verraes, Dan North, and Oskar Dudycz for writing openly about software design, architecture, and the craft of building better systems. Your willingness to document hard-won lessons, challenge conventional wisdom, and teach through real examples makes the entire field better.
+
+---
+
 ## Blog Posts
 
 Summaries and analyses of writing by practitioners in the field, organised by author and clustered by theme.
