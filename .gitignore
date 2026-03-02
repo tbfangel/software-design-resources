@@ -1,8 +1,3 @@
-# Claude Code configuration (but keep skills and agents)
-.claude/*
-!.claude/skills/
-!.claude/agents/
-
 # IDE files
 .idea/
 *.iml
