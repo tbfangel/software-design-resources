@@ -19,3 +19,4 @@ Summaries and analyses of writing by practitioners in the field, organised by au
 |---|---|
 | [Mathias Verraes](verraes.net/overview.md) | ~122 posts (2011–2025) covering DDD, Event Sourcing, CQRS, bounded contexts, messaging patterns, modelling theory, and software engineering practice |
 | [Dan North](dannorth.net/overview.md) | ~91 posts (2006–2025) covering BDD, agile delivery, testing, estimation, software design, learning models, and organizational effectiveness |
+| [Oskar Dudycz / Architecture Weekly](architecture-weekly.com/overview.md) | ~66 original articles (2020–2026) covering event-driven architecture, distributed systems, PostgreSQL, Kafka internals, messaging patterns, observability, and pragmatic software engineering |
