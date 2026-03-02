@@ -2,6 +2,13 @@
 
 A curated collection of resources on software design — with a focus on Domain-Driven Design, distributed systems architecture, and the craft of building well-structured, maintainable software.
 
+## Claude Code Setup
+
+This repository includes automation for maintaining the knowledge base:
+
+- **`web-resource-crawler` agent** (`.claude/agents/`) — Crawl blog sites and generate structured summaries organized into thematic clusters
+- **`/ask` skill** (`.claude/skills/`) — Query the knowledge base with natural language (e.g., `/ask tech debt`, `/ask bounded contexts`)
+
 ---
 
 ## Blog Posts
