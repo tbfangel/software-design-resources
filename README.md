@@ -8,6 +8,7 @@ This repository includes automation for maintaining the knowledge base:
 
 - **`web-resource-crawler` agent** (`.claude/agents/`) — Crawl blog sites and generate structured summaries organized into thematic clusters
 - **`/ask` skill** (`.claude/skills/`) — Query the knowledge base with natural language (e.g., `/ask tech debt`, `/ask bounded contexts`)
+- **`/sync` skill** (`.claude/skills/`) — Detect new posts across all tracked sources, summarise and classify them, and open a pull request; safe to run unattended
 
 ---
 
@@ -24,6 +25,6 @@ Summaries and analyses of writing by practitioners in the field, organised by au
 | Author | Description |
 |---|---|
 | [Mathias Verraes](verraes.net/overview.md) | ~122 posts (2011–2025) covering DDD, Event Sourcing, CQRS, bounded contexts, messaging patterns, modelling theory, and software engineering practice |
-| [Dan North](dannorth.net/overview.md) | ~91 posts (2006–2025) covering BDD, agile delivery, testing, estimation, software design, learning models, and organizational effectiveness |
-| [Oskar Dudycz / Architecture Weekly](architecture-weekly.com/overview.md) | ~66 original articles (2020–2026) covering event-driven architecture, distributed systems, PostgreSQL, Kafka internals, messaging patterns, observability, and pragmatic software engineering |
-| [Armin Ronacher](lucumr.pocoo.org/overview.md) | ~150 posts (2007–2026) covering Flask/Werkzeug/WSGI web infrastructure, deep Rust language work, Python packaging and Unicode, open source economics and licensing, and first-hand agentic coding practice |
+| [Dan North](dannorth.net/overview.md) | ~92 posts (2006–2025) covering BDD, agile delivery, testing, estimation, software design, learning models, and organizational effectiveness |
+| [Oskar Dudycz / Architecture Weekly](architecture-weekly.com/overview.md) | ~69 original articles (2020–2026) covering event-driven architecture, distributed systems, PostgreSQL, Kafka internals, messaging patterns, observability, and pragmatic software engineering |
+| [Armin Ronacher](lucumr.pocoo.org/overview.md) | ~152 posts (2007–2026) covering Flask/Werkzeug/WSGI web infrastructure, deep Rust language work, Python packaging and Unicode, open source economics and licensing, and first-hand agentic coding practice |

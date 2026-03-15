@@ -60,7 +60,7 @@ This knowledge base organizes Architecture Weekly's original articles into seven
 
 2. **[Messaging Systems & Kafka](messaging-and-kafka.md)** — Kafka internals (consumer protocol, offset tracking, producer mechanics), message processing patterns, multi-tenancy, checkpointing, deduplication, and the distinction between messaging and event-driven architecture (9 posts)
 
-3. **[PostgreSQL & Database Patterns](databases-and-postgresql.md)** — PostgreSQL-specific features (partitioning, logical replication, JSONB, advisory locks), query complexity management, write-ahead logs, ledger database alternatives, and unconventional uses of cloud storage (7 posts)
+3. **[PostgreSQL & Database Patterns](databases-and-postgresql.md)** — PostgreSQL-specific features (partitioning, logical replication, JSONB, advisory locks), query complexity management, write-ahead logs, ledger database alternatives, and unconventional uses of cloud storage (8 posts)
 
 4. **[Distributed Systems & Concurrency](distributed-systems.md)** — Distributed locking strategies, coordination mechanisms, workflow engines, ordering vs. performance tradeoffs, predictable identifiers (URNs), and secondary index complexity in specialized storage (6 posts)
 
@@ -68,7 +68,7 @@ This knowledge base organizes Architecture Weekly's original articles into seven
 
 6. **[Observability & System Quality](observability.md)** — Observability strategies, measurement practices, OpenTelemetry implementation, modern tracing approaches, defining success metrics (killer metrics), performance benchmarking, and transitioning from monitoring to understanding (7 posts)
 
-7. **[Software Engineering & Team Culture](engineering-culture.md)** — AI productivity claims, open-source sustainability, QA roles, resilience theory, EventStorming facilitation, conference speaking, learning multiple languages, professional responsibility, communication skills, platform teams, trunk-based development tradeoffs, technical debt critique, and Papers We Love discussions (18 posts)
+7. **[Software Engineering & Team Culture](engineering-culture.md)** — AI productivity claims, open-source sustainability, QA roles, resilience theory, EventStorming facilitation, conference speaking, learning multiple languages, professional responsibility, communication skills, platform teams, trunk-based development tradeoffs, technical debt critique, and Papers We Love discussions (20 posts)
 
 ## Reading Recommendations
 

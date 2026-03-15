@@ -125,3 +125,17 @@ AWS S3's conditional writes capability fundamentally changes what's possible wit
 - If AWS adds an If-Match header for true version matching, S3's viability as an event store would increase dramatically
 - There's no free lunch when weighing snapshot storage costs against GET request reductions
 
+### [How I Cheated on Transactions](https://www.architecture-weekly.com/p/how-i-cheated-on-transactions)
+**Type:** Article
+**Date:** 2026-02
+**Tags/Topics:** transactions, distributed systems, API design, Cloudflare D1, database abstraction
+
+Oskar Dudycz describes a pragmatic architectural tradeoff he made while building Dumbo, a multi-database abstraction layer. The core challenge arose when adding support for Cloudflare D1, which exposes its database through an HTTP API and therefore cannot support traditional SQL transactions via BEGIN/COMMIT/ROLLBACK — persistent connections simply aren't possible in that model. Rather than faking transactional semantics or silently degrading behaviour, Dudycz introduced a session-based mode: sessions provide repeatable reads and sequential consistency within a logical unit of work, while batches execute multiple SQL statements atomically in a single HTTP request. Crucially, users must explicitly opt in via `{ mode: 'session_based' }`, making the limitations visible rather than hidden. The broader lesson is that good API design starts restrictive — when a perfect cross-platform solution doesn't exist, the right answer is to surface the constraint and require an informed opt-in rather than paper over it.
+
+**Key takeaways:**
+- Cloudflare D1's HTTP-based architecture makes persistent connections impossible, ruling out conventional SQL transactions.
+- Sessions (repeatable reads, sequential consistency) and batches (atomic multi-statement execution in one request) together approximate transactional safety within D1's constraints.
+- Requiring an explicit opt-in (`mode: 'session_based'`) keeps the API honest and prevents developers from accidentally relying on guarantees that don't exist.
+- When building abstractions across heterogeneous platforms, exposing fundamental differences is preferable to hiding them behind a leaky uniform facade.
+- Good API design defaults to the restrictive, safe path and makes weaker guarantees an explicit, named choice.
+
