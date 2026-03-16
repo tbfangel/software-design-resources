@@ -19,7 +19,7 @@ Armin Ronacher is an Austrian software engineer and open source practitioner bes
 | Cluster | Description | Posts |
 |---|---|---|
 | [AI and Agents](ai-and-agents.md) | Agentic coding practice, LLM tooling, MCP design, the social risks of AI adoption, and the language/tooling changes agents are driving | 25 |
-| [Open Source Philosophy](open-source-philosophy.md) | Licensing (GPL, FSL, AGPL, BSD), OSS funding and sustainability, maintainer burnout, supply chain trust, and OSS governance | 18 |
+| [Open Source Philosophy](open-source-philosophy.md) | Licensing (GPL, FSL, AGPL, BSD), OSS funding and sustainability, maintainer burnout, supply chain trust, and OSS governance | 20 |
 | [Rust Language](rust-language.md) | Rust idioms and patterns, the Any trait series, error handling, unsafe code, macro-based vtables, and MiniJinja architecture | 21 |
 | [Python Ecosystem](python-ecosystem.md) | Python language design, packaging (Rye, uv, wheels), Unicode deep-dives, Python 3 migration, the stdlib, and typing philosophy | 30 |
 | [Web Frameworks and APIs](web-frameworks-and-apis.md) | Flask, Werkzeug, WSGI, database philosophy (SQL vs NoSQL, upserts), real-time architecture, WebSockets, and durable workflows | 24 |

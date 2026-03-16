@@ -294,3 +294,33 @@ The inaugural "Papers We Love" meetup examined the foundational "Sagas" whitepap
 - Message-based systems should retain complete compensation information for reliable failure handling
 - Application-level logic drives business processes rather than relying solely on database-level transaction coordination
 
+### [Architecture Weekly is 5 Years Old!](https://www.architecture-weekly.com/p/architecture-weekly-is-5-years-old)
+**Type:** Article
+**Date:** 2025-12
+**Tags/Topics:** newsletter, reflection, sustainability, knowledge sharing, community
+
+Oskar Dudycz marks five years of Architecture Weekly by tracing its evolution from a personal Git repository for managing browser tabs into a Substack newsletter with thousands of subscribers and 28 webinars totalling roughly 50 hours of free educational content. Despite achieving "Substack Bestseller" status, he candidly examines the limits of newsletter-based business models, finding that paid subscriptions alone do not justify the time required for deep-dive curation. The post reflects on how the newsletter's identity has gradually aligned with his consulting work and open-source projects around event-driven systems, and invites reader input on future directions — including a possible rebrand around the domain event-driven.news.
+
+**Key takeaways:**
+- Architecture Weekly started as a personal reading-organisation tool (a Git repo) before becoming a public newsletter, illustrating how shared side projects can organically grow an audience.
+- Twenty-eight webinars on topics like Event Sourcing, CQRS, and PostgreSQL were produced as free content, demonstrating a commitment to community education beyond link curation.
+- Paid subscription revenue proved insufficient to sustain the effort, raising broader questions about the viability of independent technical newsletters as a business model.
+- The newsletter's editorial focus has narrowed and deepened around event-driven architecture to align with the author's consulting and open-source identity.
+- Dudycz remains open to iteration and rebranding, signalling that the project's form will continue to evolve based on community feedback and sustainability needs.
+
+### [The End of Coding? Wrong Question](https://www.architecture-weekly.com/p/the-end-of-coding-wrong-question)
+**Type:** Article
+**Date:** 2026-03
+**Tags/Topics:** AI, LLMs, software development, skill erosion, spec-driven design, engineering culture
+
+Oskar Dudycz challenges the dominant narrative that LLMs will eliminate coding, arguing this framing is simply the wrong question. The real issue is not whether coding ends, but whether current AI-assisted development practices are sustainable and scalable. He critiques the industry's reliance on PoCs as proof of human obsolescence, noting that generating unlimited code without meaningful oversight is just as untenable as reviewing every line exhaustively. Drawing on historical parallels — Java's introduction, Spolsky's critiques — he frames LLMs as another abstraction layer that shifts rather than eliminates complexity. His deepest concern is knowledge loss: when engineers stop internalising design decisions, institutional knowledge erodes and systems become fragile. He advocates for structured, spec-driven workflows with deterministic outputs and formal acceptance criteria as a more mature path forward, and calls for industry discourse centred on real impact metrics (cost, quality, delivery time) rather than volume of generated code.
+
+**Key takeaways:**
+- The "end of coding" framing is a distraction; the real question is whether AI-driven workflows are sustainable at scale
+- PoCs built with LLMs do not represent full software development lifecycles and should not be used as evidence of human obsolescence
+- LLMs produce statistically probable answers, not innovative solutions — they optimise for mediocrity by design
+- Outsourcing thinking without retaining procedural knowledge leads to skill erosion and fragile institutional memory (citing Wardley and Roman infrastructure analogies)
+- Chat-based, markdown-driven "stringly-typed development" lacks the structure needed for reliable, maintainable software
+- Future development likely requires spec-driven design: structured inputs, deterministic outputs, formal acceptance criteria — fundamentally different from current chat interfaces
+- Industry should measure impact (cost, quality, delivery time) rather than celebrating code volume
+

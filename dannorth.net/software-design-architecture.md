@@ -184,3 +184,17 @@ North identifies a core tension in event-driven programming: replacing simple sy
 - Event-driven systems aren't inherently harder—they require shifting mental models
 - Massively scalable systems emerge from independent queue-based processing stages
 - Paradigm shift similar to object-oriented programming adoption
+
+<!-- NOTE: classification uncertain — review before merging -->
+### [Using Hugo as a redirect service](https://dannorth.net/blog/hugo-redirects/)
+**Type:** Article
+**Date:** 2023-10
+**Tags/Topics:** Hugo, static site generator, redirects, URL management, tooling
+
+Dan North describes how he used Hugo's built-in aliases feature and a small custom template to replace external URL-shortening services entirely. When reorganising roughly 100 blog posts from date-structured URLs to a flat hierarchy, he wrote a Go utility to automate alias generation rather than edit each post by hand. For external redirects he created a minimal Hugo template that reads a custom `.Params.target` parameter in place of the fixed `.Permalink` property, producing a one-line solution. The post argues that Hugo's templating system is flexible enough to handle both internal and external redirect needs without reaching for a dedicated service.
+
+**Key takeaways:**
+- Hugo's `aliases` front-matter key generates redirect pages automatically, preserving old URLs when content moves.
+- A small Go utility can automate alias generation at scale, avoiding manual edits across large post archives.
+- A custom Hugo template with a `.Params.target` parameter extends the built-in alias mechanism to redirect to arbitrary external URLs.
+- Static site generators often contain enough flexibility to handle operational concerns (like URL management) that are commonly delegated to third-party tools.
