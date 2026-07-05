@@ -155,3 +155,18 @@ Challenges the widespread marketing claim of "exactly-once delivery" in messagin
 - High-throughput systems face particular challenges with in-memory deduplication caching at scale
 - Choose deduplication layer (producer, broker, consumer) based on your system's consistency and performance requirements
 
+### [Announcing Strictland - new contract testing library for message compatibility](https://www.architecture-weekly.com/p/announcing-strictland-new-contract)
+**Type:** Article
+**Date:** 2026-06
+**Tags/Topics:** Contract Testing, Message Compatibility, Schema Evolution, JVM, Snapshot Testing, Open Source
+
+Oskar Dudycz introduces Strictland, a lightweight JVM contract-testing library for verifying message compatibility without the operational weight of tools like Pact or Spring Cloud Contract. Instead of brokers, schema registries, or mock services, Strictland serializes messages into snapshot files committed alongside unit tests, so any change to a message's shape surfaces as a diff during code review. Tests run as ordinary unit tests and check both snapshot consistency and backward/forward compatibility across message versions, using the application's own serializer so snapshots reflect the exact production bytes. The library is currently JVM-only with planned expansion to .NET and TypeScript/JavaScript, and is pre-1.0, inviting community feedback on its API and snapshot organization.
+
+**Key takeaways:**
+- Snapshot files committed to the repo make message-format changes visible in code-review diffs
+- No external infrastructure (Docker, brokers, registries) is required—checks run as plain unit tests
+- Verifies both backward and forward compatibility so message evolution doesn't break consumers or stored data
+- Passing the application's own serializer ensures snapshots match exact production byte layouts
+- Positioned as a lightweight alternative to Pact and Spring Cloud Contract for teams lacking heavy testing infrastructure
+- Pre-1.0 and JVM-first, with .NET and TypeScript/JavaScript support planned
+

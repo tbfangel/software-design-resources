@@ -365,3 +365,165 @@ Written in early 2023 after Bing Chat's problematic behaviours became public, th
 - The risk from AI is not apocalyptic sentience but practical: connecting conversational models to consequential real-world systems.
 - We do not control neural networks well enough to guarantee safety in high-stakes agentic contexts.
 - The solution is not stopping AI development but carefully limiting real-world capability grants until safety is better understood.
+
+### [Better Models: Worse Tools](https://lucumr.pocoo.org/2026/7/4/better-models-worse-tools/)
+**Type:** Article
+**Date:** 2026-07
+**Tags/Topics:** LLM tool use, tool schema design, reinforcement learning, constrained decoding, harness design, Claude models
+
+Ronacher documents a regression in which newer Anthropic models (Opus 4.8, Sonnet 5) increasingly fail to follow alternative tool schemas correctly—inventing spurious fields in nested JSON—despite older models adapting well. He attributes this to reinforcement learning inside Claude Code's forgiving harness, which tolerates malformed calls via repair mechanisms and parameter aliases, training models to become "strongly adapted to the canonical Claude Code edit tool shape" and degrading performance on semantically identical but structurally different schemas. Without visibility into closed-source post-training environments, he argues, harnesses must either adopt strict grammar-constrained sampling or accept inherited quirks from the dominant training ecosystem.
+
+**Key takeaways:**
+- Tool schemas aren't neutral abstractions; model accuracy varies with proximity to post-training distributions
+- RL inside forgiving harnesses teaches models to exploit leniency (aliases, extra keys), hurting generalization to stricter schemas
+- Claude Code's silent error correction may inadvertently train models to emit malformed output that still succeeds
+- Closed-source opacity prevents practitioners from predicting or designing around model-specific quirks
+- Constrained decoding prevents invalid emissions but adds complexity and potential quality tradeoffs
+- Post-training concentration in proprietary harnesses risks forcing downstream tools to inherit undocumented behavior
+
+### [The Coming Loop](https://lucumr.pocoo.org/2026/6/23/the-coming-loop/)
+**Type:** Article
+**Date:** 2026-06
+**Tags/Topics:** AI agents, harness loops, code quality, software architecture, maintainability, human oversight
+
+Ronacher examines "harness loops"—automated systems that drive AI agents past their natural stopping point, iteratively refining work through external evaluation. He acknowledges loops excel at transformative tasks like code porting, performance optimization, and exploratory research, but is deeply concerned about applying them to long-term production code, where they amplify problematic LLM tendencies (defensive coding, premature optimization, weak abstractions) and produce systems humans cannot fully comprehend. He concludes loops are an inevitable future driven by competitive and security pressure, making the real challenge reimagining software architecture to stay legible and maintainable rather than merely building better orchestration.
+
+**Key takeaways:**
+- Loops shine for porting, benchmarking, and security scanning but yield inferior long-term production code
+- Machine-driven code risks becoming "organisms" needing continuous AI diagnosis, eroding human understanding
+- Opting out may be impossible due to competitive pressure and security threats
+- Over-reliance creates cognitive, economic, and geopolitical dependencies, risking unmaintainable-without-machines codebases
+- Future success requires architecture that stays legible under machine-driven production, not just better tooling
+
+### [Dangerous Technology For Americans Only](https://lucumr.pocoo.org/2026/6/13/americans-only/)
+**Type:** Article
+**Date:** 2026-06
+**Tags/Topics:** AI governance, export controls, geopolitics, European tech dependency, international cooperation, open source
+
+Ronacher critiques U.S. export controls that restrict access to Anthropic's models by nationality, arguing this marks a troubling shift from safety discourse to nationalist gatekeeping. He contends Europe faces a humiliating technological dependency of its own making—decades of fragmented markets, risk-averse policy, and brain drain to America—and that regulation cannot substitute for genuine capability. Rather than competing blocs, he advocates restoring international cooperation and broad AI access as essential both for human flourishing and for preventing the militarization of transformative technology.
+
+**Key takeaways:**
+- Export controls based on nationality rather than hostile-state status distract from treating powerful tech as American-only weaponry
+- Europe's weakness is largely self-inflicted through fragmentation and discouragement of ambitious founders
+- Regulation cannot replace technological capability; Europe must build competitive capital markets and startup ecosystems
+- A deteriorating international order directly threatens the cross-border cooperation modern life depends on
+- Open source and international cooperation offer paths away from concentrated power, despite their messiness
+- Long-term solutions require rejecting bloc nationalism in favor of rebuilding trust across societies
+
+<!-- NOTE: classification uncertain — review before merging -->
+### [Communities of Not](https://lucumr.pocoo.org/2026/6/6/communities-of-not/)
+**Type:** Article
+**Date:** 2026-06
+**Tags/Topics:** community dynamics, tribalism, online harassment, technology adoption, LLM adoption, social polarization
+
+Ronacher examines how communities organized around rejecting something—childlessness, cars, or LLMs—often harden into tribal identities that devolve into policing and mob behavior. While opposition to consequential systems can be justified, these communities frequently punish individuals who deviate from group ideology, treating personal choices as betrayal. He argues against assuming catastrophic interpretations of others' choices and advocates defaulting to openness and acceptance to avoid complicity in collective harassment.
+
+**Key takeaways:**
+- Communities built on opposition or abstinence risk turning legitimate criticism into mob enforcement
+- Personal choices (parenthood, LLM use, car ownership) get misread as tribal betrayal despite no membership agreement
+- Shared insecurity can make group negativity comfortable while enabling collective harassment
+- Resisting systemic influence remains valid; weaponizing that resistance against people is not
+- Deescalation and openness to divergent views protect against perpetuating harassment cycles
+
+### [Clanker: A Word For The Machine](https://lucumr.pocoo.org/2026/5/26/clankers/)
+**Type:** Article
+**Date:** 2026-05
+**Tags/Topics:** AI terminology, anthropomorphism, machine responsibility, AI ethics, language and framing, agency
+
+Ronacher argues that calling LLM-based systems "clankers" rather than "agents" serves an important purpose: maintaining conceptual distance between humans and machines. "Agent," he contends, falsely implies moral agency and responsibility in non-sentient systems, when the humans wielding these tools bear full accountability. While acknowledging some have weaponized the term to replay racial imagery—in which case it must be abandoned—he defends deliberately mechanical language as a guard against dangerous anthropomorphizing and a way to protect the boundary between responsible humans and their tools.
+
+**Key takeaways:**
+- "Agent" inappropriately assigns responsibility to machines; humans deploying tools remain accountable
+- Mechanical language resists the anthropomorphizing that enables AI psychosis and unrealistic expectations
+- Current LLMs lack sentience, suffering capacity, or moral status regardless of linguistic sophistication
+- Extending human-oppression frameworks to machines risks devaluing real human suffering
+- If the term becomes primarily racist imagery, it must be dropped for precise alternatives
+- Clear boundaries between human responsibility and machine function should drive language choices
+
+### [Building Pi With Pi](https://lucumr.pocoo.org/2026/5/24/pi-oss/)
+**Type:** Article
+**Date:** 2026-05
+**Tags/Topics:** AI coding agents, open source maintenance, AI slop, issue tracking, code quality, developer tools
+
+Ronacher reflects on using Pi (his AI coding agent) to build Pi itself, surfacing the challenges of the post-AI open source landscape. The central problem is low-quality, machine-generated issue reports and pull requests that create maintenance burden rather than value: a confident but wrong AI diagnosis produces extra work, and slop cascades as poor inputs invite poor downstream responses. With 80% of external contributions auto-closed and only 8% of auto-closed PRs eventually merging, he argues throughput has become unsustainable, and advocates strong foundational principles, correct data invariants, and human-centered collaboration over AI-proliferated local workarounds.
+
+**Key takeaways:**
+- A plausible-but-wrong AI diagnosis creates extra work by misdirecting confident downstream action
+- Low-quality inputs cascade into low-quality responses, compounding complexity instead of solving root causes
+- Contribution volume overwhelms infrastructure: ~80% auto-closed, only ~8% of those eventually merge
+- AI tends to add defensive layers rather than fix invariants at the source
+- Open source value comes from human coordination, not isolated machine-assisted local workarounds
+
+### [Pushing Local Models With Focus And Polish](https://lucumr.pocoo.org/2026/5/8/local-models/)
+**Type:** Article
+**Date:** 2026-05
+**Tags/Topics:** local model inference, developer experience, model optimization, DeepSeek V4, Pi, vendor lock-in
+
+Ronacher argues that although local model inference technically works, its developer experience remains fragmented and unpolished compared to hosted APIs—missing features like tool parameter streaming and drowning users in configuration. Rather than spreading effort across many generic frameworks, he contends the community should focus intensely on perfecting a single model-hardware-inference combination. His solution is ds4.c, a specialized engine for DeepSeek V4 Flash on high-RAM Macs, integrated into Pi as a zero-configuration first-class provider that manages compilation, downloads, and quantization automatically, showing local models can be competitive without vendor lock-in.
+
+**Key takeaways:**
+- Runnable isn't finished: local models lack polish features (like tool parameter streaming) that hosted providers offer
+- Fragmentation across engines and options overwhelms users and prevents fair model evaluation
+- Dispersed development prevents any single approach from reaching excellence—critical mass matters
+- Model-specific native code (ds4.c) beats generic GGUF runners for DeepSeek V4
+- Deep integration (Pi-ds4) removes manual setup, handling compilation, downloads, and quantization
+- Local models must stay outside subscription cloud ecosystems to serve developers without gatekeeping
+
+### [Content for Content's Sake](https://lucumr.pocoo.org/2026/5/4/content-for-contents-sake/)
+**Type:** Article
+**Date:** 2026-05
+**Tags/Topics:** AI-generated content, LLM impact, trust erosion, platform design, social media, friction
+
+Ronacher argues that LLMs are degrading digital discourse by making content creation frictionless, flooding platforms with low-effort material that paradoxically performs well algorithmically. He notes linguistic patterns inflated by LLM usage bleeding into how humans write, and warns that the growing difficulty of distinguishing authentic from machine-generated communication erodes interpersonal trust. Technological detection alone can't fix this; his conclusion emphasizes transparency, deliberate friction in submissions, in-person interaction, and a cultural shift toward valuing genuine human contribution over algorithmic engagement.
+
+**Key takeaways:**
+- Certain words now appear more often in both LLM output and Google Trends, suggesting automated text shapes human writing
+- Low-effort LLM posts outperform slower human contributions because algorithms reward speed, creating perverse incentives
+- Ambient suspicion of machine authorship erodes trust even between known humans
+- Systems enabling cheap submission (GitHub, complaint portals) bear disproportionate social cost
+- Transparency, friction, and in-person interaction matter more than detection tools
+- Deploying agents without disclosure makes one an "energy vampire" on shared systems
+
+### [The Center Has a Bias](https://lucumr.pocoo.org/2026/4/11/the-center-has-a-bias/)
+**Type:** Article
+**Date:** 2026-04
+**Tags/Topics:** AI adoption, technology discourse, critical thinking, coding agents, polarization, engagement
+
+Ronacher argues that technology debates create a misleading perception of neutrality among moderate voices. Those in the "center" typically have hands-on experience that pure skeptics lack, creating an asymmetry: measured critics appear pro-adoption simply because they invested the time to evaluate seriously. Genuine informed opinion requires crossing an engagement threshold, so the measured middle naturally clusters with explorers rather than abstainers—yet outsiders conflate engagement with endorsement, which can obscure legitimate grounded criticism from experienced practitioners.
+
+**Key takeaways:**
+- Direct use enables nuanced critique, but observers often mistake exploration for advocacy
+- Serious opinions demand time investment; skeptics inherit secondhand perspectives while adopters build primary knowledge
+- The center appears adoption-leaning because grounded analysis requires contact, not because it lacks critical capacity
+- The most penetrating critiques often come from experienced practitioners who know the failure modes
+- Perfect indifference to emerging technology is incompatible with forming genuinely informed positions
+
+### [Mario and Earendil](https://lucumr.pocoo.org/2026/4/8/mario-and-earendil/)
+**Type:** Article
+**Date:** 2026-04
+**Tags/Topics:** coding agents, Earendil, Pi, software craftsmanship, design philosophy, open source stewardship
+
+Ronacher announces Mario Zechner joining Earendil, framing it as a shared commitment to thoughtful AI development. Rather than racing toward speed and efficiency at any cost, both Zechner's Pi and Earendil's Lefos prioritize craftsmanship, design integrity, and human flourishing. He worries that AI systems risk accelerating low-quality content and social degradation, and instead advocates tools that foster "care, clarity, and joy"—valuing "more thought rather than more throughput." Pi will continue as open source under Earendil's stewardship, preserving its extensibility and quality standards.
+
+**Key takeaways:**
+- Pi is "one of the most thoughtful coding agents" because it emphasizes quality and disciplined practice over speed
+- The industry's rush to ship quickly often sacrifices coherence and craft
+- AI can enable meaningful human connection or widespread mediocrity depending on intentional design
+- "Good software should not aim to optimize every minute of your life" but create space for better experiences
+- Pi remains open source under Earendil, preserving extensibility and quality
+- The guiding value is "more thought rather than more throughput"
+
+### [Some Things Just Take Time](https://lucumr.pocoo.org/2026/3/20/some-things-just-take-time/)
+**Type:** Article
+**Date:** 2026-03
+**Tags/Topics:** patience, AI productivity paradox, open source sustainability, software quality, friction, trust
+
+Ronacher argues that certain valuable outcomes—trees, trust, or quality software—cannot be rushed regardless of technological acceleration. He contends the current obsession with speed and AI-driven automation paradoxically reduces available time while degrading software longevity and community relationships: time saved is immediately consumed by higher output demands, and eliminating beneficial friction (reviews, compliance, deliberation) undermines the maturity and responsibility that friction protects. Successful companies and open source projects, he notes, depend on sustained commitment over years, not rapid iteration.
+
+**Key takeaways:**
+- Some valuable things—trust, quality, community—cannot be artificially accelerated
+- Friction in processes like compliance and review often exists intentionally; removing it risks integrity
+- AI's speed advantage pressures teams to cut deliberation, hastening poor decisions
+- Time saved via automation gets consumed by more output, not banked as leisure
+- Abandoned startups and ephemeral OSS projects signal broken relationships, not healthy iteration
+- Long-term commitment turns initial enthusiasm into sustainable work that can "shelter and grow other people"

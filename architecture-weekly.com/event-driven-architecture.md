@@ -165,3 +165,18 @@ Distributed systems processing asynchronous messages face challenges with out-of
 - For production systems, consider separate queues per group type to avoid linear search inefficiencies
 - Balance ordering guarantees against throughput and scalability requirements for your specific use case
 
+### [Anti-patterns in event modelling - Passive-Aggressive Events](https://www.architecture-weekly.com/p/passive-aggresive-event)
+**Type:** Article
+**Date:** 2026-04
+**Tags/Topics:** Event Modelling, Anti-Patterns, Commands vs Events, Orchestration, Coupling, Sagas
+
+Oskar Dudycz argues that treating all communication in event-driven systems as events produces "passive-aggressive" designs where components implicitly expect specific behaviors without stating intent. The root problem is conflating three distinct message types: events announce facts and expect no response, commands express explicit intent that can be executed or rejected, and documents convey state snapshots. Modelling everything as events hides critical dependencies (like payment or shipment failures), obscures business logic, and creates hidden coupling. Effective design distinguishes blocking critical paths—which need explicit commands and orchestrators/sagas—from non-blocking supplementary processes suited to events, and models failure scenarios transparently (e.g. via Example Mapping).
+
+**Key takeaways:**
+- Events masquerading as commands create implicit expectations; make orchestration explicit with coordinators, sagas, or workflows
+- Distinguish events (immutable facts), commands (explicit, rejectable intent), and documents (state snapshots)
+- Use blocking commands for critical paths (payment, shipment); reserve events for non-essential services like notifications
+- Explicit command exposure establishes clear API contracts and genuine service autonomy instead of hidden coupling
+- Use Example Mapping to uncover failure scenarios during design rather than assuming "I already did my job"
+- Maintain centralized business-process observability to avoid uncoordinated "parliamentary" reactions
+

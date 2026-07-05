@@ -7,9 +7,9 @@
 
 ## About the Blog
 
-The blog spans **2011–2025** with approximately **122 posts**. Content falls into three formats:
+The blog spans **2011–2026** with approximately **124 posts**. Content falls into three formats:
 
-- **Articles** (~80 posts) — the primary medium; range from short pattern descriptions to deep conceptual essays
+- **Articles** (~82 posts) — the primary medium; range from short pattern descriptions to deep conceptual essays
 - **Presentations** (~30 posts) — slides and/or video from conference talks; cover the same themes as articles, often in distilled form
 - **Podcasts** (~10 posts) — interview appearances and panel discussions
 
@@ -31,10 +31,10 @@ The blog content organises into **8 thematic clusters**:
 | 2 | [Bounded Contexts & Context Mapping](bounded-contexts.md) | 9 | BC design, splitting domains, context relationships |
 | 3 | [Event Sourcing & CQRS](event-sourcing-cqrs.md) | 13 | ES patterns, CQRS architecture, commands |
 | 4 | [Messaging & Distributed Systems Patterns](messaging-distributed-systems.md) | 17 | Messaging patterns series, decoupling in distributed systems |
-| 5 | [Domain Modelling, Design Heuristics & Theory](modelling-design-heuristics.md) | 26 | Models, metaphors, worldviews, design theory — incl. RWB collaborations |
+| 5 | [Domain Modelling, Design Heuristics & Theory](modelling-design-heuristics.md) | 27 | Models, metaphors, worldviews, design theory — incl. RWB collaborations |
 | 6 | [Event Storming](event-storming.md) | 4 | ES facilitation and modelling techniques |
 | 7 | [Software Engineering Practices](software-engineering.md) | 27 | OOP, testing, refactoring, code quality, PHP |
-| 8 | [Process, Technical Debt & Learning](process-teams-learning.md) | 14 | Tech debt, estimation, teams, book reviews |
+| 8 | [Process, Technical Debt & Learning](process-teams-learning.md) | 15 | Tech debt, estimation, teams, book reviews |
 
 ---
 

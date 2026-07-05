@@ -140,3 +140,33 @@ Clever, hidden code complexity inevitably creates maintenance nightmares. While 
 - Choose boring, debuggable code: simple, explicit designs outperform elegant but opaque solutions in production
 - A minimal API with complex implementation isn't simple—it's a lie that will hurt maintainability
 
+### [On mashing up modelling techniques for fun and profit](https://www.architecture-weekly.com/p/on-mashing-up-modelling-techniques)
+**Type:** Article
+**Date:** 2026-05
+**Tags/Topics:** Software Modelling, C4 Model, Context Mapping, EventStorming, Model Storming, Architecture Design
+
+Oskar Dudycz argues that architects should combine complementary modelling techniques rather than committing to a single methodology. Using a hospitality management system as a worked example, he shows how C4 containers clarify deployment units and system boundaries, Context Maps expose module dependencies and upstream/downstream power imbalances, and EventStorming-style event flows reveal coordination problems—each technique offering a different angle of feedback on the same design. He calls this synthetic, iterative practice "Model Storming," a collaborative way to experiment with diagram variations and refine architectural decisions before committing to them.
+
+**Key takeaways:**
+- Different modelling techniques provide complementary feedback on architectural viability
+- C4 diagrams communicate deployment units and system boundaries effectively
+- Context Maps surface module dependencies and upstream/downstream power imbalances
+- Event flows reveal coordination issues, such as a generic module needing to expose commands
+- Combining approaches ("Model Storming") supports iterative, collaborative refinement
+- Tooling that allows zooming and filtering across integrated models would strengthen the approach
+
+### [Yoda Principle for better integrations](https://www.architecture-weekly.com/p/yoda-principle-for-better-integrations)
+**Type:** Article
+**Date:** 2026-04
+**Tags/Topics:** API Design, Integration Patterns, Command Naming, Command-Query Separation, Race Conditions, System Boundaries
+
+Oskar Dudycz argues that commands in APIs and workflows should be named for the definitive business action they perform, not for a tentative check. Using an e-commerce fulfillment example, he shows how naming a command `VerifyProductExists` masks its real effect—`ReserveProducts`—which leads to chatty, redundant integrations and race conditions between the check and the action. By avoiding "Verify/Validate/Check" prefixes and letting the owning service enforce all business rules within a single definitive command, teams get clearer boundaries, fewer sequential round-trips, and systems designed to handle rejection rather than lulled into false confidence by preliminary checks.
+
+**Key takeaways:**
+- Name commands for definitive business actions ("ReserveProducts"), not tentative checks ("VerifyProductExists")
+- Queries return possibly-stale data; commands trigger state changes with guaranteed rule verification—don't conflate them
+- Verify/Validate/Check prefixes create false security and hand-wave over real integration complexity
+- Let the target service enforce all conditions in its own logic rather than requiring redundant preliminary calls
+- Precise command naming prevents race conditions and clarifies service boundaries
+- Design for inevitable command rejection instead of trusting tentative pre-checks
+
