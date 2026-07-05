@@ -137,10 +137,6 @@ To add a topic, add its kebab-case slug under the most fitting heading below in 
 - date-time
 - memory-management
 
-## Rust
-
-- rust
-
 ## Programming Languages & Concurrency
 
 - programming
@@ -155,6 +151,7 @@ To add a topic, add its kebab-case slug under the most fitting heading below in 
 - debugging
 - php
 - go
+- rust
 - git
 - github
 - version-control
