@@ -3,7 +3,8 @@ type: article
 title: "Equity for Europeans"
 description: "Ronacher argues that English-speaking cultures benefit from \"equity\" as a single concept bundling legal fairness, financial residual value, and wealth-building agency, while German and continental European languages fragment it into domain-specific terms like Eigenkapital and Beteiligung."
 resource: https://lucumr.pocoo.org/2026/4/23/equity-for-europeans/
-tags: ["open-source-philosophy", "equity", "finance", "language-and-culture", "ownership", "wealth-building", "employee-participation"]
+cluster: open-source-philosophy
+tags: ["ownership", "organizational-design"]
 published: 2026-04
 timestamp: 2026-07-05
 ---

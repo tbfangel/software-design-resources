@@ -3,7 +3,8 @@ type: article
 title: "Thoughts on Platforms, Core Teams, and Organizational Decay"
 description: "Challenges the popular \"platform team\" trend, arguing that centralized, one-size-fits-all solutions typically peak after 1-2 years before degrading."
 resource: https://www.architecture-weekly.com/p/thoughts-on-platforms-core-teams
-tags: ["engineering-culture", "platform-teams", "conway-s-law", "developer-experience", "organizational-structure", "tooling"]
+cluster: engineering-culture
+tags: ["platform-engineering", "conways-law", "developer-experience", "organizational-design", "tooling"]
 published: 2024
 timestamp: 2026-07-05
 ---

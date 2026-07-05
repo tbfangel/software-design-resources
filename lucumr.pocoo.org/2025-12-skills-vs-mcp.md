@@ -3,7 +3,8 @@ type: article
 title: "Skills vs Dynamic MCP Loadouts"
 description: "Ronacher argues that manually maintained agent skills (brief capability summaries that leverage training) outperform MCP tools for current practical use."
 resource: https://lucumr.pocoo.org/2025/12/13/skills-vs-mcp/
-tags: ["ai-and-agents", "mcp", "agent-tools", "skills", "api-stability"]
+cluster: ai-and-agents
+tags: ["mcp", "tool-design", "learning", "backwards-compatibility"]
 published: 2025-12
 timestamp: 2026-07-05
 ---

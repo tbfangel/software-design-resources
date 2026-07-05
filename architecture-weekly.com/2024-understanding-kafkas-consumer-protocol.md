@@ -3,7 +3,8 @@ type: article
 title: "Understanding Kafka's Consumer Protocol"
 description: "Addresses a fundamental misconception about Kafka: while it appears to be a \"push\" system where brokers deliver messages to consumers, it's actually an elegant pull-based protocol."
 resource: https://www.architecture-weekly.com/p/understanding-kafkas-consumer-protocol
-tags: ["messaging-and-kafka", "kafka", "consumer-protocol", "pull-based-architecture", "consumer-groups", "rebalancing"]
+cluster: messaging-and-kafka
+tags: ["kafka", "messaging"]
 published: 2024
 timestamp: 2026-07-05
 ---

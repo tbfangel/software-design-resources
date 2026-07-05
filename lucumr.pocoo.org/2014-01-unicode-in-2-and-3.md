@@ -3,7 +3,8 @@ type: article
 title: "More About Unicode in Python 2 and 3"
 description: "Ronacher compares bytes/Unicode handling between Python versions."
 resource: https://lucumr.pocoo.org/2014/1/5/unicode-in-2-and-3/
-tags: ["python-ecosystem", "python-2", "python-3", "unicode", "bytes", "api-inconsistency", "hidden-string-types"]
+cluster: python-ecosystem
+tags: ["python", "unicode", "api-design"]
 published: 2014-01
 timestamp: 2026-07-05
 ---

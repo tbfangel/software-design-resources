@@ -3,7 +3,8 @@ type: article
 title: "Start Writing More Classes"
 description: "Ronacher argues that the Python community undervalues classes in favour of simple functions, creating APIs that hide useful internal architecture."
 resource: https://lucumr.pocoo.org/2013/2/13/moar-classes/
-tags: ["python-ecosystem", "python", "oop", "api-design", "streaming", "denial-of-service", "class-vs-function"]
+cluster: python-ecosystem
+tags: ["python", "object-oriented-design", "api-design", "stream-processing"]
 published: 2013-02
 timestamp: 2026-07-05
 ---

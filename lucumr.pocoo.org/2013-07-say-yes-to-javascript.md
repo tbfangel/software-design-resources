@@ -3,7 +3,8 @@ type: article
 title: "Say \"Yes\" to JavaScript"
 description: "Ronacher argues that removing the option to disable JavaScript in Firefox is the right decision for web standards progress."
 resource: https://lucumr.pocoo.org/2013/7/1/say-yes-to-javascript/
-tags: ["software-design-philosophy", "javascript", "browser-policy", "firefox", "web-standards"]
+cluster: software-design-philosophy
+tags: ["javascript", "web-standards"]
 published: 2013-07
 timestamp: 2026-07-05
 ---

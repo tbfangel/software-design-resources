@@ -3,7 +3,8 @@ type: article
 title: "Value Objects and User Interfaces"
 description: "Value Objects are immutable objects that represent domain concepts and are distinguished by their values rather than identity."
 resource: https://verraes.net/2013/11/value-objects-and-user-interfaces/
-tags: ["ddd-foundations", "value-objects", "user-interface", "immutability", "encapsulation", "domain-modeling", "data-types"]
+cluster: ddd-foundations
+tags: ["value-objects", "ux", "immutability", "encapsulation", "domain-modelling", "type-systems"]
 published: 2013-11
 timestamp: 2026-07-05
 ---

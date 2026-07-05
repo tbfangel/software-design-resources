@@ -3,7 +3,8 @@ type: article
 title: "FSL: A Better Business/Open Source Balance Than AGPL"
 description: "Ronacher compares FSL with AGPL for single-vendor commercial open source projects."
 resource: https://lucumr.pocoo.org/2024/9/23/fsl-agpl-open-source-businesses/
-tags: ["open-source-philosophy", "fsl", "agpl", "single-vendor-open-source", "clas", "elasticsearch"]
+cluster: open-source-philosophy
+tags: ["open-source-licensing", "open-source-business", "databases"]
 published: 2024-09
 timestamp: 2026-07-05
 ---

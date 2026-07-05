@@ -3,7 +3,8 @@ type: article
 title: "DRY is about Knowledge"
 description: "The DRY principle (\"Don't Repeat Yourself\") is often misinterpreted as \"no code duplication.\" In reality, DRY is about not repeating knowledge—the same fact should live in one place."
 resource: https://verraes.net/2014/08/dry-is-about-knowledge/
-tags: ["modelling-design-heuristics", "dry-principle", "duplication", "knowledge", "domain", "intentionality"]
+cluster: modelling-design-heuristics
+tags: ["duplication", "knowledge-sharing", "domain-driven-design", "intentionality"]
 published: 2014-08
 timestamp: 2026-07-05
 ---

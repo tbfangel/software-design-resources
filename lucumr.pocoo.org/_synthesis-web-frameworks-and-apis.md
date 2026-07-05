@@ -2,7 +2,7 @@
 type: synthesis
 title: "Web Frameworks and APIs"
 description: "Armin Ronacher is the creator of Flask, Werkzeug, and Jinja2 — tools that shaped how a generation of Python developers built web applications."
-tags: ["web-frameworks-and-apis"]
+cluster: web-frameworks-and-apis
 timestamp: 2026-07-05
 ---
 # Web Frameworks and APIs

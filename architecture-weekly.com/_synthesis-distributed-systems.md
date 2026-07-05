@@ -2,7 +2,7 @@
 type: synthesis
 title: "Distributed Systems & Concurrency"
 description: "This cluster explores distributed locking strategies, coordination mechanisms, workflow engines, the fundamental tradeoffs between ordering and performance, predictable identifier patterns, and the complexities of secondary indexes in distributed storage systems."
-tags: ["distributed-systems"]
+cluster: distributed-systems
 timestamp: 2026-07-05
 ---
 # Distributed Systems & Concurrency

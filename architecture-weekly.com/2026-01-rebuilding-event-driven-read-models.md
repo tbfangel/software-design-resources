@@ -3,7 +3,8 @@ type: article
 title: "Rebuilding Event-Driven Read Models in a Safe and Resilient Way"
 description: "When event-driven systems evolve, read models need rebuilding without corrupting data or blocking concurrent operations."
 resource: https://www.architecture-weekly.com/p/rebuilding-event-driven-read-models
-tags: ["event-driven-architecture", "read-models", "distributed-locking", "postgresql-advisory-locks", "crash-recovery", "projection-management"]
+cluster: event-driven-architecture
+tags: ["read-models", "distributed-locking", "postgresql", "crash-recovery", "projections"]
 published: 2026-01
 timestamp: 2026-07-05
 ---

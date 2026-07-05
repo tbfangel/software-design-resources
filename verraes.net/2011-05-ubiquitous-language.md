@@ -3,7 +3,8 @@ type: article
 title: "Ubiquitous Language"
 description: "The Ubiquitous Language is the shared vocabulary and terminology agreed upon by domain experts and developers to describe the domain in a precise, unambiguous way."
 resource: https://verraes.net/2011/05/ubiquitous-language/
-tags: ["ddd-foundations", "shared-language", "domain-experts", "communication", "terminology", "clarity", "domain-understanding"]
+cluster: ddd-foundations
+tags: ["ubiquitous-language", "domain-experts", "communication", "domain-modelling"]
 published: 2011-05
 timestamp: 2026-07-05
 ---

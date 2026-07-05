@@ -3,7 +3,8 @@ type: presentation
 title: "On Being Explicit"
 description: "Presentation on the value of making implicit concepts explicit in code."
 resource: https://verraes.net/2016/11/on-being-explicit/
-tags: ["modelling-design-heuristics", "explicitness", "clarity", "implicit-knowledge", "code-readability", "intentionality"]
+cluster: modelling-design-heuristics
+tags: ["explicit-vs-implicit", "communication", "knowledge-sharing", "code-quality", "intentionality"]
 published: 2016-11
 timestamp: 2026-07-05
 ---

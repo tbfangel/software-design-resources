@@ -3,7 +3,8 @@ type: article
 title: "Multi-Tenancy and Dynamic Messaging Workload Distribution"
 description: "Addresses the challenge of distributing message processing workloads dynamically in multi-tenant environments where tenants are unknown upfront, critical for SaaS platforms where new customers continually register."
 resource: https://www.architecture-weekly.com/p/multi-tenancy-and-dynamic-messaging
-tags: ["messaging-and-kafka", "multi-tenancy", "workload-distribution", "horizontal-scaling", "partitioning", "consistent-hashing"]
+cluster: messaging-and-kafka
+tags: ["multi-tenancy", "distributed-systems", "scalability", "databases"]
 published: 2025-12
 timestamp: 2026-07-05
 ---

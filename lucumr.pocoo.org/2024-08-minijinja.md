@@ -3,7 +3,8 @@ type: article
 title: "MiniJinja: Learnings from Building a Template Engine in Rust"
 description: "Ronacher describes the architecture of MiniJinja, a Rust implementation of Jinja2."
 resource: https://lucumr.pocoo.org/2024/8/27/minijinja/
-tags: ["rust-language", "rust", "minijinja", "template-engine", "value-enum", "vtables", "stack-based-vm"]
+cluster: rust-language
+tags: ["rust", "template-engines", "compilers"]
 published: 2024-08
 timestamp: 2026-07-05
 ---

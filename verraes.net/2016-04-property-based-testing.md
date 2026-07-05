@@ -3,7 +3,8 @@ type: presentation
 title: "Property-based Testing"
 description: "A presentation exploring property-based testing approaches for generating test cases automatically."
 resource: https://verraes.net/2016/04/property-based-testing/
-tags: ["software-engineering", "testing", "property-based-testing", "quickcheck", "randomized-testing"]
+cluster: software-engineering
+tags: ["testing", "property-based-testing"]
 published: 2016-04
 timestamp: 2026-07-05
 ---

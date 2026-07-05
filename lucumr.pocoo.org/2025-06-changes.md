@@ -3,7 +3,8 @@ type: article
 title: "AI Changes Everything"
 description: "Ronacher's strongest pro-AI essay: he frames AI as an irreversible transformation comparable to electricity or the printing press, and advocates meeting it with curiosity and optimism."
 resource: https://lucumr.pocoo.org/2025/6/4/changes/
-tags: ["ai-and-agents", "ai-transformation", "optimism", "productivity", "societal-impact"]
+cluster: ai-and-agents
+tags: ["ai-adoption", "productivity", "ai-ethics"]
 published: 2025-06
 timestamp: 2026-07-05
 ---

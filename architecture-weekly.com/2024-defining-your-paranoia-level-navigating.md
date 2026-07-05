@@ -3,7 +3,8 @@ type: article
 title: "Defining Your Paranoia Level: Navigating New Technology Adoption"
 description: "Learning new technologies is fundamentally about unlearning old habits, not just acquiring new knowledge."
 resource: https://www.architecture-weekly.com/p/defining-your-paranoia-level-navigating
-tags: ["observability", "learning", "technology-adoption", "event-sourcing", "document-databases", "cognitive-biases"]
+cluster: observability
+tags: ["learning", "technology-adoption", "event-sourcing", "databases", "cognitive-biases"]
 published: 2024
 timestamp: 2026-07-05
 ---

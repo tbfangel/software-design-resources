@@ -3,7 +3,8 @@ type: article
 title: "Messaging Patterns: Ephemeral Events"
 description: "Ephemeral Events mark events whose lifetime lasts only until the next event."
 resource: https://verraes.net/2019/05/messaging-patterns-ephemeral-events/
-tags: ["messaging-distributed-systems", "messaging", "event-types", "persistence", "real-time-data", "high-frequency-streams"]
+cluster: messaging-distributed-systems
+tags: ["messaging", "event-design", "databases", "stream-processing"]
 published: 2019-05
 timestamp: 2026-07-05
 ---

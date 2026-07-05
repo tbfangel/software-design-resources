@@ -3,7 +3,8 @@ type: article
 title: "The Repair/Replace Heuristic for Legacy Software"
 description: "When facing a legacy system, the key question is whether to repair or replace it."
 resource: https://verraes.net/2016/04/repair-replace-heuristic-for-legacy-software/
-tags: ["process-teams-learning", "legacy-systems", "technical-debt", "system-design", "organizational-strategy", "heuristics"]
+cluster: process-teams-learning
+tags: ["legacy-systems", "technical-debt", "system-design", "organizational-design", "heuristics"]
 published: 2016-04
 timestamp: 2026-07-05
 ---

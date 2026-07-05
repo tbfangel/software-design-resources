@@ -3,7 +3,8 @@ type: article
 title: "GenAI Criticism and Moral Quandaries"
 description: "Ronacher responds to sceptical voices (specifically Glyph's) about GenAI adoption."
 resource: https://lucumr.pocoo.org/2025/6/10/genai-criticism/
-tags: ["ai-and-agents", "ai-adoption", "criticism", "code-review-dynamics", "energy-concerns"]
+cluster: ai-and-agents
+tags: ["ai-adoption", "code-review"]
 published: 2025-06
 timestamp: 2026-07-05
 ---

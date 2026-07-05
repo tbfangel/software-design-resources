@@ -3,7 +3,8 @@ type: podcast (with ryan shriver, singlestone consulting)
 title: "Bounded Context Podcast"
 description: "A conversational podcast where Verraes discusses DDD, boundaries, and managing legacy systems."
 resource: https://verraes.net/2021/09/bounded-context-podcast/
-tags: ["bounded-contexts", "domain-driven-design", "legacy-systems", "organizational-boundaries"]
+cluster: bounded-contexts
+tags: ["domain-driven-design", "legacy-systems", "organizational-design"]
 published: 2021-09
 timestamp: 2026-07-05
 ---

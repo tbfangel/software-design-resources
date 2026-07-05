@@ -3,7 +3,8 @@ type: article
 title: "Why We Should Learn Multiple Programming Languages"
 description: "Senior developers should maintain flexibility across programming languages, not necessarily become experts in all of them."
 resource: https://www.architecture-weekly.com/p/why-we-should-learn-multiple-programming
-tags: ["engineering-culture", "polyglot-programming", "learning", "architecture", "language-ecosystems", "career-development"]
+cluster: engineering-culture
+tags: ["programming", "learning", "software-architecture", "career"]
 published: 2024
 timestamp: 2026-07-05
 ---

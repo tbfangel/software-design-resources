@@ -3,7 +3,8 @@ type: article
 title: "Do We Still Need the QA Role?"
 description: "The QA role remains essential, but the industry has fundamentally misunderstood what quality assurance actually entails."
 resource: https://www.architecture-weekly.com/p/do-we-still-need-the-qa-role
-tags: ["engineering-culture", "quality-assurance", "testing", "developer-testing", "specialization", "team-structure"]
+cluster: engineering-culture
+tags: ["testing", "team-topologies"]
 published: 2024
 timestamp: 2026-07-05
 ---

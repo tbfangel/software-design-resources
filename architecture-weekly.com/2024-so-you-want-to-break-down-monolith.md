@@ -3,7 +3,8 @@ type: article
 title: "So You Want to Break Down a Monolith?"
 description: "Most monolith-to-microservices migrations fail or stall because teams pursue architectural ambitions rather than business value—the author hasn't seen a complete monolith migration succeed."
 resource: https://www.architecture-weekly.com/p/so-you-want-to-break-down-monolith
-tags: ["architecture-patterns", "monolith-migration", "microservices", "strangler-fig-pattern", "business-value", "incremental-migration"]
+cluster: architecture-patterns
+tags: ["modular-monolith", "microservices", "legacy-systems", "migration"]
 published: 2024
 timestamp: 2026-07-05
 ---

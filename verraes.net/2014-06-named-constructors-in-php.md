@@ -3,7 +3,8 @@ type: article
 title: "Named Constructors in PHP"
 description: "Named constructors are static factory methods that provide more expressive alternatives to direct construction."
 resource: https://verraes.net/2014/06/named-constructors-in-php/
-tags: ["software-engineering", "factory-methods", "object-creation", "expressiveness", "php", "named-constructors"]
+cluster: software-engineering
+tags: ["object-oriented-design", "language-design", "php"]
 published: 2014-06
 timestamp: 2026-07-05
 ---

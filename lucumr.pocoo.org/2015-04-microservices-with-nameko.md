@@ -3,7 +3,8 @@ type: article
 title: "Nameko for Microservices"
 description: "Ronacher advocates for Nameko as a Python framework that treats HTTP handlers, background jobs, and scheduled tasks consistently — all as services communicating over AMQP."
 resource: https://lucumr.pocoo.org/2015/4/8/microservices-with-nameko/
-tags: ["web-frameworks-and-apis", "microservices", "nameko", "amqp", "python", "service-oriented-architecture"]
+cluster: web-frameworks-and-apis
+tags: ["microservices", "messaging", "python", "service-oriented-architecture"]
 published: 2015-04
 timestamp: 2026-07-05
 ---

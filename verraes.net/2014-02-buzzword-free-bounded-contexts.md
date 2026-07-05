@@ -3,7 +3,8 @@ type: article
 title: "Buzzword-free Bounded Contexts"
 description: "Bounded Contexts are often explained using jargon and patterns, which can obscure the simple underlying idea: a Bounded Context is simply a place where a single Ubiquitous Language applies consistently."
 resource: https://verraes.net/2014/02/buzzword-free-bounded-contexts/
-tags: ["ddd-foundations", "bounded-contexts", "strategic-design", "context-boundaries", "practical-modeling", "organizational-structure"]
+cluster: ddd-foundations
+tags: ["bounded-contexts", "strategic-design", "domain-modelling", "organizational-design"]
 published: 2014-02
 timestamp: 2026-07-05
 ---

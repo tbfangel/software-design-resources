@@ -3,7 +3,8 @@ type: article
 title: "Python's Hidden Regular Expression Gems"
 description: "Ronacher documents underused features of Python's `re` module, particularly the undocumented `re.Scanner` class."
 resource: https://lucumr.pocoo.org/2015/11/18/pythons-hidden-re-gems/
-tags: ["python-ecosystem", "python", "re-module", "scanner", "tokenisation", "sre-internals"]
+cluster: python-ecosystem
+tags: ["python", "llms", "observability"]
 published: 2015-11
 timestamp: 2026-07-05
 ---

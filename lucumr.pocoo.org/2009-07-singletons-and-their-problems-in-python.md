@@ -3,7 +3,8 @@ type: article
 title: "Singletons and their Problems in Python"
 description: "Ronacher argues that Python modules are singletons and carry all the problems of the singleton pattern."
 resource: https://lucumr.pocoo.org/2009/7/24/singletons-and-their-problems-in-python/
-tags: ["python-ecosystem", "python", "singletons", "modules", "sys-modules", "wsgi", "version-conflicts"]
+cluster: python-ecosystem
+tags: ["python", "design-patterns", "modularity", "wsgi", "dependencies"]
 published: 2009-07
 timestamp: 2026-07-05
 ---

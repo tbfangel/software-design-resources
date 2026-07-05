@@ -3,7 +3,8 @@ type: article
 title: "Pros and Cons about Python 3"
 description: "Ronacher's early balanced assessment of Python 3."
 resource: https://lucumr.pocoo.org/2010/1/7/pros-and-cons-about-python-3/
-tags: ["python-ecosystem", "python-3", "language-changes", "evaluation", "pros-and-cons"]
+cluster: python-ecosystem
+tags: ["python", "language-design", "trade-offs"]
 published: 2010-01
 timestamp: 2026-07-05
 ---

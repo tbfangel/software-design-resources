@@ -3,7 +3,8 @@ type: article (co-authored with rebecca wirfs-brock)
 title: "Splitting a Domain Across Multiple Bounded Contexts"
 description: "This post provides a compelling case study: a wholesaler with a single Sales domain but two fundamentally different ordering processes (automated webshop vs."
 resource: https://verraes.net/2021/06/split-domain-across-bounded-contexts/
-tags: ["bounded-contexts", "domain-driven-design", "rate-of-change", "understandability-boundaries", "coordination-costs"]
+cluster: bounded-contexts
+tags: ["domain-driven-design", "organizational-design"]
 published: 2021-06
 timestamp: 2026-07-05
 ---

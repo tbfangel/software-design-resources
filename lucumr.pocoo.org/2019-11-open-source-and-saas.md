@@ -3,7 +3,8 @@ type: article
 title: "Open Source, SaaS and Monetization"
 description: "Ronacher argues that monetising open source libraries is unsolved but monetising open source applications via SaaS is viable."
 resource: https://lucumr.pocoo.org/2019/11/4/open-source-and-saas/
-tags: ["open-source-philosophy", "open-source-monetisation", "saas", "bsl", "sentry", "libraries-vs-applications"]
+cluster: open-source-philosophy
+tags: ["open-source-business", "saas", "open-source-licensing", "observability", "library-design"]
 published: 2019-11
 timestamp: 2026-07-05
 ---

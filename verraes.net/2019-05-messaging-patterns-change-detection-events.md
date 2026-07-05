@@ -3,7 +3,8 @@ type: article
 title: "Messaging Patterns: Change Detection Events"
 description: "Change Detection Events filter a stream to emit only when a specific value changes by more than a defined threshold."
 resource: https://verraes.net/2019/05/messaging-patterns-change-detection-events/
-tags: ["messaging-distributed-systems", "messaging", "filtering", "thresholds", "stream-processing"]
+cluster: messaging-distributed-systems
+tags: ["messaging", "stream-processing"]
 published: 2019-05
 timestamp: 2026-07-05
 ---

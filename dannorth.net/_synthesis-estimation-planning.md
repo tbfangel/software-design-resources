@@ -2,7 +2,7 @@
 type: synthesis
 title: "Estimation & Planning"
 description: "This cluster explores approaches to estimation and planning under uncertainty, including Deliberate Discovery, intuitive estimation, and strategic planning frameworks."
-tags: ["estimation-planning"]
+cluster: estimation-planning
 timestamp: 2026-07-05
 ---
 # Estimation & Planning

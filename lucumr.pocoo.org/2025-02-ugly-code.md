@@ -3,7 +3,8 @@ type: article
 title: "Ugly Code and Dumb Things"
 description: "Ronacher distinguishes between two legitimate professional objectives: beautiful reusable code (appropriate for libraries and frameworks) and pragmatic shipping code (appropriate for applications and products)."
 resource: https://lucumr.pocoo.org/2025/2/20/ugly-code/
-tags: ["software-design-philosophy", "code-quality", "pragmatism", "elegance", "product-development", "library-vs-application"]
+cluster: software-design-philosophy
+tags: ["code-quality", "pragmatism", "simplicity", "product-management", "library-design"]
 published: 2025-02
 timestamp: 2026-07-05
 ---

@@ -3,7 +3,8 @@ type: article
 title: "Don't Panic! The Hitchhiker's Guide to Unwinding"
 description: "Ronacher argues that Rust should ultimately move toward disabling stack unwinding in favour of process-level isolation, but this requires first reducing unnecessary panics in standard library APIs."
 resource: https://lucumr.pocoo.org/2014/10/30/dont-panic/
-tags: ["rust-language", "rust", "panic", "stack-unwinding", "process-isolation", "error-handling-philosophy"]
+cluster: rust-language
+tags: ["rust", "sandboxing", "error-handling"]
 published: 2014-10
 timestamp: 2026-07-05
 ---

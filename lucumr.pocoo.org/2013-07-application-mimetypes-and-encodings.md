@@ -3,7 +3,8 @@ type: article
 title: "Application Mimetypes and Encodings"
 description: "Ronacher corrects the common misconception that all mimetypes accept charset parameters."
 resource: https://lucumr.pocoo.org/2013/7/19/application-mimetypes-and-encodings/
-tags: ["python-ecosystem", "mime-types", "charset", "json", "http", "application-json", "url-encoded-forms"]
+cluster: python-ecosystem
+tags: ["http", "unicode", "json", "web-development"]
 published: 2013-07
 timestamp: 2026-07-05
 ---

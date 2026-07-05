@@ -3,7 +3,8 @@ type: article
 title: "The rise and rise of JavaScript"
 description: "North traces JavaScript's evolution from troubled beginnings caught between competing interests to becoming a full-stack platform."
 resource: https://dannorth.net/blog/the-rise-and-rise-of-javascript/
-tags: ["software-design-architecture", "history", "html5", "javascript", "nodejs", "programming", "web"]
+cluster: software-design-architecture
+tags: ["web-standards", "javascript", "nodejs", "programming", "web-development"]
 published: 2011-12
 timestamp: 2026-07-05
 ---

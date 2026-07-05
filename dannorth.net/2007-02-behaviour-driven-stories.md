@@ -3,7 +3,8 @@ type: article
 title: "Behaviour-driven stories"
 description: "North addresses a critical misconception about Behaviour-Driven Development, clarifying that BDD is often misunderstood as merely \"a repackaging of test-driven development\" when it actually represents a broader methodology encompassing requirement definition and specification."
 resource: https://dannorth.net/blog/behaviour-driven-stories/
-tags: ["bdd-foundations", "agile", "articles", "bdd", "programming", "summary"]
+cluster: bdd-foundations
+tags: ["agile", "bdd", "programming"]
 published: 2007-02
 timestamp: 2026-07-05
 ---

@@ -3,7 +3,8 @@ type: article
 title: "The Art of Misdirection"
 description: "North uses stage magic as an analogy for software development practices."
 resource: https://dannorth.net/blog/the-art-of-misdirection/
-tags: ["estimation-planning", "agile", "opportunity-cost", "strategy", "tdd"]
+cluster: estimation-planning
+tags: ["agile", "trade-offs", "decision-making", "tdd"]
 published: 2012-06
 timestamp: 2026-07-05
 ---

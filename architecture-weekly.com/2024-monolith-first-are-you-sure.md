@@ -3,7 +3,8 @@ type: article
 title: "Monolith-First: Are You Sure?"
 description: "Challenges the trendy \"modular monolith-first\" architectural advice as oversimplified and often becoming a facade for taking shortcuts."
 resource: https://www.architecture-weekly.com/p/monolith-first-are-you-sure
-tags: ["architecture-patterns", "modular-monolith", "microservices", "modularity", "database-coupling", "deployment-strategy"]
+cluster: architecture-patterns
+tags: ["modular-monolith", "microservices", "modularity", "databases", "deployment"]
 published: 2024
 timestamp: 2026-07-05
 ---

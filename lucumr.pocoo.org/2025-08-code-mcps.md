@@ -3,7 +3,8 @@ type: article
 title: "Your MCP Doesn't Need 30 Tools: It Needs Code"
 description: "Ronacher argues that MCP servers should expose a single code-execution tool rather than many specialised tools."
 resource: https://lucumr.pocoo.org/2025/8/18/code-mcps/
-tags: ["ai-and-agents", "mcp", "code-execution", "tool-design", "stateful-sessions"]
+cluster: ai-and-agents
+tags: ["mcp", "tool-design", "session-management"]
 published: 2025-08
 timestamp: 2026-07-05
 ---

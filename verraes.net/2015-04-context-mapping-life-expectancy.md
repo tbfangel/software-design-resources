@@ -3,7 +3,8 @@ type: article
 title: "Context Mapping: Life Expectancy"
 description: "Written during context mapping work at a 200-year-old insurance/banking firm, this article extends context mapping with practical insights."
 resource: https://verraes.net/2015/04/context-mapping-life-expectancy/
-tags: ["bounded-contexts", "context-mapping", "legacy-systems", "strategic-design", "sponsorship", "organizational-dynamics"]
+cluster: bounded-contexts
+tags: ["context-mapping", "legacy-systems", "strategic-design", "open-source-funding", "organizational-design"]
 published: 2015-04
 timestamp: 2026-07-05
 ---

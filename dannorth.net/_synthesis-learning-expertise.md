@@ -2,7 +2,7 @@
 type: synthesis
 title: "Learning & Expertise"
 description: "This cluster examines learning models like the Dreyfus model and Shu-Ha-Ri, exploring how expertise develops and why best practices can harm advanced practitioners."
-tags: ["learning-expertise"]
+cluster: learning-expertise
 timestamp: 2026-07-05
 ---
 # Learning & Expertise

@@ -3,7 +3,8 @@ type: article
 title: "Critically Engaging With Models"
 description: "Models—whether for organizations, software, or processes—are never neutral descriptions of reality; they impose distinct perspectives and rules."
 resource: https://verraes.net/2022/09/critically-engaging-with-models/
-tags: ["modelling-design-heuristics", "models-as-worldviews", "organizational-models", "spotify-model", "team-topologies", "agile-fluency", "critical-evaluation", "building-blocks"]
+cluster: modelling-design-heuristics
+tags: ["mental-models", "organizational-design", "team-topologies", "agile", "critical-thinking", "domain-driven-design"]
 published: 2022-09
 co_author: "Rebecca Wirfs-Brock"
 timestamp: 2026-07-05

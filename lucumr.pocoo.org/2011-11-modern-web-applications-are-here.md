@@ -3,7 +3,8 @@ type: article
 title: "Battlelog: Modern Web Applications are Here"
 description: "Ronacher uses Battlefield 3's Battlelog as a case study for client-side rendering architectures at scale."
 resource: https://lucumr.pocoo.org/2011/11/15/modern-web-applications-are-here/
-tags: ["web-frameworks-and-apis", "client-side-rendering", "json-apis", "websockets", "browser-applications", "battlelog"]
+cluster: web-frameworks-and-apis
+tags: ["frontend", "json", "websockets", "web-development"]
 published: 2011-11
 timestamp: 2026-07-05
 ---

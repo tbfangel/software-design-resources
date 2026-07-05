@@ -3,7 +3,8 @@ type: article
 title: "Python Template Engine Comparison"
 description: "An early comparison of Python template engines (Jinja, Mako, Django templates) examining syntax, performance, and design philosophy."
 resource: https://lucumr.pocoo.org/2008/1/1/python-template-engine-comparison/
-tags: ["web-frameworks-and-apis", "python", "template-engines", "jinja", "mako", "django-templates", "comparison"]
+cluster: web-frameworks-and-apis
+tags: ["python", "template-engines"]
 published: 2008-01
 timestamp: 2026-07-05
 ---

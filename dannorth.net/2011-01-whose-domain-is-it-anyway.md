@@ -3,7 +3,8 @@ type: article
 title: "Whose domain is it anyway?"
 description: "North identifies a common failure mode in BDD: scenarios become brittle when they combine vocabulary from multiple unrelated domains."
 resource: https://dannorth.net/blog/whose-domain-is-it-anyway/
-tags: ["bdd-foundations", "bdd", "brittle", "ddd", "domain", "language", "modelling", "tests", "vocabulary"]
+cluster: bdd-foundations
+tags: ["bdd", "domain-driven-design", "domain-modelling", "testing", "ubiquitous-language"]
 published: 2011-01
 timestamp: 2026-07-05
 ---

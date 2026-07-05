@@ -2,7 +2,7 @@
 type: synthesis
 title: "DDD Foundations & Core Concepts"
 description: "This cluster explores the fundamental philosophy, principles, and core building blocks of Domain-Driven Design."
-tags: ["ddd-foundations"]
+cluster: ddd-foundations
 timestamp: 2026-07-05
 ---
 # DDD Foundations & Core Concepts

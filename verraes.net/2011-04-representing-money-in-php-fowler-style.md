@@ -3,7 +3,8 @@ type: article
 title: "Representing Money in PHP, Fowler-style"
 description: "Implementing Martin Fowler's Money pattern in PHP creates a type-safe, precise representation of monetary amounts."
 resource: https://verraes.net/2011/04/fowler-money-pattern-in-php/
-tags: ["software-engineering", "value-objects", "money-pattern", "php", "martin-fowler", "domain-modeling"]
+cluster: software-engineering
+tags: ["value-objects", "php", "domain-modelling"]
 published: 2011-04
 timestamp: 2026-07-05
 ---

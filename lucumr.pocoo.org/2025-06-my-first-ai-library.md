@@ -3,7 +3,8 @@ type: article
 title: "My First Open Source AI Generated Library"
 description: "Ronacher publishes `sloppy-xml-py`, a malformed-XML parser written almost entirely by Claude — 1,100 lines of parser, 1,000 lines of tests, CI/CD, PyPI packaging, and a themed logo, all in 30–45 minutes."
 resource: https://lucumr.pocoo.org/2025/6/21/my-first-ai-library/
-tags: ["ai-and-agents", "ai-generated-code", "open-source", "sloppy-xml-py", "minimal-human-involvement"]
+cluster: ai-and-agents
+tags: ["ai-generated-code", "open-source", "agentic-coding"]
 published: 2025-06
 timestamp: 2026-07-05
 ---

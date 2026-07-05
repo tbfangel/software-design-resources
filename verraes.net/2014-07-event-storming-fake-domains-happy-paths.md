@@ -3,7 +3,8 @@ type: article
 title: "Event Storming: on Fake Domains and Happy Paths"
 description: "This post addresses practical considerations when facilitating Event Storming workshops, drawing on experiences from multiple workshops led with Alberto Brandolini and other facilitators."
 resource: https://verraes.net/2014/07/event-storming-fake-domains-happy-paths/
-tags: ["event-storming", "domain-selection", "fake-domains", "duplication", "happy-paths", "alternative-scenarios", "visual-language", "model-storming"]
+cluster: event-storming
+tags: ["domain-modelling", "duplication", "testing", "visualization"]
 published: 2014-07
 timestamp: 2026-07-05
 ---

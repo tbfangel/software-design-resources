@@ -3,7 +3,8 @@ type: article
 title: "Introducing Lektor — A Static File Content Management System For Python"
 description: "Ronacher explains why he built Lektor: static site generators like Jekyll and Hugo are aimed at programmers and inaccessible to non-technical users."
 resource: https://lucumr.pocoo.org/2015/12/21/introducing-lektor/
-tags: ["software-design-philosophy", "lektor", "static-site-generators", "cms", "non-technical-users", "python"]
+cluster: software-design-philosophy
+tags: ["static-site-generators", "web-development", "python"]
 published: 2015-12
 timestamp: 2026-07-05
 ---

@@ -3,7 +3,8 @@ type: article
 title: "I don't understand Python's Asyncio"
 description: "Ronacher's honest admission of inability to reason confidently about Python's asyncio module."
 resource: https://lucumr.pocoo.org/2016/10/30/i-dont-understand-asyncio/
-tags: ["software-design-philosophy", "python", "asyncio", "concurrency", "event-loops", "complexity", "futures"]
+cluster: software-design-philosophy
+tags: ["python", "async-programming", "concurrency", "complexity"]
 published: 2016-10
 timestamp: 2026-07-05
 ---

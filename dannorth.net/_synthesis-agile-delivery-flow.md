@@ -2,7 +2,7 @@
 type: synthesis
 title: "Agile Delivery & Flow"
 description: "This cluster focuses on lean software delivery, flow, throughput, and organizational effectiveness, emphasizing value delivery over process adherence."
-tags: ["agile-delivery-flow"]
+cluster: agile-delivery-flow
 timestamp: 2026-07-05
 ---
 # Agile Delivery & Flow

@@ -2,7 +2,7 @@
 type: synthesis
 title: "Messaging Systems & Kafka"
 description: "This cluster explores messaging system internals, Kafka architecture and protocols, message processing patterns, multi-tenancy challenges, and deduplication strategies in distributed message-based systems."
-tags: ["messaging-and-kafka"]
+cluster: messaging-and-kafka
 timestamp: 2026-07-05
 ---
 # Messaging Systems & Kafka

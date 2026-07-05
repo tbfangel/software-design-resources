@@ -3,7 +3,8 @@ type: article
 title: "Secondary Indexes and the Specialized Storage Dilemma"
 description: "Specialized storage systems like Kafka and DynamoDB excel at specific tasks but struggle when users demand different query patterns, as adding flexible querying breaks the original performance optimizations."
 resource: https://www.architecture-weekly.com/p/secondary-indexes-and-the-specialized
-tags: ["distributed-systems", "secondary-indexes", "kafka", "dynamodb", "write-amplification", "eventual-consistency", "specialized-storage"]
+cluster: distributed-systems
+tags: ["databases", "kafka", "eventual-consistency"]
 published: 2024
 timestamp: 2026-07-05
 ---

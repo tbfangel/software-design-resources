@@ -3,7 +3,8 @@ type: article
 title: "Untyped Python: The Python That Was"
 description: "Ronacher argues that Python's shift toward static typing represents a departure from the language's original philosophy and strengths."
 resource: https://lucumr.pocoo.org/2023/12/1/the-python-that-was/
-tags: ["python-ecosystem", "python", "typing", "dynamic-languages", "python-3", "philosophy"]
+cluster: python-ecosystem
+tags: ["python", "type-systems", "programming", "design-philosophy"]
 published: 2023-12
 timestamp: 2026-07-05
 ---

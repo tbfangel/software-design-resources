@@ -3,7 +3,8 @@ type: article
 title: "Casting Value Objects to strings"
 description: "When representing Value Objects as strings (for logging, display, or serialization), the string should reflect the domain semantics—not implementation details."
 resource: https://verraes.net/2013/02/2013-02-16-casting-value_objects/
-tags: ["ddd-foundations", "value-objects", "string-representation", "formatting", "domain-language", "tostring", "value-semantics"]
+cluster: ddd-foundations
+tags: ["value-objects", "python", "ubiquitous-language", "programming"]
 published: 2013-02
 timestamp: 2026-07-05
 ---

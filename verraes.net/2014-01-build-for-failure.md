@@ -3,7 +3,8 @@ type: article
 title: "Build for Failure"
 description: "Failure is inevitable in all systems."
 resource: https://verraes.net/2014/01/build-for-failure/
-tags: ["messaging-distributed-systems", "resilience", "system-design", "failure", "erlang-philosophy", "lean-startup"]
+cluster: messaging-distributed-systems
+tags: ["resilience", "system-design", "actor-model", "startups"]
 published: 2014-01
 timestamp: 2026-07-05
 ---

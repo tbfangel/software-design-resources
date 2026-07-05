@@ -3,7 +3,8 @@ type: article
 title: "The Henry Ford Fallacy"
 description: "The famous Ford quote—\"If I had asked people what they wanted, they would have said faster horses\"—is misapplied."
 resource: https://verraes.net/2014/01/henry-ford-fallacy/
-tags: ["process-teams-learning", "user-research", "requirements-gathering", "problem-understanding", "design-philosophy"]
+cluster: process-teams-learning
+tags: ["product-management", "requirements", "problem-solving", "design-philosophy"]
 published: 2014-01
 timestamp: 2026-07-05
 ---

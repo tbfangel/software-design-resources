@@ -2,7 +2,7 @@
 type: synthesis
 title: "Domain Modelling, Design Heuristics & Theory"
 description: "This cluster represents Verraes and Wirfs-Brock's most theoretically ambitious work on software design philosophy."
-tags: ["modelling-design-heuristics"]
+cluster: modelling-design-heuristics
 timestamp: 2026-07-05
 ---
 # Domain Modelling, Design Heuristics & Theory

@@ -3,7 +3,8 @@ type: article
 title: "Dealing with Race Conditions in Event-Driven Architecture with Read Models"
 description: "In distributed event-driven systems, events frequently arrive out of order across service boundaries, causing handler failures when references don't yet exist."
 resource: https://www.architecture-weekly.com/p/dealing-with-race-conditions-in-event
-tags: ["event-driven-architecture", "race-conditions", "out-of-order-events", "phantom-records", "read-models", "eventual-consistency"]
+cluster: event-driven-architecture
+tags: ["race-conditions", "message-processing", "databases", "read-models", "eventual-consistency"]
 published: 2025-10
 timestamp: 2026-07-05
 ---

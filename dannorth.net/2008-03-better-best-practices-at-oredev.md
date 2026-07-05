@@ -3,7 +3,8 @@ type: conference announcement
 title: "Better Best Practices at Øredev"
 description: "North delivered a keynote at Øredev conference in Malmö, Sweden, stepping in for testing guru James Bach, alongside Joel Spolsky and Andy Hunt."
 resource: https://dannorth.net/blog/better-best-practices-at-oredev/
-tags: ["learning-expertise", "articles", "best-practices", "infoq", "learning", "oredev", "talks"]
+cluster: learning-expertise
+tags: ["best-practices", "learning"]
 published: 2008-03
 timestamp: 2026-07-05
 ---

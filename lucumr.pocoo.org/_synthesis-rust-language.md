@@ -2,7 +2,7 @@
 type: synthesis
 title: "Rust Language"
 description: "Armin Ronacher has been writing about Rust since 2012, when he noticed its elegant semicolon semantics, and has documented a 12-year journey from early adopter through deep production use building MiniJinja (a full Jinja2-compatible template engine in Rust)."
-tags: ["rust-language"]
+cluster: rust-language
 timestamp: 2026-07-05
 ---
 # Rust Language

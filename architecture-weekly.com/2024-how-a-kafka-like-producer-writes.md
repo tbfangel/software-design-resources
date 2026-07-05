@@ -3,7 +3,8 @@ type: article
 title: "How a Kafka-Like Producer Writes Messages"
 description: "Developers treat Kafka as a \"black box\" without understanding the internal mechanics of how messages travel through a producer, broker, and partition to disk storage."
 resource: https://www.architecture-weekly.com/p/how-a-kafka-like-producer-writes
-tags: ["messaging-and-kafka", "kafka-producer", "write-ahead-log", "batching", "disk-storage", "crash-recovery"]
+cluster: messaging-and-kafka
+tags: ["kafka", "write-ahead-log", "storage", "crash-recovery"]
 published: 2024
 timestamp: 2026-07-05
 ---

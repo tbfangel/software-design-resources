@@ -3,7 +3,8 @@ type: article
 title: "Emergent Contexts through Refinement"
 description: "This masterclass in model refinement uses a concrete problem (handling monetary values with different precisions across contexts) to show how bounded contexts emerge naturally from deeper modeling."
 resource: https://verraes.net/2019/06/emergent-contexts-through-refinement/
-tags: ["bounded-contexts", "value-objects", "model-refinement", "domain-driven-design", "currency", "precision", "boundaries"]
+cluster: bounded-contexts
+tags: ["value-objects", "domain-modelling", "domain-driven-design", "bounded-contexts"]
 published: 2019-06
 timestamp: 2026-07-05
 ---

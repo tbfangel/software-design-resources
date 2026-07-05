@@ -3,7 +3,8 @@ type: article
 title: "The Cost of Estimation"
 description: "Estimation has hidden costs."
 resource: https://verraes.net/2014/06/cost-of-estimation/
-tags: ["process-teams-learning", "estimation", "time-pressure", "technical-debt", "creativity", "software-development-process"]
+cluster: process-teams-learning
+tags: ["estimation", "technical-debt", "agile"]
 published: 2014-06
 timestamp: 2026-07-05
 ---

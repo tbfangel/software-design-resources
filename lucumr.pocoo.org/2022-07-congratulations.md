@@ -3,7 +3,8 @@ type: article
 title: "Congratulations: We Now Have Opinions on Your Open Source Contributions"
 description: "Ronacher critiques PyPI's requirement that maintainers of \"critical\" packages enable multi-factor authentication."
 resource: https://lucumr.pocoo.org/2022/7/9/congratulations/
-tags: ["open-source-philosophy", "pypi", "supply-chain-security", "critical-packages", "2fa", "vetting"]
+cluster: open-source-philosophy
+tags: ["python-packaging", "supply-chain-security", "authentication"]
 published: 2022-07
 timestamp: 2026-07-05
 ---

@@ -3,7 +3,8 @@ type: article
 title: "PostgreSQL Partitioning, Logical Replication, and Common Patterns"
 description: "Addresses practical implementation challenges around partitioning strategy, logical replication mechanics, and PostgreSQL usage patterns."
 resource: https://www.architecture-weekly.com/p/postgresql-partitioning-logical-replication
-tags: ["databases-and-postgresql", "postgresql-partitioning", "logical-replication", "wal", "change-data-capture", "pg-partman"]
+cluster: databases-and-postgresql
+tags: ["postgresql", "replication", "write-ahead-log", "event-driven-architecture"]
 published: 2025-09
 timestamp: 2026-07-05
 ---

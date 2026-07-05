@@ -3,7 +3,8 @@ type: article
 title: "Passkeys and Modern Authentication"
 description: "Ronacher acknowledges passkeys' security benefits while raising concerns about unintended consequences."
 resource: https://lucumr.pocoo.org/2025/9/2/passkeys/
-tags: ["web-frameworks-and-apis", "passkeys", "authentication", "vendor-lock-in", "attestation", "individual-agency"]
+cluster: web-frameworks-and-apis
+tags: ["authentication", "vendor-lock-in", "supply-chain-security"]
 published: 2025-09
 timestamp: 2026-07-05
 ---

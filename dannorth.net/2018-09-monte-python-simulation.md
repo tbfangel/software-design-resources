@@ -3,7 +3,8 @@ type: article
 title: "Monte Python Simulation: misunderstanding Monte Carlo"
 description: "North argues that Monte Carlo simulation is fundamentally misapplied in software project estimation."
 resource: https://dannorth.net/blog/monte-python-simulation/
-tags: ["estimation-planning", "estimation", "statistics"]
+cluster: estimation-planning
+tags: ["estimation"]
 published: 2018-09
 timestamp: 2026-07-05
 ---

@@ -3,7 +3,8 @@ type: article
 title: "Random Thoughts on Using Git"
 description: "Reflections on Git versus centralized version control."
 resource: https://verraes.net/2011/03/git-vs-svn/
-tags: ["software-engineering", "git", "version-control", "workflows", "distributed-vcs", "branching"]
+cluster: software-engineering
+tags: ["git", "version-control", "workflows"]
 published: 2011-03
 timestamp: 2026-07-05
 ---

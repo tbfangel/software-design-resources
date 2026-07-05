@@ -3,7 +3,8 @@ type: article
 title: "Messaging Patterns: Natural Language Message Names"
 description: "This post argues for using natural language sentences in message names rather than compact technical abbreviations."
 resource: https://verraes.net/2019/06/messaging-patterns-natural-language-message-names/
-tags: ["messaging-distributed-systems", "messaging", "domain-driven-design", "naming-conventions", "ubiquitous-language", "event-naming"]
+cluster: messaging-distributed-systems
+tags: ["messaging", "domain-driven-design", "naming", "ubiquitous-language", "event-design"]
 published: 2019-06
 timestamp: 2026-07-05
 ---

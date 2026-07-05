@@ -3,7 +3,8 @@ type: article
 title: "UCS vs UTF-8 as Internal String Encoding"
 description: "Ronacher compares Unicode string encoding strategies: UCS-2/UCS-4 use fixed-width encodings (2 or 4 bytes per character) enabling O(1) indexing; UTF-8 uses variable-width encoding (1-4 bytes) requiring O(n) indexing but achieving much better memory efficiency for ASCII-heavy content."
 resource: https://lucumr.pocoo.org/2014/1/9/ucs-vs-utf8/
-tags: ["python-ecosystem", "unicode", "ucs-2", "ucs-4", "utf-8", "string-internals", "python"]
+cluster: python-ecosystem
+tags: ["unicode", "python"]
 published: 2014-01
 timestamp: 2026-07-05
 ---

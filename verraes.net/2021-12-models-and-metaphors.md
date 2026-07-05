@@ -3,7 +3,8 @@ type: article
 title: "Models and Metaphors"
 description: "Metaphors and models are inseparable—every model relies on metaphorical language to communicate ideas."
 resource: https://verraes.net/2021/12/models-and-metaphors/
-tags: ["modelling-design-heuristics", "metaphors-in-design", "models-vs-reality", "domain-language", "linguistic-framing", "conceptual-models"]
+cluster: modelling-design-heuristics
+tags: ["domain-modelling", "mental-models", "ubiquitous-language"]
 published: 2021-12
 co_author: "Rebecca Wirfs-Brock"
 timestamp: 2026-07-05

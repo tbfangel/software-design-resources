@@ -3,7 +3,8 @@ type: podcast
 title: "Loss Aversion Heuristics"
 description: "Podcast exploring how loss aversion—the human tendency to fear losses more than equivalent gains—shapes design decisions."
 resource: https://verraes.net/2022/02/loss-aversion-heuristics/
-tags: ["modelling-design-heuristics", "loss-aversion", "behavioral-economics", "design-decisions", "heuristics", "podcast"]
+cluster: modelling-design-heuristics
+tags: ["cognitive-biases", "decision-making", "heuristics"]
 published: 2022-02
 timestamp: 2026-07-05
 ---

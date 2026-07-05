@@ -3,7 +3,8 @@ type: book review
 title: "Antifragile - Things That Gain from Disorder"
 description: "Verraes reviews Nassim Taleb's \"Antifragile,\" exploring concepts applicable to software systems."
 resource: https://verraes.net/2013/08/antifragile-nassim-nicholas-taleb/
-tags: ["software-engineering", "nassim-taleb", "antifragility", "risk", "uncertainty", "resilience"]
+cluster: software-engineering
+tags: ["resilience", "risk-management", "uncertainty"]
 published: 2013-08
 timestamp: 2026-07-05
 ---

@@ -3,7 +3,8 @@ type: article
 title: "BDD with Intent"
 description: "North explores intentional programming through Charles Simonyi's career trajectory, presenting four foundational observations: computers receive instructions in technical terms rather than business language, developers simultaneously translate business concepts into technical implementations and arrange those implementations, Subject Matter Experts cannot directly generate systems without programmer intermediaries, and most system changes involve recombining existing concepts rather than learning new ones."
 resource: https://dannorth.net/blog/bdd-with-intent/
-tags: ["bdd-foundations", "agile", "bdd", "intentional", "software"]
+cluster: bdd-foundations
+tags: ["agile", "bdd", "intentionality", "software-design"]
 published: 2006-02
 timestamp: 2026-07-05
 ---

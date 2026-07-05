@@ -3,7 +3,8 @@ type: article
 title: "Not So Stupid Template Languages"
 description: "Ronacher defends Jinja2's \"smart\" template language against claims that unrestricted templating leads to poor code."
 resource: https://lucumr.pocoo.org/2010/12/5/not-so-stupid-template-languages/
-tags: ["web-frameworks-and-apis", "jinja2", "django-templates", "template-design", "macros", "sandboxing"]
+cluster: web-frameworks-and-apis
+tags: ["template-engines", "rust", "sandboxing"]
 published: 2010-12
 timestamp: 2026-07-05
 ---

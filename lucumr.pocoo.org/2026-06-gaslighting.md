@@ -3,7 +3,8 @@ type: article
 title: "Gaslighting Openness"
 description: "Ronacher argues that large technology companies are manipulating public discourse by framing restricted access as beneficial to users—justifying access limitations through \"safety and security\" language while pursuing financial interests."
 resource: https://lucumr.pocoo.org/2026/6/10/gaslighting/
-tags: ["open-source-philosophy", "open-source", "ai-regulation", "corporate-gatekeeping", "eu-digital-markets-act", "technology-democratization", "narrative-capture"]
+cluster: open-source-philosophy
+tags: ["open-source", "ai-ethics", "geopolitics", "storytelling"]
 published: 2026-06
 timestamp: 2026-07-05
 ---

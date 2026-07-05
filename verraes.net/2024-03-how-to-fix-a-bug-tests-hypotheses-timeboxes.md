@@ -3,7 +3,8 @@ type: article
 title: "How to Fix a Bug: Tests, Hypotheses, Timeboxes"
 description: "An efficient process for fixing bugs that combines collaborative investigation with scientific hypothesis testing."
 resource: https://verraes.net/2024/03/how-to-fix-a-bug-tests-hypotheses-timeboxes/
-tags: ["software-engineering", "debugging", "testing", "collaborative-problem-solving", "tdd", "hypothesis-driven-development"]
+cluster: software-engineering
+tags: ["debugging", "testing", "collaboration", "tdd", "lean"]
 published: 2024-03
 timestamp: 2026-07-05
 ---

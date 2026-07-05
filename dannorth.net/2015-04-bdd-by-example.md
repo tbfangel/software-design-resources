@@ -3,7 +3,8 @@ type: article
 title: "BDD by example"
 description: "North addresses fundamental questions about BDD's identity and community structure emerging from a CukeUp conference panel discussion."
 resource: https://dannorth.net/blog/bdd-by-example/
-tags: ["bdd-foundations", "agile", "bdd"]
+cluster: bdd-foundations
+tags: ["agile", "bdd"]
 published: 2015-04
 timestamp: 2026-07-05
 ---

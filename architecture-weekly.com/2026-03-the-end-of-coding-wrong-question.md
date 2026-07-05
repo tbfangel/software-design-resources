@@ -3,7 +3,8 @@ type: article
 title: "The End of Coding? Wrong Question"
 description: "Oskar Dudycz challenges the dominant narrative that LLMs will eliminate coding, arguing this framing is simply the wrong question."
 resource: https://www.architecture-weekly.com/p/the-end-of-coding-wrong-question
-tags: ["engineering-culture", "ai", "llms", "software-development", "skill-erosion", "spec-driven-design"]
+cluster: engineering-culture
+tags: ["ai", "llms", "programming", "learning", "specifications"]
 published: 2026-03
 timestamp: 2026-07-05
 ---

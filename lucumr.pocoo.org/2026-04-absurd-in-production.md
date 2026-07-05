@@ -3,7 +3,8 @@ type: article
 title: "Absurd In Production"
 description: "Ronacher reflects on five months of production use of Absurd, a durable execution framework built entirely on Postgres."
 resource: https://lucumr.pocoo.org/2026/4/4/absurd-in-production/
-tags: ["web-frameworks-and-apis", "durable-execution", "postgres", "workflow-systems", "agent-engineering", "distributed-systems", "open-source-infrastructure"]
+cluster: web-frameworks-and-apis
+tags: ["durable-execution", "postgresql", "workflows", "agent-architecture", "distributed-systems", "open-source"]
 published: 2026-04
 timestamp: 2026-07-05
 ---

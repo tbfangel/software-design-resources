@@ -3,7 +3,8 @@ type: reflection
 title: "We Are No Superhumans"
 description: "Reflects on life's unpredictability and the importance of accepting that plans often fall apart."
 resource: https://www.architecture-weekly.com/p/we-are-no-superhumans
-tags: ["engineering-culture", "work-life-balance", "vulnerability", "self-compassion", "professional-limits"]
+cluster: engineering-culture
+tags: ["burnout", "security"]
 published: 2024
 timestamp: 2026-07-05
 ---

@@ -3,7 +3,8 @@ type: article
 title: "When Logs and Metrics Aren't Enough: Discovering Modern Observability"
 description: "Traditional monitoring approaches using logs and metrics provide only fragmented snapshots of system health, failing to reveal causation and context in distributed systems."
 resource: https://www.architecture-weekly.com/p/when-logs-and-metrics-arent-enough
-tags: ["observability", "distributed-tracing", "opentelemetry", "grafana-tempo", "spans", "observability-tools"]
+cluster: observability
+tags: ["observability", "opentelemetry"]
 published: 2024
 timestamp: 2026-07-05
 ---

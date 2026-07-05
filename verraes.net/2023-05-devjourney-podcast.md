@@ -3,7 +3,8 @@ type: podcast
 title: "From Music to Languages and Models (DevJourney Podcast)"
 description: "Podcast interview with Verraes discussing his background in music, how musical thinking applies to software design, and the role of language in both domains."
 resource: https://verraes.net/2023/05/devjourney-podcast/
-tags: ["modelling-design-heuristics", "podcast", "music", "languages", "modelling", "design", "storytelling", "career"]
+cluster: modelling-design-heuristics
+tags: ["programming", "domain-modelling", "software-design", "storytelling", "career"]
 published: 2023-05
 timestamp: 2026-07-05
 ---

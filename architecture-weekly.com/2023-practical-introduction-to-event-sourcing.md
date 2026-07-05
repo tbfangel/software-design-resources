@@ -3,7 +3,8 @@ type: article
 title: "Practical Introduction to Event Sourcing"
 description: "The article argues that Event Sourcing need not be intimidating or complex."
 resource: https://www.architecture-weekly.com/p/practical-introduction-to-event-sourcing
-tags: ["event-driven-architecture", "event-sourcing", "emmett-framework", "typescript", "node-js", "postgresql"]
+cluster: event-driven-architecture
+tags: ["event-sourcing", "typescript", "nodejs", "postgresql"]
 published: 2023
 timestamp: 2026-07-05
 ---

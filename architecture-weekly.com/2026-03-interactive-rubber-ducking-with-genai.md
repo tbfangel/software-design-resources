@@ -3,7 +3,8 @@ type: article
 title: "Interactive Rubber Ducking with GenAI"
 description: "Oskar Dudycz presents \"Interactive Rubber-Ducking,\" a methodology that uses generative AI as a thinking partner rather than a solution generator."
 resource: https://www.architecture-weekly.com/p/interactive-rubber-ducking-with-genai
-tags: ["engineering-culture", "genai", "software-design", "specification", "rubber-ducking", "developer-productivity", "caching"]
+cluster: engineering-culture
+tags: ["ai", "software-design", "specifications", "debugging", "productivity", "caching"]
 published: 2026-03
 timestamp: 2026-07-05
 ---

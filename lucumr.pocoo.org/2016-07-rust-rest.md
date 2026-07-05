@@ -3,7 +3,8 @@ type: article
 title: "Rust and Rest"
 description: "Ronacher builds a REST API client in Rust for the Sentry API and documents lessons learned."
 resource: https://lucumr.pocoo.org/2016/7/10/rust-rest/
-tags: ["rust-language", "rust", "rest", "http", "curl", "api-design", "error-handling"]
+cluster: rust-language
+tags: ["rust", "rest", "http", "api-design", "error-handling"]
 published: 2016-07
 timestamp: 2026-07-05
 ---

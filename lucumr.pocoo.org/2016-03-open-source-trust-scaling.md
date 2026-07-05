@@ -3,7 +3,8 @@ type: article
 title: "Micropackages and Open Source Trust Scaling"
 description: "Written in the wake of the left-pad incident, this post argues that npm's micropackage culture creates trust problems that signatures and audits cannot fix."
 resource: https://lucumr.pocoo.org/2016/3/24/open-source-trust-scaling/
-tags: ["open-source-philosophy", "npm", "micropackages", "supply-chain-security", "trust", "left-pad"]
+cluster: open-source-philosophy
+tags: ["javascript", "supply-chain-security", "trust"]
 published: 2016-03
 timestamp: 2026-07-05
 ---

@@ -3,7 +3,8 @@ type: article
 title: "Locks, Queues and Business Workflows Processing"
 description: "Demonstrates how distributed locking mechanisms can be elegantly implemented using queue brokers rather than traditional lock implementations."
 resource: https://www.architecture-weekly.com/p/locks-queues-and-business-workflows
-tags: ["distributed-systems", "locking", "queue-brokers", "task-grouping", "sequential-processing", "workflow-coordination"]
+cluster: distributed-systems
+tags: ["distributed-locking", "message-brokers", "workflows", "message-processing"]
 published: 2024
 timestamp: 2026-07-05
 ---

@@ -3,7 +3,8 @@ type: article
 title: "Emotional Programming in Open Source"
 description: "Ronacher argues that developer happiness and personal motivation are the primary drivers of high-quality open source software."
 resource: https://lucumr.pocoo.org/2013/11/28/emotional-programming/
-tags: ["open-source-philosophy", "maintainer-motivation", "burnout", "open-source-sustainability", "personal-alignment"]
+cluster: open-source-philosophy
+tags: ["open-source-sustainability", "burnout"]
 published: 2013-11
 timestamp: 2026-07-05
 ---

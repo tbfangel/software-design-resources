@@ -3,7 +3,8 @@ type: presentation
 title: "Designed Stickiness"
 description: "Presentation examining how design choices create \"stickiness\"—coupling and dependencies that make systems hard to change."
 resource: https://verraes.net/2016/05/designed-stickiness/
-tags: ["modelling-design-heuristics", "coupling", "dependencies", "stickiness", "design-decisions", "cohesion"]
+cluster: modelling-design-heuristics
+tags: ["coupling", "dependencies", "decision-making"]
 published: 2016-05
 timestamp: 2026-07-05
 ---

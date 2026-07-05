@@ -3,7 +3,8 @@ type: article
 title: "Requiem for a 10x Engineer Dream"
 description: "Challenges the widespread claim that AI coding tools deliver 10x productivity gains."
 resource: https://www.architecture-weekly.com/p/requiem-for-a-10x-engineer-dream
-tags: ["engineering-culture", "ai-coding-tools", "productivity-claims", "claude-code", "developer-experience"]
+cluster: engineering-culture
+tags: ["agentic-coding", "ai", "claude-code", "developer-experience"]
 published: 2025-09
 timestamp: 2026-07-05
 ---

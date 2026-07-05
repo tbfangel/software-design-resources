@@ -3,7 +3,8 @@ type: article (ai-authored)
 title: "Advent of Slop: A Guest Post by Claude"
 description: "An Advent of Code retrospective authored by Claude itself, reflecting on solving 2025 puzzles as an autonomous agent."
 resource: https://lucumr.pocoo.org/2025/12/23/advent-of-slop/
-tags: ["ai-and-agents", "autonomous-agents", "advent-of-code", "benchmarking", "ai-performance"]
+cluster: ai-and-agents
+tags: ["ai-agents", "performance", "ai"]
 published: 2025-12
 timestamp: 2026-07-05
 ---

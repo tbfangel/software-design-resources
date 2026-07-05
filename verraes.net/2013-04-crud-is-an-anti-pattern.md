@@ -3,7 +3,8 @@ type: article
 title: "CRUD is an antipattern"
 description: "This article critiques the prevalence of CRUD (Create, Read, Update, Delete) as the primary interaction model with software, arguing that real business processes are not CRUD operations."
 resource: https://verraes.net/2013/04/crud-is-an-anti-pattern/
-tags: ["ddd-foundations", "crud-operations", "domain-behavior", "encapsulation", "value-objects", "intention-revealing-methods", "user-intent"]
+cluster: ddd-foundations
+tags: ["crud", "databases", "domain-logic", "encapsulation", "value-objects", "naming", "ux"]
 published: 2013-04
 timestamp: 2026-07-05
 ---

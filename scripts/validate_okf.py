@@ -11,7 +11,8 @@ Structure
   - every site folder has an index.md
 Concept cards (`<site>/YYYY-MM-*.md`)
   - non-empty `type`; a `resource:` that is an http(s) URL
-  - `title`, `description`, non-empty `tags`, `published`
+  - `title`, `description`, `published`, and a non-empty `cluster`
+  - every `tags` entry is in the docs/topics.md controlled vocabulary
   - the `> ` lead line matches `description`
 Synthesis cards (`<site>/_synthesis-<slug>.md`)
   - `type: synthesis`
@@ -22,7 +23,7 @@ Card <-> index 1:1 correspondence
   - every card link in a site index.md resolves to an existing card
   - the bundle-root index.md links every site index.md
 Card <-> synthesis correspondence
-  - each card's cluster (tags[0]) has a matching `_synthesis-<cluster>.md`
+  - each card's `cluster` field has a matching `_synthesis-<cluster>.md`
   - each card is linked from that synthesis card's body
 """
 import re, sys
@@ -34,6 +35,10 @@ SITES = [d.name for d in sorted(ROOT.iterdir())
 
 errors = []
 def err(msg): errors.append(msg)
+
+# controlled topic vocabulary (docs/topics.md bullet slugs)
+_topics_md = ROOT / "docs" / "topics.md"
+TOPICS = set(re.findall(r"^-\s*([a-z0-9][a-z0-9-]*)\s*$", _topics_md.read_text(), re.M)) if _topics_md.exists() else set()
 
 CARD_RE = re.compile(r"^\d{4}(-\d{2})?-.+\.md$")   # YYYY- or YYYY-MM- prefixed card
 LINK_RE = re.compile(r"\]\(([^)]+)\)")
@@ -99,8 +104,11 @@ for site in SITES:
         elif not res.startswith("http"): err(f"{rel}: `resource` is not a URL: {res}")
         for k in ("title", "description", "published"):
             if not fm_get(fm, k): err(f"{rel}: missing `{k}`")
-        tags = fm_get(fm, "tags")
-        if not tags or tags.strip() in ("[]", ""): err(f"{rel}: missing/empty `tags`")
+        if not fm_get(fm, "cluster"): err(f"{rel}: missing/empty `cluster`")
+        if TOPICS:
+            for tag in re.findall(r'"([^"]+)"', fm_get(fm, "tags") or ""):
+                if tag not in TOPICS:
+                    err(f"{rel}: tag not in docs/topics.md vocabulary: {tag}")
         desc = fm_get(fm, "description")
         lead = re.search(r"^\s*>\s*(.+?)\s*$", body, re.M)
         if desc and lead:
@@ -126,9 +134,7 @@ for site in SITES:
     # card <-> synthesis correspondence
     for c in cards:
         fm, _ = fm_and_body(c.read_text())
-        tags = fm_get(fm, "tags") or ""
-        m = re.search(r'"([^"]+)"', tags)
-        cluster = m.group(1) if m else None
+        cluster = fm_get(fm, "cluster")
         if not cluster: continue
         synth = sdir / f"_synthesis-{cluster}.md"
         if not synth.exists():

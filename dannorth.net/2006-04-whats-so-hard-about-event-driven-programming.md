@@ -3,7 +3,8 @@ type: article
 title: "What's so hard about Event-Driven Programming?"
 description: "North identifies a core tension in event-driven programming: replacing simple synchronous code with complex queue-based architectures introduces operational complexity."
 resource: https://dannorth.net/blog/whats-so-hard-about-event-driven-programming/
-tags: ["software-design-architecture", "architecture", "concurrency", "design", "programming", "software"]
+cluster: software-design-architecture
+tags: ["software-architecture", "concurrency", "software-design", "programming"]
 published: 2006-04
 timestamp: 2026-07-05
 ---

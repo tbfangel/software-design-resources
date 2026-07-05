@@ -3,7 +3,8 @@ type: article
 title: "Messaging Flavours"
 description: "Messages come in three flavors: imperative (Commands—do this), interrogatory (Queries—what is the state), and informational (Events—this happened)."
 resource: https://verraes.net/2015/01/messaging-flavours/
-tags: ["messaging-distributed-systems", "messaging", "message-types", "commands", "queries", "events", "cqrs"]
+cluster: messaging-distributed-systems
+tags: ["messaging", "cqrs", "sql", "events"]
 published: 2015-01
 timestamp: 2026-07-05
 ---

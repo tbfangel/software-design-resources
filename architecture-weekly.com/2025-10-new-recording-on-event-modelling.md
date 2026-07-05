@@ -3,7 +3,8 @@ type: presentation
 title: "Event Modelling Anti-Patterns"
 description: "Recording from DDD Europe presenting event-driven architecture anti-patterns."
 resource: https://www.architecture-weekly.com/p/new-recording-on-event-modelling
-tags: ["event-driven-architecture", "event-modelling", "anti-patterns", "ddd-europe", "event-driven-architecture-design"]
+cluster: event-driven-architecture
+tags: ["event-modelling", "anti-patterns", "event-driven-architecture"]
 published: 2025-10
 timestamp: 2026-07-05
 ---

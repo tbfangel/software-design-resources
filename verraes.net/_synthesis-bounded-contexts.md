@@ -2,7 +2,7 @@
 type: synthesis
 title: "Bounded Contexts & Context Mapping"
 description: "This cluster explores bounded contexts as a pragmatic design tool for managing software complexity and cognitive load."
-tags: ["bounded-contexts"]
+cluster: bounded-contexts
 timestamp: 2026-07-05
 ---
 # Bounded Contexts & Context Mapping

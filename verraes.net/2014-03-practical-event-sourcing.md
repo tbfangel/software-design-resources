@@ -3,7 +3,8 @@ type: presentation
 title: "Practical Event Sourcing"
 description: "A presentation with video and slides demonstrating practical event sourcing in PHP."
 resource: https://verraes.net/2014/03/practical-event-sourcing/
-tags: ["event-sourcing-cqrs", "event-sourcing", "practical-implementation", "php", "domain-events", "architecture"]
+cluster: event-sourcing-cqrs
+tags: ["event-sourcing", "php", "domain-events", "software-architecture"]
 published: 2014-03
 timestamp: 2026-07-05
 ---

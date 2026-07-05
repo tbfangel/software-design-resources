@@ -2,7 +2,7 @@
 type: synthesis
 title: "Software Engineering Practices"
 description: "Object-oriented principles, testing strategies, code quality, refactoring techniques, and PHP-specific patterns form the foundation of this cluster."
-tags: ["software-engineering"]
+cluster: software-engineering
 timestamp: 2026-07-05
 ---
 # Software Engineering Practices

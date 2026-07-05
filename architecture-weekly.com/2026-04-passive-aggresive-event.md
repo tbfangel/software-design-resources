@@ -3,7 +3,8 @@ type: article
 title: "Anti-patterns in event modelling - Passive-Aggressive Events"
 description: "Oskar Dudycz argues that treating all communication in event-driven systems as events produces \"passive-aggressive\" designs where components implicitly expect specific behaviors without stating intent."
 resource: https://www.architecture-weekly.com/p/passive-aggresive-event
-tags: ["event-driven-architecture", "event-modelling", "anti-patterns", "commands-vs-events", "orchestration", "coupling", "sagas"]
+cluster: event-driven-architecture
+tags: ["event-modelling", "anti-patterns", "cqrs", "orchestration", "coupling", "sagas"]
 published: 2026-04
 timestamp: 2026-07-05
 ---

@@ -3,7 +3,8 @@ type: article
 title: "Colin and Earendil"
 description: "Armin Ronacher announces the founding of Earendil, a new company co-founded with Colin — a San Francisco native he met in Vienna."
 resource: https://lucumr.pocoo.org/2026/1/27/earendil/
-tags: ["open-source-philosophy", "open-source", "company-founding", "public-benefit-corporation", "human-agency", "ai-and-society"]
+cluster: open-source-philosophy
+tags: ["open-source", "startups", "open-source-business", "ai-ethics"]
 published: 2026-01
 timestamp: 2026-07-05
 ---

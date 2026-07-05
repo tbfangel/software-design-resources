@@ -3,7 +3,8 @@ type: article
 title: "Two Hard Problems with Distributed Systems"
 description: "This post presents the humorous but profound observation that there are \"only two hard problems in distributed systems: exactly-once delivery and guaranteed order of messages (and cache invalidation).\" Originally posted as a joke on Twitter a decade ago, it has become widely quoted in books, conference talks, and academic papers."
 resource: https://verraes.net/2025/08/two-hard-problems-with-distributed-systems/
-tags: ["messaging-distributed-systems", "distributed-systems", "messaging", "challenges", "industry-humor"]
+cluster: messaging-distributed-systems
+tags: ["distributed-systems", "messaging"]
 published: 2025-08
 timestamp: 2026-07-05
 ---

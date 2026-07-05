@@ -3,7 +3,8 @@ type: article
 title: "On Error Handling in Rust"
 description: "Ronacher's initial deep dive into Rust error handling, written after implementing a Redis library."
 resource: https://lucumr.pocoo.org/2014/10/16/on-error-handling/
-tags: ["rust-language", "rust", "error-handling", "api-design", "redis-rs", "result-types"]
+cluster: rust-language
+tags: ["rust", "error-handling", "api-design"]
 published: 2014-10
 timestamp: 2026-07-05
 ---

@@ -3,7 +3,8 @@ type: article
 title: "Constraints are Good: Python's Metadata Dilemma"
 description: "Ronacher argues that Python's packaging problems stem from insufficient constraints on metadata — specifically, allowing metadata to be dynamically generated at build time."
 resource: https://lucumr.pocoo.org/2024/11/26/python-packaging-metadata/
-tags: ["python-ecosystem", "python-packaging", "metadata", "constraints", "uv", "dynamic-metadata", "static-metadata"]
+cluster: python-ecosystem
+tags: ["python-packaging", "constraints", "uv"]
 published: 2024-11
 timestamp: 2026-07-05
 ---

@@ -3,7 +3,8 @@ type: article
 title: "The Lazy User is OpenID's Security Issue"
 description: "Ronacher identifies a real security vulnerability in OpenID/OAuth systems: provider sessions persisted within browser sessions mean an unattended computer can be exploited to perform destructive account changes."
 resource: https://lucumr.pocoo.org/2010/8/18/the-lazy-user-is-openid-s-security-issue/
-tags: ["web-frameworks-and-apis", "openid", "oauth", "security", "session-management", "re-authentication"]
+cluster: web-frameworks-and-apis
+tags: ["authentication", "security", "session-management"]
 published: 2010-08
 timestamp: 2026-07-05
 ---

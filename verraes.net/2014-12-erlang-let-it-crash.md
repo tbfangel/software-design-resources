@@ -3,7 +3,8 @@ type: article
 title: "Let It Crash"
 description: "Distilled from Joe Armstrong's \"Programming Erlang,\" this post explains the \"Let It Crash\" philosophy that drives Erlang's design."
 resource: https://verraes.net/2014/12/erlang-let-it-crash/
-tags: ["messaging-distributed-systems", "erlang", "concurrency", "message-passing", "actor-model", "fault-tolerance", "resilience"]
+cluster: messaging-distributed-systems
+tags: ["actor-model", "concurrency", "messaging", "resilience"]
 published: 2014-12
 timestamp: 2026-07-05
 ---

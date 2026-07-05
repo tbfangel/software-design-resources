@@ -3,7 +3,8 @@ type: article
 title: "The Life and Death of Open Source Companies"
 description: "Ronacher examines how Bambu Labs disrupted the open-source 3D printing market by delivering superior user experience and lower prices than Prusa, while building on open source software (PrusaSlicer) without contributing back."
 resource: https://lucumr.pocoo.org/2023/12/25/life-and-death-of-open-source/
-tags: ["open-source-philosophy", "open-source-companies", "licensing", "market-competition", "bambu-labs", "prusa"]
+cluster: open-source-philosophy
+tags: ["open-source-business", "open-source-licensing"]
 published: 2023-12
 timestamp: 2026-07-05
 ---

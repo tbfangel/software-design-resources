@@ -3,7 +3,8 @@ type: article
 title: "Patterns for Decoupling in Distributed Systems: Segregated Event Layers"
 description: "Segregated Event Layers explicitly separate internal and public events with different visibility layers and languages."
 resource: https://verraes.net/2019/05/patterns-for-decoupling-distsys-segregated-event-layers/
-tags: ["messaging-distributed-systems", "decoupling", "bounded-contexts", "anti-corruption-layer", "event-evolution"]
+cluster: messaging-distributed-systems
+tags: ["coupling", "bounded-contexts", "context-mapping", "schema-evolution"]
 published: 2019-05
 timestamp: 2026-07-05
 ---

@@ -3,7 +3,8 @@ type: article
 title: "Vibing, Harness and OODA loop"
 description: "Oskar Dudycz argues that rapid LLM-assisted prototyping creates an illusion of progress by accelerating the \"Act\" phase of the OODA loop while quietly skipping the \"Observe\" and \"Orient\" steps."
 resource: https://www.architecture-weekly.com/p/vibing-harness-and-ooda-loop
-tags: ["observability", "ooda-loop", "ai-assisted-development", "testing-harness", "feedback-loops", "iteration"]
+cluster: observability
+tags: ["decision-making", "agentic-coding", "testing", "continuous-improvement"]
 published: 2026-04
 timestamp: 2026-07-05
 ---

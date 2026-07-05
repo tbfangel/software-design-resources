@@ -3,7 +3,8 @@ type: presentation (with video links)
 title: "Emergent Boundaries"
 description: "A presentation exploring better ways to empirically discover boundaries rather than choosing them upfront."
 resource: https://verraes.net/2017/04/emergent-boundaries/
-tags: ["bounded-contexts", "modeling", "complexity-management", "empirical-discovery"]
+cluster: bounded-contexts
+tags: ["domain-modelling", "complexity", "requirements"]
 published: 2017-04
 timestamp: 2026-07-05
 ---

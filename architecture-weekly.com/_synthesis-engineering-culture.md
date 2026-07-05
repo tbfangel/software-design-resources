@@ -2,7 +2,7 @@
 type: synthesis
 title: "Software Engineering & Team Culture"
 description: "This cluster explores professional development, team dynamics, organizational structures, communication practices, industry trends, technology decisions, and the human side of software engineering."
-tags: ["engineering-culture"]
+cluster: engineering-culture
 timestamp: 2026-07-05
 ---
 # Software Engineering & Team Culture

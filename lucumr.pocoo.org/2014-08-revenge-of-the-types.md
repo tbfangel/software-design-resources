@@ -3,7 +3,8 @@ type: article
 title: "Revenge of the Types"
 description: "Ronacher argues against adding static typing to Python, given Python's inconsistent type semantics."
 resource: https://lucumr.pocoo.org/2014/8/24/revenge-of-the-types/
-tags: ["software-design-philosophy", "type-systems", "python", "static-typing", "language-design", "language-trends"]
+cluster: software-design-philosophy
+tags: ["type-systems", "python", "language-design", "programming"]
 published: 2014-08
 timestamp: 2026-07-05
 ---

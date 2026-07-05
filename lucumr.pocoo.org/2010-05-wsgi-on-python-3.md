@@ -3,7 +3,8 @@ type: article
 title: "WSGI on Python 3"
 description: "Ronacher assesses the state of WSGI on Python 3, documenting the challenges created by Python 3's strict bytes/str distinction."
 resource: https://lucumr.pocoo.org/2010/5/25/wsgi-on-python-3/
-tags: ["web-frameworks-and-apis", "wsgi", "python-3", "bytes", "unicode", "pep-3333"]
+cluster: web-frameworks-and-apis
+tags: ["wsgi", "python", "unicode"]
 published: 2010-05
 timestamp: 2026-07-05
 ---

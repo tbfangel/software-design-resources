@@ -3,7 +3,8 @@ type: article
 title: "The mystery of the missing date"
 description: "North examines how to specify a business rule for canceling authorized payments one month after authorization if uncharged, analyzing approaches from Gojko Adzic and Seb Rose."
 resource: https://dannorth.net/blog/the-mystery-of-the-missing-date/
-tags: ["bdd-foundations", "bdd", "ddd", "design", "examples", "modelling", "programming", "software"]
+cluster: bdd-foundations
+tags: ["bdd", "domain-driven-design", "software-design", "domain-modelling", "programming"]
 published: 2020-11
 timestamp: 2026-07-05
 ---

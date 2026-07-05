@@ -3,7 +3,8 @@ type: article
 title: "When to Use Static Methods in PHP"
 description: "Static methods are valid when they're referentially transparent—same input always produces the same output, no side effects (e.g., Calculator::sum(1, 2))."
 resource: https://verraes.net/2014/06/when-to-use-static-methods-in-php/
-tags: ["software-engineering", "static-methods", "global-state", "composition", "referential-transparency"]
+cluster: software-engineering
+tags: ["object-oriented-design", "state-management", "functional-programming"]
 published: 2014-06
 timestamp: 2026-07-05
 ---

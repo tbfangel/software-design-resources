@@ -3,7 +3,8 @@ type: article
 title: "Mario and Earendil"
 description: "Ronacher announces Mario Zechner joining Earendil, framing it as a shared commitment to thoughtful AI development."
 resource: https://lucumr.pocoo.org/2026/4/8/mario-and-earendil/
-tags: ["ai-and-agents", "coding-agents", "earendil", "pi", "software-craftsmanship", "design-philosophy", "open-source-stewardship"]
+cluster: ai-and-agents
+tags: ["ai-agents", "craftsmanship", "design-philosophy", "open-source-sustainability"]
 published: 2026-04
 timestamp: 2026-07-05
 ---

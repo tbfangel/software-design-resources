@@ -3,7 +3,8 @@ type: presentation
 title: "Object Reorientation"
 description: "A presentation on reorienting object-oriented code from structural data models toward behavioral models that capture meaning."
 resource: https://verraes.net/2014/11/object-reorientation/
-tags: ["software-engineering", "object-oriented-design", "refactoring", "ddd", "design-patterns"]
+cluster: software-engineering
+tags: ["object-oriented-design", "refactoring", "domain-driven-design", "design-patterns"]
 published: 2014-11
 timestamp: 2026-07-05
 ---

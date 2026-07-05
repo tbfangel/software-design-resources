@@ -3,7 +3,8 @@ type: presentation (talk/video)
 title: "Temporal Modelling"
 description: "Talk on how to model temporal concepts—time, change, causality, histories—explicitly in code."
 resource: https://verraes.net/2019/06/talk-temporal-modelling/
-tags: ["modelling-design-heuristics", "temporal-concepts", "time-in-modelling", "event-sourcing", "domain-events", "state-and-time"]
+cluster: modelling-design-heuristics
+tags: ["date-time", "domain-modelling", "event-sourcing", "domain-events"]
 published: 2019-06
 timestamp: 2026-07-05
 ---

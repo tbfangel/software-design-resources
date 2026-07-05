@@ -3,7 +3,8 @@ type: article
 title: "Why Open Source Isn't Always Fair"
 description: "Traditional open-source licensing creates an unfair power dynamic favoring large corporations over individual developers."
 resource: https://www.architecture-weekly.com/p/why-open-source-isnt-always-fair
-tags: ["engineering-culture", "open-source-licensing", "agplv3", "sspl", "sustainability", "cloud-providers"]
+cluster: engineering-culture
+tags: ["open-source-licensing", "open-source-sustainability", "cloud-storage"]
 published: 2025-09
 timestamp: 2026-07-05
 ---

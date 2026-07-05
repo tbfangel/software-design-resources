@@ -3,7 +3,8 @@ type: discussion
 title: "Applying Observability: From Strategy to Practice with Hazel Weakly"
 description: "Organizations struggle to translate observability strategy into practical implementation, grasping the concept but failing to align tooling and approach with strategic goals."
 resource: https://www.architecture-weekly.com/p/applying-observability-from-strategy
-tags: ["observability", "observability-strategy", "organizational-change", "opentelemetry", "monitoring-vs-observability", "tooling"]
+cluster: observability
+tags: ["observability", "organizational-change", "opentelemetry", "tooling"]
 published: 2024
 timestamp: 2026-07-05
 ---

@@ -3,7 +3,8 @@ type: article
 title: "Rye and uv: August is Harvest Season for Python Packaging"
 description: "Ronacher argues the Python packaging ecosystem needs to consolidate around a single dominant tool rather than maintain competing solutions."
 resource: https://lucumr.pocoo.org/2024/8/21/harvest-season/
-tags: ["python-ecosystem", "python-packaging", "rye", "uv", "astral", "consolidation"]
+cluster: python-ecosystem
+tags: ["python-packaging", "uv"]
 published: 2024-08
 timestamp: 2026-07-05
 ---

@@ -3,7 +3,8 @@ type: article
 title: "WSGI and the Pluggable Pipe Dream"
 description: "Ronacher argues that the dream of universal framework-independent pluggable WSGI components was always unrealistic, and that WSGI's \"awkward\" design features were intentional solutions to real problems."
 resource: https://lucumr.pocoo.org/2011/7/27/the-pluggable-pipedream/
-tags: ["web-frameworks-and-apis", "wsgi", "python", "pluggable-applications", "framework-design", "http"]
+cluster: web-frameworks-and-apis
+tags: ["wsgi", "python", "modularity", "software-design", "http"]
 published: 2011-07
 timestamp: 2026-07-05
 ---

@@ -3,7 +3,8 @@ type: article
 title: "A Classic Introduction to SOA"
 description: "North prioritizes business understanding over technology in service-oriented architecture, arguing that \"the most important criteria for a service-oriented architect—before tackling the technology—should be a keen understanding of the business.\" He uses a 1950s corporation metaphor to explain SOA concepts without technical jargon, framing services as departments providing specific functions."
 resource: https://dannorth.net/blog/classic-soa/
-tags: ["software-design-architecture", "architecture", "soa", "business-context"]
+cluster: software-design-architecture
+tags: ["software-architecture", "service-oriented-architecture"]
 published: 2007-09
 timestamp: 2026-07-05
 ---

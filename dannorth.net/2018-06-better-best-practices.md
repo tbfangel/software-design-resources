@@ -3,7 +3,8 @@ type: article
 title: "Better Best Practices"
 description: "North argues that blanket \"Best Practices\" initiatives often backfire by constraining experienced professionals while failing to address the real source of organizational anxiety: irrational fear disguised as risk management."
 resource: https://dannorth.net/blog/better-best-practices/
-tags: ["learning-expertise", "learning", "best-practices", "expertise"]
+cluster: learning-expertise
+tags: ["learning", "best-practices"]
 published: 2018-06
 timestamp: 2026-07-05
 ---

@@ -39,16 +39,18 @@ For every new post, spin up one sub-agent (parallel). Each must:
 1. WebFetch the post URL.
 2. Read a few existing cards in that source folder — especially the `_synthesis-<cluster>.md` cards — to
    learn the cluster taxonomy (cluster slugs) and house style.
-3. Choose the best-fitting **cluster slug** for the post (the `tags[0]` used by that source's cards). If
-   none fits, use `UNCLASSIFIED`.
-4. Write a ready-to-save card to `/tmp/sync-card-{slug}.md` using the schema in `CLAUDE.md`:
+3. Choose the best-fitting **cluster slug** for the post (the `cluster` field used by that source's cards).
+   If none fits, use `UNCLASSIFIED`.
+4. Write a ready-to-save card to `/tmp/sync-card-{slug}.md` using the schema in `docs/schema.md`
+   (topic `tags` come from `/docs/topics.md`):
    ```markdown
    ---
    type: <article|presentation|podcast>
    title: "<Post Title>"
    description: "<one-sentence summary>"
    resource: <post URL>
-   tags: ["<cluster-slug>", "<topic-1>", "<topic-2>"]
+   cluster: <cluster-slug>
+   tags: ["<topic-1>", "<topic-2>"]
    published: <YYYY-MM>
    timestamp: <today YYYY-MM-DD>
    ---
@@ -81,7 +83,7 @@ For every new post, spin up one sub-agent (parallel). Each must:
 
 For each `/tmp/sync-card-*.md`: strip the two metadata lines and write the remaining card to
 `<folder>/<filename>`. If the filename already exists, append `-2`, `-3`, …. For `UNCLASSIFIED` posts,
-pick the closest cluster slug for `tags[0]` and add this line right below the frontmatter:
+pick the closest cluster slug for the `cluster` field and add this line right below the frontmatter:
 `<!-- NOTE: classification uncertain — review before merging -->`.
 
 ## Step 8 — Update the affected `_synthesis-<cluster>.md` and site `index.md`

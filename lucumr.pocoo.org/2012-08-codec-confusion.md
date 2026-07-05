@@ -3,7 +3,8 @@ type: article
 title: "Codec Confusion in Python"
 description: "Ronacher documents a case of wrong conclusions being drawn about Python's codec system."
 resource: https://lucumr.pocoo.org/2012/8/11/codec-confusion/
-tags: ["python-ecosystem", "python", "codecs", "bytes", "unicode", "confusion"]
+cluster: python-ecosystem
+tags: ["python", "unicode"]
 published: 2012-08
 timestamp: 2026-07-05
 ---

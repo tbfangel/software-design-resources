@@ -3,7 +3,8 @@ type: article
 title: "The Python I Would Like To See"
 description: "Ronacher critiques Python's internal \"slot system\" for special methods."
 resource: https://lucumr.pocoo.org/2014/8/16/the-python-i-would-like-to-see/
-tags: ["python-ecosystem", "python-internals", "slot-system", "special-methods", "type-system", "interpreter-isolation"]
+cluster: python-ecosystem
+tags: ["python", "template-engines", "type-systems"]
 published: 2014-08
 timestamp: 2026-07-05
 ---

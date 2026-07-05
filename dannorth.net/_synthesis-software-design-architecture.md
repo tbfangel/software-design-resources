@@ -2,7 +2,7 @@
 type: synthesis
 title: "Software Design & Architecture"
 description: "This cluster examines software design principles, architectural patterns, and North's critique of established design dogma, including his CUPID principles as an alternative to SOLID."
-tags: ["software-design-architecture"]
+cluster: software-design-architecture
 timestamp: 2026-07-05
 ---
 # Software Design & Architecture

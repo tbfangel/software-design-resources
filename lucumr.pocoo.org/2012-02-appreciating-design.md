@@ -3,7 +3,8 @@ type: article
 title: "Appreciating Design"
 description: "Ronacher argues that excellent software design goes unrecognised because developers don't communicate it."
 resource: https://lucumr.pocoo.org/2012/2/11/appreciating-design/
-tags: ["software-design-philosophy", "design-communication", "trac", "software-architecture", "narrative", "user-perception"]
+cluster: software-design-philosophy
+tags: ["communication", "software-architecture", "storytelling", "ux"]
 published: 2012-02
 timestamp: 2026-07-05
 ---

@@ -3,7 +3,8 @@ type: article
 title: "Compilation Isn't Just for Programming Languages"
 description: "JavaScript's ecosystem faces a fundamental challenge: different environments (Node.js vs."
 resource: https://www.architecture-weekly.com/p/compilation-isnt-just-for-programming
-tags: ["architecture-patterns", "compilers", "pipeline-optimization", "event-streaming", "node-js", "browser-apis", "performance"]
+cluster: architecture-patterns
+tags: ["compilers", "performance", "stream-processing", "nodejs", "web-development"]
 published: 2025-09
 timestamp: 2026-07-05
 ---

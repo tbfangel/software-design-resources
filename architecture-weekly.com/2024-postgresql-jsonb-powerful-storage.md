@@ -3,7 +3,8 @@ type: article
 title: "PostgreSQL JSONB: Powerful Storage for Semi-Structured Data"
 description: "Addresses a fundamental database design tension: rigid relational schemas enforce data integrity but resist change, while schemaless document databases offer flexibility but sacrifice consistency guarantees."
 resource: https://www.architecture-weekly.com/p/postgresql-jsonb-powerful-storage
-tags: ["databases-and-postgresql", "postgresql-jsonb", "semi-structured-data", "indexing", "schema-evolution", "hybrid-storage"]
+cluster: databases-and-postgresql
+tags: ["postgresql", "databases", "schema-evolution", "storage"]
 published: 2024
 timestamp: 2026-07-05
 ---

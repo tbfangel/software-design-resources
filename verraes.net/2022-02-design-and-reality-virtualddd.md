@@ -3,7 +3,8 @@ type: presentation (video)
 title: "Design & Reality (VirtualDDD presentation)"
 description: "Presentation from VirtualDDD where Verraes discusses the core thesis: modelling as the opportunity to create novel concepts."
 resource: https://verraes.net/2022/02/design-and-reality-virtualddd/
-tags: ["modelling-design-heuristics", "modelling", "domain-driven-design", "novel-concepts", "problem-reframing"]
+cluster: modelling-design-heuristics
+tags: ["domain-modelling", "domain-driven-design", "problem-solving"]
 published: 2022-02
 co_author: "(Mathias Verraes)"
 timestamp: 2026-07-05

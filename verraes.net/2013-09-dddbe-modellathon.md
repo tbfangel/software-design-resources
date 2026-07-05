@@ -3,7 +3,8 @@ type: presentation
 title: "The DDDBE Modellathon"
 description: "This post describes the inaugural DDDBE Modellathon workshop, a community event designed to give teams practice exploring complex domains using various modeling techniques without pressure to deliver immediate value."
 resource: https://verraes.net/2013/09/dddbe-modellathon/
-tags: ["event-storming", "modellathon", "workshop", "domain-driven-design", "domain-modeling", "facilitation", "model-storming", "technique-exploration"]
+cluster: event-storming
+tags: ["domain-modelling", "facilitation", "domain-driven-design"]
 published: 2013-09
 timestamp: 2026-07-05
 ---

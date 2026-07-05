@@ -3,7 +3,8 @@ type: article
 title: "Git and Mercurial Branching"
 description: "Ronacher compares Mercurial and Git branching models."
 resource: https://lucumr.pocoo.org/2010/8/17/git-and-mercurial-branching/
-tags: ["software-design-philosophy", "git", "mercurial", "branching", "version-control", "cherry-picking"]
+cluster: software-design-philosophy
+tags: ["git", "version-control"]
 published: 2010-08
 timestamp: 2026-07-05
 ---

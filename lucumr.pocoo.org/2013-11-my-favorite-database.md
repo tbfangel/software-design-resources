@@ -3,7 +3,8 @@ type: article
 title: "My Favorite Database is the Network"
 description: "Ronacher advocates for using signed data transmitted over the network as a replacement for database storage in certain scenarios."
 resource: https://lucumr.pocoo.org/2013/11/17/my-favorite-database/
-tags: ["web-frameworks-and-apis", "signed-tokens", "stateless-authentication", "hmac", "distributed-systems", "session-management"]
+cluster: web-frameworks-and-apis
+tags: ["authentication", "security", "distributed-systems", "session-management"]
 published: 2013-11
 timestamp: 2026-07-05
 ---

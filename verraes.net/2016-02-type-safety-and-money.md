@@ -3,7 +3,8 @@ type: article
 title: "Type Safety and Money"
 description: "Modern type systems allow expressing domain concepts with precision: money is not an integer, it's a value object with currency, precision, and rounding rules."
 resource: https://verraes.net/2016/02/type-safety-and-money/
-tags: ["modelling-design-heuristics", "type-systems", "value-objects", "money", "domain-concepts", "static-guarantees"]
+cluster: modelling-design-heuristics
+tags: ["type-systems", "value-objects", "domain-modelling"]
 published: 2016-02
 timestamp: 2026-07-05
 ---

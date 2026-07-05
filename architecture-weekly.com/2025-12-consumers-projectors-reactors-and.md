@@ -3,7 +3,8 @@ type: article
 title: "Consumers, Projectors, Reactors and All That Messaging Jazz in Emmett"
 description: "Building production-ready event processing systems is fundamentally harder than building event stores because reliably processing events at scale involves managing delivery guarantees, ordering, idempotency, checkpointing, and resilience."
 resource: https://www.architecture-weekly.com/p/consumers-projectors-reactors-and
-tags: ["messaging-and-kafka", "message-processing", "emmett-framework", "consumers", "projectors", "separation-of-concerns", "backpressure"]
+cluster: messaging-and-kafka
+tags: ["message-processing", "event-sourcing", "kafka", "projections", "separation-of-concerns", "resilience"]
 published: 2025-12
 timestamp: 2026-07-05
 ---

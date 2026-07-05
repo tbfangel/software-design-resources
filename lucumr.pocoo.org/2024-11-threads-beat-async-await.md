@@ -3,7 +3,8 @@ type: article
 title: "Playground Wisdom: Threads Beat Async/Await"
 description: "Ronacher argues that async/await is fundamentally flawed for most languages."
 resource: https://lucumr.pocoo.org/2024/11/18/threads-beat-async-await/
-tags: ["software-design-philosophy", "concurrency", "async-await", "virtual-threads", "structured-concurrency", "java-project-loom"]
+cluster: software-design-philosophy
+tags: ["concurrency", "async-programming"]
 published: 2024-11
 timestamp: 2026-07-05
 ---

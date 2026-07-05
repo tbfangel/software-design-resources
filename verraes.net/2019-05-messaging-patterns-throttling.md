@@ -3,7 +3,8 @@ type: article
 title: "Messaging Patterns: Throttling"
 description: "Throttling addresses high-frequency event streams by keeping only one event per time unit."
 resource: https://verraes.net/2019/05/messaging-patterns-throttling/
-tags: ["messaging-distributed-systems", "messaging", "performance", "ephemeral-events", "rate-limiting"]
+cluster: messaging-distributed-systems
+tags: ["messaging", "performance", "events", "resilience"]
 published: 2019-05
 timestamp: 2026-07-05
 ---

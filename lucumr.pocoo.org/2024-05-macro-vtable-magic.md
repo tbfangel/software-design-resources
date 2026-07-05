@@ -3,7 +3,8 @@ type: article
 title: "Using Rust Macros for Custom VTables"
 description: "Ronacher shows that Rust's object-safety rules can be circumvented through manually constructed vtables using macros."
 resource: https://lucumr.pocoo.org/2024/5/16/macro-vtable-magic/
-tags: ["rust-language", "rust", "macros", "vtables", "dynamic-dispatch", "reference-counting", "unsafe"]
+cluster: rust-language
+tags: ["rust", "memory-management"]
 published: 2024-05
 timestamp: 2026-07-05
 ---

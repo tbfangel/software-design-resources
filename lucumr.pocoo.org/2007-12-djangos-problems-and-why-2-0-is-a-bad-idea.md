@@ -3,7 +3,8 @@ type: article
 title: "Django's Problems and Why 2.0 is a Bad Idea"
 description: "An early critique of Django's plan to release a 2.0 version before a stable 1.0."
 resource: https://lucumr.pocoo.org/2007/12/12/djangos-problems-and-why-2-0-is-a-bad-idea/
-tags: ["web-frameworks-and-apis", "django", "framework-evolution", "versioning", "backwards-compatibility"]
+cluster: web-frameworks-and-apis
+tags: ["web-frameworks", "versioning", "backwards-compatibility"]
 published: 2007-12
 timestamp: 2026-07-05
 ---

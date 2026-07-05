@@ -2,7 +2,7 @@
 type: synthesis
 title: "Event Sourcing & CQRS"
 description: "This cluster explores Event Sourcing and Command Query Responsibility Segregation architectures through practical patterns, testing strategies, and theoretical foundations."
-tags: ["event-sourcing-cqrs"]
+cluster: event-sourcing-cqrs
 timestamp: 2026-07-05
 ---
 # Event Sourcing & CQRS

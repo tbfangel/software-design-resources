@@ -3,7 +3,8 @@ type: article
 title: "Programming is not a craft"
 description: "North argues that framing programming as a \"craft\" is fundamentally misguided and risks centering programmer egos rather than delivering business value."
 resource: https://dannorth.net/blog/programming-is-not-a-craft/
-tags: ["productivity-metrics", "agile", "craft", "craftsmanship", "discovery", "productivity", "programming", "software", "trade", "value"]
+cluster: productivity-metrics
+tags: ["agile", "craftsmanship", "requirements", "productivity", "programming", "software-design"]
 published: 2011-01
 timestamp: 2026-07-05
 ---

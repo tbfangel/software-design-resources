@@ -3,7 +3,8 @@ type: article
 title: "Just Use SQL They Say... Or How Accidental Complexity Piles On"
 description: "While raw SQL seems simple initially—\"Just use SQL, no need for ORMs\"—it quickly becomes complicated as requirements grow."
 resource: https://www.architecture-weekly.com/p/just-use-sql-they-say-or-on-how-accidental
-tags: ["databases-and-postgresql", "sql", "query-building", "complexity", "orms", "dynamic-queries", "string-management"]
+cluster: databases-and-postgresql
+tags: ["sql", "complexity", "orm", "python"]
 published: 2025-09
 timestamp: 2026-07-05
 ---

@@ -3,7 +3,8 @@ type: article
 title: "On craftsmanship"
 description: "North responds to feedback on his \"Programming is not a craft\" post, refining his argument that programming should be understood primarily as a trade rather than a craft, though it contains elements of both."
 resource: https://dannorth.net/blog/on-craftsmanship/
-tags: ["productivity-metrics", "agile", "craft", "craftsmanship", "discovery", "productivity", "programming", "software", "trade", "value"]
+cluster: productivity-metrics
+tags: ["agile", "craftsmanship", "requirements", "productivity", "programming", "software-design"]
 published: 2011-01
 timestamp: 2026-07-05
 ---

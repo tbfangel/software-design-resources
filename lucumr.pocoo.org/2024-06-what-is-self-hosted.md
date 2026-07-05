@@ -3,7 +3,8 @@ type: article
 title: "What is Self Hosted? What is a Stack?"
 description: "Ronacher argues that truly self-hosted open source requires standardised protocols (like CGI, SQL, and Linux formed the LAMP stack)."
 resource: https://lucumr.pocoo.org/2024/6/26/what-is-self-hosted/
-tags: ["open-source-philosophy", "self-hosted-software", "open-protocols", "vendor-lock-in", "lamp-stack-analogy"]
+cluster: open-source-philosophy
+tags: ["web-standards", "vendor-lock-in"]
 published: 2024-06
 timestamp: 2026-07-05
 ---

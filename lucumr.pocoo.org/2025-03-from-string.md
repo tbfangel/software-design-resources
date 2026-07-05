@@ -3,7 +3,8 @@ type: article
 title: "Bridging the Efficiency Gap Between FromStr and String"
 description: "Ronacher proposes a `FromString` trait that accepts owned `String` values rather than `&str`, addressing the inefficiency of `FromStr` which forces unnecessary clones when your input is already a `String`."
 resource: https://lucumr.pocoo.org/2025/3/23/from-string/
-tags: ["rust-language", "rust", "fromstr", "string", "zero-copy", "transmute", "trait-design"]
+cluster: rust-language
+tags: ["rust", "python", "performance"]
 published: 2025-03
 timestamp: 2026-07-05
 ---

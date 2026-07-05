@@ -2,7 +2,7 @@
 type: synthesis
 title: "Career & Reflections"
 description: "This cluster includes personal reflections, career milestones, and practical advice on professional development, speaking, and interviewing."
-tags: ["career-reflections"]
+cluster: career-reflections
 timestamp: 2026-07-05
 ---
 # Career & Reflections

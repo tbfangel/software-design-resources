@@ -3,7 +3,8 @@ type: article
 title: "Deploying Python Web Applications"
 description: "An early guide to deploying Python web applications using Fabric for deployment automation."
 resource: https://lucumr.pocoo.org/2008/7/17/deploying-python-web-applications/
-tags: ["web-frameworks-and-apis", "python", "deployment", "fabric", "wsgi", "virtualenv", "server-management"]
+cluster: web-frameworks-and-apis
+tags: ["python", "deployment", "tooling", "wsgi", "python-packaging"]
 published: 2008-07
 timestamp: 2026-07-05
 ---

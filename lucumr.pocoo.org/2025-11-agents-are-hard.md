@@ -3,7 +3,8 @@ type: article
 title: "Agent Design Is Still Hard"
 description: "Ronacher documents the engineering lessons from building production agents."
 resource: https://lucumr.pocoo.org/2025/11/21/agents-are-hard/
-tags: ["ai-and-agents", "agent-architecture", "sdk-limitations", "caching", "failure-isolation"]
+cluster: ai-and-agents
+tags: ["agent-architecture", "caching", "resilience"]
 published: 2025-11
 timestamp: 2026-07-05
 ---

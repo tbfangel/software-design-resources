@@ -14,7 +14,7 @@ for the schema. Your task is to search these cards and give a well-cited answer.
 - Bundle root `index.md` (declares `okf_version`) lists the site sections.
 - One folder per practitioner/site (e.g. `verraes.net/`, `dannorth.net/`).
 - Each site folder holds:
-  - `index.md` — site intro + a listing of its cards grouped by cluster-tag.
+  - `index.md` — site intro + a listing of its cards grouped by cluster.
   - `_synthesis-<cluster>.md` — a `type: synthesis` card with cross-post **Key Insights** for a cluster.
   - `YYYY-MM-<slug>.md` — one concept card per post: `## Key Facts`, `## Summary`, `## Links`, `## Related`.
 
@@ -23,7 +23,7 @@ for the schema. Your task is to search these cards and give a well-cited answer.
 1. **Orient**: skim the root `index.md` and relevant site `index.md` files to see what's covered.
 2. **Search cards** with Grep (case-insensitive), across all `*.md`:
    - Match query terms in card bodies **and** in frontmatter `tags:` / `title:`.
-   - The cluster slug is `tags[0]` — e.g. search `tags:.*event-sourcing` to pull a whole cluster.
+   - The cluster is the `cluster` field — e.g. search `^cluster: event-sourcing-cqrs` to pull a whole cluster.
    - Read the `_synthesis-<cluster>.md` cards first for the distilled cross-post view, then drill into
      individual post cards for specifics.
 3. **Read** the matching cards: `## Key Facts` give the quick answer; `## Summary` adds depth; frontmatter

@@ -3,7 +3,8 @@ type: article
 title: "Are you ready for the truth?"
 description: "North emphasizes that successful agile transformation requires preparing business sponsors and senior management for a fundamentally different approach to project visibility—one that prioritizes transparency and accuracy over reassuring narratives."
 resource: https://dannorth.net/blog/are-you-ready-for-the-truth/
-tags: ["learning-expertise", "agile", "change", "coaching", "stakeholders"]
+cluster: learning-expertise
+tags: ["agile", "coaching", "collaboration"]
 published: 2006-05
 timestamp: 2026-07-05
 ---

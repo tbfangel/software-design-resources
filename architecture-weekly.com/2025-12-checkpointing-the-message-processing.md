@@ -3,7 +3,8 @@ type: article
 title: "Checkpointing the Message Processing"
 description: "Draws a parallel between old video game checkpoint codes and message processing recovery in distributed systems, addressing how to resume message processing from where a system left off rather than restarting from the beginning after failures while maintaining consistency."
 resource: https://www.architecture-weekly.com/p/checkpointing-the-message-processing
-tags: ["messaging-and-kafka", "checkpointing", "message-processing", "outbox-pattern", "postgresql", "idempotency"]
+cluster: messaging-and-kafka
+tags: ["crash-recovery", "message-processing", "messaging", "postgresql", "idempotency"]
 published: 2025-12
 timestamp: 2026-07-05
 ---

@@ -2,7 +2,7 @@
 type: synthesis
 title: "Python Ecosystem"
 description: "Armin Ronacher has been a central figure in the Python ecosystem since the mid-2000s — creator of Flask, Werkzeug, Jinja2, Click, and Rye, and a major contributor to Python packaging tooling through his work at Sentry."
-tags: ["python-ecosystem"]
+cluster: python-ecosystem
 timestamp: 2026-07-05
 ---
 # Python Ecosystem

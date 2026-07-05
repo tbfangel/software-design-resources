@@ -3,7 +3,8 @@ type: article
 title: "React Query: A Solution for Frontend State Management"
 description: "Frontend teams often conflate local UI state (toggles, forms) with server data, creating issues like stale information, redundant API calls, and scattered loading flags."
 resource: https://www.architecture-weekly.com/p/react-query-a-solution-for-frontend
-tags: ["architecture-patterns", "react-query", "tanstack-query", "state-management", "frontend-architecture", "caching", "server-state"]
+cluster: architecture-patterns
+tags: ["frontend", "state-management", "caching"]
 published: 2024
 timestamp: 2026-07-05
 ---

@@ -3,7 +3,8 @@ type: article
 title: "Using Hugo as a redirect service"
 description: "Dan North describes how he used Hugo's built-in aliases feature and a small custom template to replace external URL-shortening services entirely."
 resource: https://dannorth.net/blog/hugo-redirects/
-tags: ["software-design-architecture", "hugo", "static-site-generator", "redirects", "url-management", "tooling"]
+cluster: software-design-architecture
+tags: ["static-site-generators", "http", "web-development", "tooling"]
 published: 2023-10
 timestamp: 2026-07-05
 ---

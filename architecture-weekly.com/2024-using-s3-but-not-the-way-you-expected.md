@@ -3,7 +3,8 @@ type: article
 title: "Using S3, But Not the Way You Expected"
 description: "AWS S3's conditional writes capability fundamentally changes what's possible with cloud storage, enabling S3 to serve as a foundation for building strongly consistent event stores by implementing optimistic concurrency control directly in S3."
 resource: https://www.architecture-weekly.com/p/using-s3-but-not-the-way-you-expected
-tags: ["databases-and-postgresql", "s3", "conditional-writes", "event-store", "optimistic-concurrency", "cloud-storage", "versioning"]
+cluster: databases-and-postgresql
+tags: ["cloud-storage", "optimistic-concurrency", "event-store", "versioning"]
 published: 2024
 timestamp: 2026-07-05
 ---

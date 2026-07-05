@@ -3,7 +3,8 @@ type: article
 title: "Welcoming The Next Generation of Programmers"
 description: "Ronacher argues that people learning to program through AI tools (ChatGPT, Claude) are legitimate programmers and should be welcomed by the Python community."
 resource: https://lucumr.pocoo.org/2025/7/20/the-next-generation/
-tags: ["ai-and-agents", "ai-assisted-learning", "community-inclusion", "python", "mentorship"]
+cluster: ai-and-agents
+tags: ["ai", "community", "python", "coaching"]
 published: 2025-07
 timestamp: 2026-07-05
 ---

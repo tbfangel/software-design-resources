@@ -3,7 +3,8 @@ type: article
 title: "From Async/Await to Virtual Threads"
 description: "Ronacher proposes that Python adopt virtual threads with structured concurrency rather than continuing to develop asyncio."
 resource: https://lucumr.pocoo.org/2025/7/26/virtual-threads/
-tags: ["software-design-philosophy", "python", "virtual-threads", "async-await", "concurrency", "free-threading"]
+cluster: software-design-philosophy
+tags: ["python", "concurrency", "async-programming"]
 published: 2025-07
 timestamp: 2026-07-05
 ---

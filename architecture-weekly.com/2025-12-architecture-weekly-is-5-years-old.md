@@ -3,7 +3,8 @@ type: article
 title: "Architecture Weekly is 5 Years Old!"
 description: "Oskar Dudycz marks five years of Architecture Weekly by tracing its evolution from a personal Git repository for managing browser tabs into a Substack newsletter with thousands of subscribers and 28 webinars totalling roughly 50 hours of free educational content."
 resource: https://www.architecture-weekly.com/p/architecture-weekly-is-5-years-old
-tags: ["engineering-culture", "newsletter", "reflection", "sustainability", "knowledge-sharing", "community"]
+cluster: engineering-culture
+tags: ["python", "open-source-sustainability", "knowledge-sharing", "community"]
 published: 2025-12
 timestamp: 2026-07-05
 ---

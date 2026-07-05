@@ -3,7 +3,8 @@ type: article
 title: "Best Simple System for Now"
 description: "North challenges the false dichotomy between \"quick and dirty\" versus \"thorough and slow\" development, proposing the Best Simple System for Now (BSSN): \"The simplest system that meets the needs of the product right now, written to an appropriate standard.\" The approach comprises three elements: For Now (avoid anticipating future needs, counter pattern-matching bias toward general solutions), Simple (pursue minimal complexity for current needs, focused design without speculative features), and Best (maintain quality appropriate to context)."
 resource: https://dannorth.net/blog/best-simple-system-for-now/
-tags: ["software-design-architecture", "programming", "software", "agile"]
+cluster: software-design-architecture
+tags: ["programming", "software-design", "agile"]
 published: 2025-02
 timestamp: 2026-07-05
 ---

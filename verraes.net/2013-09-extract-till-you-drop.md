@@ -3,7 +3,8 @@ type: presentation
 title: "Extract Till You Drop"
 description: "A live-coding presentation on bringing legacy code under test through aggressive refactoring and extraction."
 resource: https://verraes.net/2013/09/extract-till-you-drop/
-tags: ["software-engineering", "refactoring", "legacy-code", "testing", "live-coding", "incremental-improvement"]
+cluster: software-engineering
+tags: ["refactoring", "legacy-systems", "testing", "public-speaking", "continuous-improvement"]
 published: 2013-09
 timestamp: 2026-07-05
 ---

@@ -3,7 +3,8 @@ type: article
 title: "The Coming Loop"
 description: "Ronacher examines \"harness loops\"—automated systems that drive AI agents past their natural stopping point, iteratively refining work through external evaluation."
 resource: https://lucumr.pocoo.org/2026/6/23/the-coming-loop/
-tags: ["ai-and-agents", "ai-agents", "harness-loops", "code-quality", "software-architecture", "maintainability", "human-oversight"]
+cluster: ai-and-agents
+tags: ["ai-agents", "agent-architecture", "code-quality", "software-architecture", "maintainability", "ai-ethics"]
 published: 2026-06
 timestamp: 2026-07-05
 ---

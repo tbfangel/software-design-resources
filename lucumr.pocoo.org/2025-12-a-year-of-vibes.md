@@ -3,7 +3,8 @@ type: article
 title: "A Year Of Vibes"
 description: "Ronacher's year-end retrospective on 2025 as the year agentic coding became real."
 resource: https://lucumr.pocoo.org/2025/12/22/a-year-of-vibes/
-tags: ["ai-and-agents", "agentic-coding", "2025-retrospective", "tooling-gaps", "version-control"]
+cluster: ai-and-agents
+tags: ["agentic-coding", "tooling", "version-control"]
 published: 2025-12
 timestamp: 2026-07-05
 ---

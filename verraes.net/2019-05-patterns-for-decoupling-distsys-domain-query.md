@@ -3,7 +3,8 @@ type: article
 title: "Patterns for Decoupling in Distributed Systems: Domain Query"
 description: "Replace free-form queries (SELECT, REST endpoints, GraphQL) with domain-specific Domain Queries using natural language questions (WhichCarsAreUpForReplacement)."
 resource: https://verraes.net/2019/05/patterns-for-decoupling-distsys-domain-query/
-tags: ["messaging-distributed-systems", "decoupling", "query-patterns", "api-design", "ubiquitous-language"]
+cluster: messaging-distributed-systems
+tags: ["coupling", "sql", "api-design", "ubiquitous-language"]
 published: 2019-05
 timestamp: 2026-07-05
 ---

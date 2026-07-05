@@ -3,7 +3,8 @@ type: article
 title: "Such a Little Thing: The Semicolon in Rust"
 description: "Ronacher analyses Rust's semantic use of semicolons: trailing semicolons discard values, absence of trailing semicolons returns them from blocks."
 resource: https://lucumr.pocoo.org/2012/10/18/such-a-little-thing/
-tags: ["rust-language", "rust", "language-design", "semicolons", "expression-oriented-programming", "type-system"]
+cluster: rust-language
+tags: ["rust", "language-design", "programming", "type-systems"]
 published: 2012-10
 timestamp: 2026-07-05
 ---

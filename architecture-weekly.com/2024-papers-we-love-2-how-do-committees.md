@@ -3,7 +3,8 @@ type: discussion
 title: "Papers We Love #2: How Do Committees Invent? (Conway's Law)"
 description: "Examines Melvin Conway's foundational 1968 paper introducing Conway's Law: \"Organizations which design systems are constrained to produce designs which are copies of the communication structures of these organizations.\" The discussion confirms this principle remains remarkably relevant to modern software architecture despite being decades old."
 resource: https://www.architecture-weekly.com/p/papers-we-love-2-how-do-committees
-tags: ["engineering-culture", "conway-s-law", "organizational-structure", "systems-design", "team-topologies", "academic-papers"]
+cluster: engineering-culture
+tags: ["conways-law", "organizational-design", "system-design", "team-topologies"]
 published: 2024
 timestamp: 2026-07-05
 ---

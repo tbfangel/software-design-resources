@@ -3,7 +3,8 @@ type: article
 title: "Killer Metrics: Or Why You Should Measure Feature Success"
 description: "Organizations build features without defining upfront when to remove them, wasting resources maintaining unused functionality."
 resource: https://www.architecture-weekly.com/p/killer-metrics-or-why-you-should
-tags: ["observability", "feature-metrics", "success-criteria", "technical-debt", "feature-removal", "product-management"]
+cluster: observability
+tags: ["metrics", "technical-debt", "product-management"]
 published: 2024
 timestamp: 2026-07-05
 ---

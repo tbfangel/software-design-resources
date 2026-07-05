@@ -3,7 +3,8 @@ type: article
 title: "Why to Measure and Make Our System Observable"
 description: "Systems operate in an unpredictable world requiring observability to handle complexity."
 resource: https://www.architecture-weekly.com/p/why-to-measure-and-make-our-system
-tags: ["observability", "cynefin-framework", "measurement", "business-metrics", "unknown-unknowns"]
+cluster: observability
+tags: ["complexity", "metrics", "uncertainty"]
 published: 2024
 timestamp: 2026-07-05
 ---

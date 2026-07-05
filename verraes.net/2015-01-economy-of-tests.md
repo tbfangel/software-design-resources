@@ -3,7 +3,8 @@ type: article
 title: "Economy of Tests"
 description: "Testing has different costs and benefits depending on the project stage."
 resource: https://verraes.net/2015/01/economy-of-tests/
-tags: ["software-engineering", "testing-economics", "test-levels", "test-pyramid", "greenfield", "brownfield-projects", "maintenance-costs"]
+cluster: software-engineering
+tags: ["testing", "legacy-systems", "cost-optimization"]
 published: 2015-01
 timestamp: 2026-07-05
 ---

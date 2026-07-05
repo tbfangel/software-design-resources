@@ -3,7 +3,8 @@ type: article
 title: "Opening The Flask"
 description: "Ronacher argues that building a custom micro-framework for your specific application is often better than adopting a pre-built framework."
 resource: https://lucumr.pocoo.org/2010/6/14/opening-the-flask/
-tags: ["web-frameworks-and-apis", "flask", "werkzeug", "wsgi", "micro-frameworks", "url-routing", "decorator-pattern"]
+cluster: web-frameworks-and-apis
+tags: ["web-frameworks", "wsgi", "web-development", "design-patterns"]
 published: 2010-06
 timestamp: 2026-07-05
 ---

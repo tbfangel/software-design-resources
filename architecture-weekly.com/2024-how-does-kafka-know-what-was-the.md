@@ -3,7 +3,8 @@ type: article
 title: "How Does Kafka Know What Was the Last Processed Message?"
 description: "Addresses how Kafka tracks which messages a consumer has already processed after restarts or failures."
 resource: https://www.architecture-weekly.com/p/how-does-kafka-know-what-was-the
-tags: ["messaging-and-kafka", "kafka-offsets", "consumer-offsets", "offset-tracking", "distributed-state", "compacted-topics"]
+cluster: messaging-and-kafka
+tags: ["kafka", "distributed-systems"]
 published: 2024
 timestamp: 2026-07-05
 ---

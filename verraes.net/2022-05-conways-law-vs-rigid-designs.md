@@ -3,7 +3,8 @@ type: article
 title: "Conway's Law Doesn't Apply to Rigid Designs"
 description: "Conway's Law states that system designs mirror organizational communication structures."
 resource: https://verraes.net/2022/05/conways-law-vs-rigid-designs/
-tags: ["messaging-distributed-systems", "conway-s-law", "system-design", "organizational-structure", "inverse-conway-manoeuvre", "rigidity"]
+cluster: messaging-distributed-systems
+tags: ["conways-law", "system-design", "organizational-design"]
 published: 2022-05
 timestamp: 2026-07-05
 ---

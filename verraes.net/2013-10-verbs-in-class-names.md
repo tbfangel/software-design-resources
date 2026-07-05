@@ -3,7 +3,8 @@ type: article
 title: "Verbs in Class Names"
 description: "Classes with verbs in their names express concepts that don't naturally map to nouns."
 resource: https://verraes.net/2013/10/verbs-in-class-names/
-tags: ["software-engineering", "naming", "domain-language", "messages", "commands", "events", "specifications"]
+cluster: software-engineering
+tags: ["naming", "ubiquitous-language", "messaging", "cqrs", "events", "specifications"]
 published: 2013-10
 timestamp: 2026-07-05
 ---

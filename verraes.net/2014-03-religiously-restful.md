@@ -3,7 +3,8 @@ type: article
 title: "Religiously RESTful"
 description: "REST is a protocol with varying maturity levels."
 resource: https://verraes.net/2014/03/religiously-restful/
-tags: ["software-engineering", "rest", "api-design", "maturity-levels", "pragmatism", "http"]
+cluster: software-engineering
+tags: ["rest", "api-design", "pragmatism", "http"]
 published: 2014-03
 timestamp: 2026-07-05
 ---

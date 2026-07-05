@@ -3,7 +3,8 @@ type: article
 title: "Patterns for Decoupling in Distributed Systems: Fat Event"
 description: "Fat Events include redundant information alongside changed values to reduce the burden on consumers."
 resource: https://verraes.net/2019/05/patterns-for-decoupling-distsys-fat-event/
-tags: ["messaging-distributed-systems", "decoupling", "events", "redundancy", "data-enrichment"]
+cluster: messaging-distributed-systems
+tags: ["coupling", "events", "resilience"]
 published: 2019-05
 timestamp: 2026-07-05
 ---

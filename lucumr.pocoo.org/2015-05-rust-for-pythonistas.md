@@ -3,7 +3,8 @@ type: article
 title: "Rust for Python Programmers"
 description: "An introduction to Rust aimed at Python developers."
 resource: https://lucumr.pocoo.org/2015/5/27/rust-for-pythonistas/
-tags: ["rust-language", "rust", "python", "ownership", "error-handling", "unicode", "learning-curve"]
+cluster: rust-language
+tags: ["rust", "python", "ownership", "error-handling", "unicode", "learning"]
 published: 2015-05
 timestamp: 2026-07-05
 ---

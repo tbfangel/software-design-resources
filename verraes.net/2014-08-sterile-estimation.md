@@ -3,7 +3,8 @@ type: article
 title: "Sterile Estimation"
 description: "Inspired by the FAA's \"sterile cockpit\" rule, sterile estimation creates a clean environment for estimating."
 resource: https://verraes.net/2014/08/sterile-estimation/
-tags: ["process-teams-learning", "estimation", "anchoring-bias", "planning", "team-psychology", "estimation-accuracy"]
+cluster: process-teams-learning
+tags: ["estimation", "cognitive-biases", "planning", "team-dynamics"]
 published: 2014-08
 timestamp: 2026-07-05
 ---

@@ -3,7 +3,8 @@ type: article
 title: "Parse, Don't Guess"
 description: "The author initially tried to automatically parse bigints and dates from JSON using regex at the driver level, which caused CPU freezes because the regex ran against every string in every document during deserialization, blocking JavaScript's event loop."
 resource: https://www.architecture-weekly.com/p/parse-dont-guess
-tags: ["databases-and-postgresql", "json-parsing", "schema-versioning", "performance", "typescript", "database-drivers"]
+cluster: databases-and-postgresql
+tags: ["json", "schema-evolution", "performance", "typescript", "databases"]
 published: 2026-03
 timestamp: 2026-07-05
 ---

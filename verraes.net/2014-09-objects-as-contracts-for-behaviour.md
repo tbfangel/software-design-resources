@@ -3,7 +3,8 @@ type: article
 title: "Objects as Contracts for Behaviour"
 description: "Objects should be understood as contracts for behavior, not as containers for data."
 resource: https://verraes.net/2014/09/objects-as-contracts-for-behaviour/
-tags: ["modelling-design-heuristics", "objects", "contracts", "behavior", "encapsulation", "design", "object-oriented-design"]
+cluster: modelling-design-heuristics
+tags: ["object-oriented-design", "api-design", "encapsulation", "software-design"]
 published: 2014-09
 timestamp: 2026-07-05
 ---

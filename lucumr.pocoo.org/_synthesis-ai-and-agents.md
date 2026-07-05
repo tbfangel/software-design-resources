@@ -2,7 +2,7 @@
 type: synthesis
 title: "AI and Agents"
 description: "From 2023 onward, Armin Ronacher became one of the most prolific practitioner-writers on agentic coding and AI-assisted development."
-tags: ["ai-and-agents"]
+cluster: ai-and-agents
 timestamp: 2026-07-05
 ---
 # AI and Agents

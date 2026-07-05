@@ -3,7 +3,8 @@ type: article
 title: "How soon is now in PostgreSQL?"
 description: "Oskar Dudycz traces a subtle bug in Emmett's distributed processor locking where PostgreSQL's `now()` returns the transaction start time rather than wall-clock time, silently breaking retry logic that runs inside a single transaction."
 resource: https://www.architecture-weekly.com/p/how-soon-is-now-in-postgresql
-tags: ["databases-and-postgresql", "postgresql", "now-vs-clock-timestamp", "transaction-semantics", "distributed-locking", "retry-logic", "testing-seams"]
+cluster: databases-and-postgresql
+tags: ["postgresql", "date-time", "databases", "distributed-locking", "resilience", "testing"]
 published: 2026-05
 timestamp: 2026-07-05
 ---

@@ -3,7 +3,8 @@ type: article
 title: "Python and the Principle of Least Astonishment"
 description: "Ronacher argues that Python successfully implements the Principle of Least Astonishment — but only for developers who understand its design philosophy."
 resource: https://lucumr.pocoo.org/2011/7/9/python-and-pola/
-tags: ["python-ecosystem", "python", "api-design", "pola", "special-methods", "len", "join"]
+cluster: python-ecosystem
+tags: ["python", "api-design", "security", "sql"]
 published: 2011-07
 timestamp: 2026-07-05
 ---

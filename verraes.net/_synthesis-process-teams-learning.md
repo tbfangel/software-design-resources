@@ -2,7 +2,7 @@
 type: synthesis
 title: "Process, Technical Debt & Learning"
 description: "This cluster explores the intersection of technical debt management, team learning, and organizational change."
-tags: ["process-teams-learning"]
+cluster: process-teams-learning
 timestamp: 2026-07-05
 ---
 # Process, Technical Debt & Learning

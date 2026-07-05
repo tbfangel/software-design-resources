@@ -3,7 +3,8 @@ type: article
 title: "A Functional Foundation for CQRS/ES"
 description: "This article describes CQRS architecture as a set of composable functions grounded in functional programming concepts."
 resource: https://verraes.net/2014/05/functional-foundation-for-cqrs-event-sourcing/
-tags: ["event-sourcing-cqrs", "functional-programming", "cqrs", "command-query-separation", "pure-functions", "architecture"]
+cluster: event-sourcing-cqrs
+tags: ["functional-programming", "cqrs", "command-query-separation", "software-architecture"]
 published: 2014-05
 timestamp: 2026-07-05
 ---

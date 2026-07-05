@@ -3,7 +3,8 @@ type: article
 title: "Beautiful Native Libraries"
 description: "Ronacher's guide to writing shared native libraries in C or C++."
 resource: https://lucumr.pocoo.org/2013/8/18/beautiful-native-libraries/
-tags: ["software-design-philosophy", "c", "native-libraries", "abi-stability", "api-design", "symbol-management", "testing"]
+cluster: software-design-philosophy
+tags: ["programming", "rust", "backwards-compatibility", "api-design", "testing"]
 published: 2013-08
 timestamp: 2026-07-05
 ---

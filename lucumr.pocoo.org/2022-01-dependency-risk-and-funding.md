@@ -3,7 +3,8 @@ type: article
 title: "Dependency Risk and Funding"
 description: "Ronacher argues that open source funding discussions concentrate on the wrong packages — those that gained visibility through package manager dependency counts."
 resource: https://lucumr.pocoo.org/2022/1/10/dependency-risk-and-funding/
-tags: ["open-source-philosophy", "dependencies", "funding", "visibility-bias", "curl", "npm", "true-criticality"]
+cluster: open-source-philosophy
+tags: ["dependencies", "open-source-funding", "cognitive-biases", "javascript", "supply-chain-security"]
 published: 2022-01
 timestamp: 2026-07-05
 ---

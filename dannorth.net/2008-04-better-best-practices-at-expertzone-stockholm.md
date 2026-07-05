@@ -3,7 +3,8 @@ type: conference announcement
 title: "Better Best Practices at ExpertZone Stockholm"
 description: "North announced speaking at ExpertZone Developer Summit in Stockholm, presenting on best practices within the \"People Matters Too\" track."
 resource: https://dannorth.net/blog/better-best-practices-at-expertzone-stockholm/
-tags: ["learning-expertise", "best-practices", "events", "learning", "talks"]
+cluster: learning-expertise
+tags: ["best-practices", "events", "learning"]
 published: 2008-04
 timestamp: 2026-07-05
 ---

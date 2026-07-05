@@ -3,7 +3,8 @@ type: article
 title: "The \"It's Just Like...\" Heuristic"
 description: "When encountering a new domain, designers often anchor on familiar patterns: \"it's just like e-commerce\" or \"it's just like the banking system.\" While analogies are useful mental shortcuts, they can also trap thinking."
 resource: https://verraes.net/2021/05/its-just-like-heuristic/
-tags: ["modelling-design-heuristics", "heuristics", "analogy", "metaphor", "learning", "conceptual-models", "mental-shortcuts"]
+cluster: modelling-design-heuristics
+tags: ["heuristics", "learning", "domain-modelling", "cognitive-biases"]
 published: 2021-05
 timestamp: 2026-07-05
 ---

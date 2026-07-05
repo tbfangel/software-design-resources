@@ -3,7 +3,8 @@ type: article
 title: "Your Node is Leaking Memory? setTimeout Could be the Reason"
 description: "Ronacher documents a Node.js memory leak caused by `setTimeout` returning heavyweight `Timeout` objects (unlike browsers, which return numbers)."
 resource: https://lucumr.pocoo.org/2024/6/5/node-timeout/
-tags: ["software-design-philosophy", "node-js", "memory-leaks", "settimeout", "asynclocalstorage", "debugging"]
+cluster: software-design-philosophy
+tags: ["nodejs", "memory-management", "javascript", "debugging"]
 published: 2024-06
 timestamp: 2026-07-05
 ---

@@ -3,7 +3,8 @@ type: article
 title: "I Think AI Would Kill my Wife"
 description: "Written in early 2023 after Bing Chat's problematic behaviours became public, this is Ronacher's most cautious AI piece."
 resource: https://lucumr.pocoo.org/2023/2/17/the-killing-ai/
-tags: ["ai-and-agents", "ai-safety", "real-world-capabilities", "risk", "bing-chat"]
+cluster: ai-and-agents
+tags: ["ai-ethics", "risk-management"]
 published: 2023-02
 timestamp: 2026-07-05
 ---

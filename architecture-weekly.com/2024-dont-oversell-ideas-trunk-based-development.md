@@ -3,7 +3,8 @@ type: article
 title: "Don't Oversell Ideas: Trunk-Based Development Edition"
 description: "Argues against oversimplifying software development practices through catchy advice, specifically critiquing how trunk-based development is marketed as a universal solution while ignoring organizational complexity."
 resource: https://www.architecture-weekly.com/p/dont-oversell-ideas-trunk-based-development
-tags: ["engineering-culture", "trunk-based-development", "pull-requests", "development-practices", "trade-offs", "simplification"]
+cluster: engineering-culture
+tags: ["version-control", "code-review", "best-practices", "trade-offs", "simplicity"]
 published: 2024
 timestamp: 2026-07-05
 ---

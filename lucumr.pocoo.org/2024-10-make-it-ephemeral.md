@@ -3,7 +3,8 @@ type: article
 title: "Make It Ephemeral: Software Should Decay and Lose Data"
 description: "Ronacher argues that software should deliberately delete data over time rather than preserve everything indefinitely."
 resource: https://lucumr.pocoo.org/2024/10/30/make-it-ephemeral/
-tags: ["software-design-philosophy", "ephemerality", "data-decay", "design-philosophy", "shared-workspaces", "ux"]
+cluster: software-design-philosophy
+tags: ["design-philosophy", "collaboration"]
 published: 2024-10
 timestamp: 2026-07-05
 ---

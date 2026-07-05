@@ -3,7 +3,8 @@ type: article
 title: "A Better Way to Borrow in Rust: Stack Tokens"
 description: "Ronacher proposes stack tokens — zero-sized types constructable only via a macro on the stack — as a solution to the \"rightward drift\" problem with thread-locals."
 resource: https://lucumr.pocoo.org/2022/11/23/stack-tokens/
-tags: ["rust-language", "rust", "lifetimes", "stack-tokens", "thread-locals", "borrow-checker", "soundness"]
+cluster: rust-language
+tags: ["rust", "concurrency", "type-systems"]
 published: 2022-11
 timestamp: 2026-07-05
 ---

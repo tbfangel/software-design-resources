@@ -3,7 +3,8 @@ type: article
 title: "The Order of Things: Why You Can't Have Both Speed and Strict Ordering"
 description: "Distributed systems cannot simultaneously optimize for both global ordering and high performance—this is a fundamental constraint, not an engineering oversight."
 resource: https://www.architecture-weekly.com/p/the-order-of-things-why-you-cant
-tags: ["distributed-systems", "ordering", "performance-tradeoffs", "cap-theorem", "coordination-costs", "eventual-consistency"]
+cluster: distributed-systems
+tags: ["message-processing", "performance", "distributed-systems", "organizational-design", "eventual-consistency"]
 published: 2024
 timestamp: 2026-07-05
 ---

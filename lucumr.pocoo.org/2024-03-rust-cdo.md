@@ -3,7 +3,8 @@ type: article
 title: "On Tech Debt: My Rust Library is now a CDO"
 description: "A satirical treatment of how MiniJinja's API has accumulated layers of \"financial engineering\" — wrapper types, re-exports, trait aliases, and compatibility shims — that obscure the underlying architecture."
 resource: https://lucumr.pocoo.org/2024/3/26/rust-cdo/
-tags: ["rust-language", "rust", "tech-debt", "api-evolution", "minijinja", "humour"]
+cluster: rust-language
+tags: ["rust", "technical-debt", "api-design", "template-engines"]
 published: 2024-03
 timestamp: 2026-07-05
 ---

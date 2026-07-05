@@ -3,7 +3,8 @@ type: presentation
 title: "Why Domain-Driven Design Matters"
 description: "This conference presentation explores what makes DDD so enduring ten years after Eric Evans' foundational book, despite the rapid churn in software methodologies."
 resource: https://verraes.net/2014/05/why-domain-driven-design-matters/
-tags: ["ddd-foundations", "ddd-rationale", "patterns", "modeling-techniques", "complexity", "design-philosophy", "hexagonal-architecture", "cqrs"]
+cluster: ddd-foundations
+tags: ["domain-driven-design", "design-patterns", "domain-modelling", "complexity", "design-philosophy", "software-architecture", "cqrs"]
 published: 2014-05
 timestamp: 2026-07-05
 ---

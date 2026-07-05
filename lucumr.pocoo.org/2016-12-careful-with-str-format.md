@@ -3,7 +3,8 @@ type: article
 title: "Be Careful with Python's New-Style String Format"
 description: "Ronacher warns that Python's `.format()` method is vulnerable to format string injection when processing untrusted input."
 resource: https://lucumr.pocoo.org/2016/12/29/careful-with-str-format/
-tags: ["python-ecosystem", "python", "str-format", "security", "attribute-access", "format-string-injection"]
+cluster: python-ecosystem
+tags: ["python", "security"]
 published: 2016-12
 timestamp: 2026-07-05
 ---

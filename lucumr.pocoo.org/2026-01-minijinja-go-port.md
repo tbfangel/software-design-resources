@@ -3,7 +3,8 @@ type: article
 title: "Porting MiniJinja to Go With an Agent"
 description: "Ronacher documents using an AI agent to port MiniJinja (a Rust template engine) to Go in 10 hours, with only 45 minutes of active human involvement."
 resource: https://lucumr.pocoo.org/2026/1/14/minijinja-go-port/
-tags: ["ai-and-agents", "agentic-coding", "code-porting", "test-driven-development", "go", "rust"]
+cluster: ai-and-agents
+tags: ["agentic-coding", "migration", "tdd", "go", "rust"]
 published: 2026-01
 timestamp: 2026-07-05
 ---

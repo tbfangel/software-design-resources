@@ -3,7 +3,8 @@ type: article
 title: "Eventsourcing Patterns: Forgettable Payloads"
 description: "The Forgettable Payloads pattern removes sensitive information from event definitions and stores it in a separate database, with the event containing only a reference or URL."
 resource: https://verraes.net/2019/05/eventsourcing-patterns-forgettable-payloads/
-tags: ["event-sourcing-cqrs", "sensitive-data", "payload-storage", "gdpr", "access-control", "data-deletion"]
+cluster: event-sourcing-cqrs
+tags: ["data-privacy", "storage", "gdpr", "security"]
 published: 2019-05
 timestamp: 2026-07-05
 ---

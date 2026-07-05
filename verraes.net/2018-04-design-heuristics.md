@@ -3,7 +3,8 @@ type: presentation (slides)
 title: "Design Heuristics"
 description: "Presentation introducing the concept of design heuristics—practical rules of thumb that guide design decisions without being absolute laws."
 resource: https://verraes.net/2018/04/design-heuristics/
-tags: ["modelling-design-heuristics", "heuristics", "design-principles", "decision-making", "software-design"]
+cluster: modelling-design-heuristics
+tags: ["heuristics", "design-principles", "decision-making", "software-design"]
 published: 2018-04
 timestamp: 2026-07-05
 ---

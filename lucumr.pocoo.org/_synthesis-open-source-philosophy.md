@@ -2,7 +2,7 @@
 type: synthesis
 title: "Open Source Philosophy"
 description: "Armin Ronacher has been embedded in the open source world since the mid-2000s as the creator of Flask, Werkzeug, Jinja2, and Rye, and as an engineering leader at Sentry."
-tags: ["open-source-philosophy"]
+cluster: open-source-philosophy
 timestamp: 2026-07-05
 ---
 # Open Source Philosophy

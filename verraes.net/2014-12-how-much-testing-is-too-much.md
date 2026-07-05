@@ -3,7 +3,8 @@ type: article
 title: "How Much Testing is Too Much?"
 description: "Code coverage is a poor metric for quality—it only measures what was executed, not whether outcomes were tested."
 resource: https://verraes.net/2014/12/how-much-testing-is-too-much/
-tags: ["software-engineering", "code-coverage", "tdd-experimentation", "test-metrics", "over-design", "test-maintenance"]
+cluster: software-engineering
+tags: ["testing", "tdd", "complexity"]
 published: 2014-12
 timestamp: 2026-07-05
 ---
