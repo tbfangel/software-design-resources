@@ -9,7 +9,7 @@ title: "Software Design Resources"
 
 ## Sections
 
-- [Mathias Verraes](/verraes.net/index.md) — 125 cards
+- [Mathias Verraes](/verraes.net/index.md) — 124 cards
 - [Dan North](/dannorth.net/index.md) — 38 cards
 - [Oskar Dudycz / Architecture Weekly](/architecture-weekly.com/index.md) — 79 cards
 - [Armin Ronacher](/lucumr.pocoo.org/index.md) — 155 cards

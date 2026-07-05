@@ -39,4 +39,3 @@ timestamp: 2026-07-05
 - [Systemantics - The Systems Bible](/verraes.net/2013-08-john-gall-systemantics-the-systems-bible.md)
 - [Submitting talks to a tech conference Call for Papers](/verraes.net/2025-06-submitting-talks-to-conference-cfps.md)
 - [Lightning Talks](/verraes.net/2016-05-lightning-talks.md)
-- [Submitting talks to a tech conference](/verraes.net/2025-06-submitting-talks-to-conference-cfps-2.md)

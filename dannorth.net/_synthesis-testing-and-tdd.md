@@ -11,7 +11,7 @@ timestamp: 2026-07-05
 
 # Testing & TDD
 
-> Part of the [Dan North overview](_synthesis-index.md)
+> Part of the [Dan North overview](index.md)
 
 This cluster explores testing practices, frameworks, and philosophy beyond the BDD methodology, including TDD approaches, testing tools, and the relationship between testing and development.
 

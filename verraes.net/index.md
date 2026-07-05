@@ -181,7 +181,6 @@ Several posts form explicit series — these are especially worth reading in seq
 - [The Repair/Replace Heuristic for Legacy Software](2016-04-repair-replace-heuristic-for-legacy-software.md)
 - [Lightning Talks](2016-05-lightning-talks.md)
 - [The Wall of Technical Debt](2020-01-wall-of-technical-debt.md)
-- [Submitting talks to a tech conference](2025-06-submitting-talks-to-conference-cfps-2.md)
 - [Submitting talks to a tech conference Call for Papers](2025-06-submitting-talks-to-conference-cfps.md)
 
 ### software-engineering  ·  [synthesis](_synthesis-software-engineering.md)

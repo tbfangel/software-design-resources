@@ -11,7 +11,7 @@ timestamp: 2026-07-05
 
 # Career & Reflections
 
-> Part of the [Dan North overview](_synthesis-index.md)
+> Part of the [Dan North overview](index.md)
 
 This cluster includes personal reflections, career milestones, and practical advice on professional development, speaking, and interviewing.
 

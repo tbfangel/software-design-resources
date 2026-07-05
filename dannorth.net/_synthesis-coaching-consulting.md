@@ -11,7 +11,7 @@ timestamp: 2026-07-05
 
 # Coaching & Consulting
 
-> Part of the [Dan North overview](_synthesis-index.md)
+> Part of the [Dan North overview](index.md)
 
 This cluster captures North's consulting and coaching practices, including techniques for engaging with teams and organizations effectively.
 

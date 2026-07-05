@@ -11,7 +11,7 @@ timestamp: 2026-07-05
 
 # Agile Delivery & Flow
 
-> Part of the [Dan North overview](_synthesis-index.md)
+> Part of the [Dan North overview](index.md)
 
 This cluster focuses on lean software delivery, flow, throughput, and organizational effectiveness, emphasizing value delivery over process adherence. North's writing includes influential parables about work in process, metrics, and team dynamics.
 
