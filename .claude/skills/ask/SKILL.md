@@ -5,54 +5,42 @@ description: Query the software design knowledge base for insights from practiti
 
 The user is querying the knowledge base with: **$ARGUMENTS**
 
-Your task is to search the knowledge base and provide a comprehensive answer.
+This repository is an **OKF (Open Knowledge Format) bundle** — a tree of Markdown concept cards, one
+per blog post, with YAML frontmatter (`type`, `title`, `resource`, `tags`, `published`). See `CLAUDE.md`
+for the schema. Your task is to search these cards and give a well-cited answer.
 
-## Knowledge base structure
+## Bundle structure (what you're searching)
 
-This repository contains curated summaries from software design practitioners:
-- One folder per practitioner/site (e.g., `dannorth.net/`, `verraes.net/`)
-- Each folder contains an `overview.md` and thematic cluster files
-- Cluster files include post summaries, tags, and synthesized "Key Insights"
-- README.md at the root lists all practitioners
+- Bundle root `index.md` (declares `okf_version`) lists the site sections.
+- One folder per practitioner/site (e.g. `verraes.net/`, `dannorth.net/`).
+- Each site folder holds:
+  - `index.md` — site intro + a listing of its cards grouped by cluster-tag.
+  - `_synthesis-<cluster>.md` — a `type: synthesis` card with cross-post **Key Insights** for a cluster.
+  - `YYYY-MM-<slug>.md` — one concept card per post: `## Key Facts`, `## Summary`, `## Links`, `## Related`.
 
 ## Search approach
 
-1. **Discover available content**:
-   - Start by checking README.md to see which practitioners are covered
-   - Each practitioner's overview.md shows their thematic clusters
+1. **Orient**: skim the root `index.md` and relevant site `index.md` files to see what's covered.
+2. **Search cards** with Grep (case-insensitive), across all `*.md`:
+   - Match query terms in card bodies **and** in frontmatter `tags:` / `title:`.
+   - The cluster slug is `tags[0]` — e.g. search `tags:.*event-sourcing` to pull a whole cluster.
+   - Read the `_synthesis-<cluster>.md` cards first for the distilled cross-post view, then drill into
+     individual post cards for specifics.
+3. **Read** the matching cards: `## Key Facts` give the quick answer; `## Summary` adds depth; frontmatter
+   gives `type`, `published`, and the `resource` URL to cite. Follow `## Related` links to adjacent cards.
+4. **Go to source only if needed**: if a card is too thin, WebFetch its `resource` URL.
 
-2. **Search for relevant content** using Grep:
-   - Extract key terms from the user's query
-   - Search across all markdown files for those terms (case-insensitive)
-   - Use context (-C flag) to get surrounding content
-   - Look in both post summaries and "Key Insights" sections
+## Synthesise the answer
 
-3. **Read relevant sections** in detail:
-   - When you find matches, read the full cluster files
-   - Pay attention to Key Insights sections (synthesized cross-post themes)
-   - Look for connections and cross-references
+- Organise by practitioner (`## Practitioner Name`); note where they agree, disagree, or complement.
+- Cite specific cards as links: **[Post Title](resource-url)** plus the card's key facts.
+- Quote the `## Key Facts` bullets that directly address the query.
+- Acknowledge gaps: if no card covers something, say so. Note stale `published` dates when relevant.
+- Be comprehensive but scannable; bold key concepts.
 
-4. **Synthesize the answer**:
-   - Organize by practitioner (clearly separate sources)
-   - Include specific post titles with links when citing ideas
-   - Quote key takeaways that directly address the query
-   - Highlight where practitioners agree, disagree, or complement each other
-   - Note if a topic is covered by only one practitioner
+## Cite sources
 
-5. **Format the response**:
-   - Use clear headings (## Practitioner Name)
-   - Include post titles as links: **[Post Title](URL)**
-   - Use bullet points for key takeaways
-   - Add a summary section if synthesizing across multiple sources
-   - Keep it scannable with bold for key concepts
+State which cards (by title / concept ID) and/or `resource` URLs the answer came from. Don't answer
+from memory when the bundle covers the topic — check the cards first.
 
-## Quality guidelines
-
-- **Be comprehensive**: Search thoroughly across all practitioners
-- **Cite sources**: Always reference specific posts, not just "X says..."
-- **Show connections**: If the query relates to multiple topics, show how they connect
-- **Acknowledge gaps**: If no practitioner has written about something, say so clearly
-- **Be concise**: Summarize well, but include enough detail to be useful
-- **Adapt to growth**: As new practitioners are added, include them naturally in your search
-
-Now search the knowledge base and answer the user's query.
+Now search the cards and answer the user's query.
