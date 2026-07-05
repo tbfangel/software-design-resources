@@ -3,7 +3,8 @@ type: article
 title: "Announcing Strictland - new contract testing library for message compatibility"
 description: "Oskar Dudycz introduces Strictland, a lightweight JVM contract-testing library for verifying message compatibility without the operational weight of tools like Pact or Spring Cloud Contract."
 resource: https://www.architecture-weekly.com/p/announcing-strictland-new-contract
-tags: ["messaging-and-kafka", "contract-testing", "message-compatibility", "schema-evolution", "jvm", "snapshot-testing", "open-source"]
+cluster: messaging-and-kafka
+tags: ["testing", "schema-evolution", "open-source"]
 published: 2026-06
 timestamp: 2026-07-05
 ---

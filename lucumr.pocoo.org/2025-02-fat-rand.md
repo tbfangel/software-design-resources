@@ -3,7 +3,8 @@ type: article
 title: "Fat Rand: How Many Lines Do You Need To Generate A Random Number?"
 description: "Ronacher critiques the `rand` crate for dependency bloat: v0.9.0 pulls in 29 vendored crates totaling 62 MB and 209,150 lines of code, takes 4.3 seconds to compile on an M1 Max, and produces 36 MB of compiler artifacts."
 resource: https://lucumr.pocoo.org/2025/2/4/fat-rand/
-tags: ["rust-language", "rust", "rand-crate", "dependencies", "compilation-overhead", "auditability"]
+cluster: rust-language
+tags: ["rust", "dependencies", "compilers", "auditing"]
 published: 2025-02
 timestamp: 2026-07-05
 ---

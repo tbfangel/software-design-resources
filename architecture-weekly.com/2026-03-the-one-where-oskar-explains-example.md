@@ -3,7 +3,8 @@ type: article
 title: "The one where Oskar explains Example Mapping"
 description: "Oskar Dudycz introduces Example Mapping, a structured conversation technique for breaking down user stories through concrete examples."
 resource: https://www.architecture-weekly.com/p/the-one-where-oskar-explains-example
-tags: ["engineering-culture", "example-mapping", "behavior-driven-design", "collaboration", "requirements-discovery", "facilitation", "given-when-then"]
+cluster: engineering-culture
+tags: ["bdd", "collaboration", "requirements", "facilitation"]
 published: 2026-03
 timestamp: 2026-07-05
 ---

@@ -3,7 +3,8 @@ type: article
 title: "Skin in the Game"
 description: "Ronacher examines the asymmetry between maintainers (identifiable, legally responsible, psychologically invested) and many contributors (anonymous, unaccountable)."
 resource: https://lucumr.pocoo.org/2024/3/31/skin-in-the-game/
-tags: ["open-source-philosophy", "open-source-accountability", "pseudonymity", "copyright", "xz-utils", "maintainer-stress"]
+cluster: open-source-philosophy
+tags: ["open-source", "data-privacy", "open-source-licensing", "supply-chain-security", "burnout"]
 published: 2024-03
 timestamp: 2026-07-05
 ---

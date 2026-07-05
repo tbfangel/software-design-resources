@@ -3,7 +3,8 @@ type: book review
 title: "Switch - How to Change Things When Change Is Hard"
 description: "A review of Chip and Dan Heath's \"Switch,\" which models change as directing a Rider (logic), motivating an Elephant (emotion), and shaping the Path (environment)."
 resource: https://verraes.net/2013/08/chip-dan-heath-switch/
-tags: ["process-teams-learning", "organizational-change", "motivation", "identity", "environment", "growth-mindset"]
+cluster: process-teams-learning
+tags: ["organizational-change", "productivity", "learning"]
 published: 2013-08
 timestamp: 2026-07-05
 ---

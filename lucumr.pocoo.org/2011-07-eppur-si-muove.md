@@ -3,7 +3,8 @@ type: article
 title: "Eppur si muove! – Dealing with Timezones in Python"
 description: "Ronacher documents Python's timezone handling problems and provides actionable guidance."
 resource: https://lucumr.pocoo.org/2011/7/15/eppur-si-muove/
-tags: ["python-ecosystem", "python", "timezones", "datetime", "pytz", "utc", "best-practices"]
+cluster: python-ecosystem
+tags: ["python", "date-time", "best-practices"]
 published: 2011-07
 timestamp: 2026-07-05
 ---

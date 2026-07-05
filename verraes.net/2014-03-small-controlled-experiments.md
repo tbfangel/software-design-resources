@@ -3,7 +3,8 @@ type: article
 title: "Small Uncontrolled Experiments"
 description: "Instead of debating how to improve, run small experiments."
 resource: https://verraes.net/2014/03/small-controlled-experiments/
-tags: ["process-teams-learning", "continuous-improvement", "pdca", "kaizen", "team-experimentation", "organizational-learning"]
+cluster: process-teams-learning
+tags: ["continuous-improvement", "team-dynamics", "organizational-design"]
 published: 2014-03
 timestamp: 2026-07-05
 ---

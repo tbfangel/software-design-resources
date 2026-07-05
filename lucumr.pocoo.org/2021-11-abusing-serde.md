@@ -3,7 +3,8 @@ type: article
 title: "Rust Adventures: Abusing Serde"
 description: "Ronacher documents three creative uses of Serde beyond its intended purpose: using serialisation as a reflection mechanism to expose Rust structs to template engines (MiniJinja); passing out-of-band data through thread-local storage with in-band handle references to work around Serde's data model limitations; and inter-process communication passing file descriptors."
 resource: https://lucumr.pocoo.org/2021/11/14/abusing-serde/
-tags: ["rust-language", "rust", "serde", "reflection", "template-engines", "minijinja", "thread-local-hacks"]
+cluster: rust-language
+tags: ["rust", "python", "template-engines"]
 published: 2021-11
 timestamp: 2026-07-05
 ---

@@ -3,7 +3,8 @@ type: article
 title: "Bandwidth and Context Mapping"
 description: "This article introduces Bandwidth as a missing dimension in context mapping."
 resource: https://verraes.net/2014/01/bandwidth-and-context-mapping/
-tags: ["bounded-contexts", "context-mapping", "organizational-patterns", "communication-bandwidth", "conway-s-law"]
+cluster: bounded-contexts
+tags: ["context-mapping", "organizational-design", "communication", "conways-law"]
 published: 2014-01
 timestamp: 2026-07-05
 ---

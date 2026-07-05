@@ -3,7 +3,8 @@ type: presentation (slides/video)
 title: "Modelling Heuristics"
 description: "Presentation distilling heuristics for better domain modelling."
 resource: https://verraes.net/2014/11/modelling-heuristics/
-tags: ["modelling-design-heuristics", "heuristics", "domain-modelling", "ddd", "pattern-recognition", "design-guidelines"]
+cluster: modelling-design-heuristics
+tags: ["heuristics", "domain-modelling", "domain-driven-design"]
 published: 2014-11
 timestamp: 2026-07-05
 ---

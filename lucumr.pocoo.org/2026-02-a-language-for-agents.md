@@ -3,7 +3,8 @@ type: article
 title: "A Language For Agents"
 description: "Ronacher argues that new programming languages will emerge specifically optimised for AI agents, not humans."
 resource: https://lucumr.pocoo.org/2026/2/9/a-language-for-agents/
-tags: ["ai-and-agents", "programming-language-design", "agents", "explicitness", "type-systems"]
+cluster: ai-and-agents
+tags: ["language-design", "ai-agents", "explicit-vs-implicit", "type-systems"]
 published: 2026-02
 timestamp: 2026-07-05
 ---

@@ -3,7 +3,8 @@ type: article
 title: "Workflow Engine Design Proposal for Emmett"
 description: "Building durable, observable multi-step business processes requires handling failure recovery, state management, and visibility."
 resource: https://www.architecture-weekly.com/p/workflow-engine-design-proposal-tell
-tags: ["distributed-systems", "workflow-engines", "event-sourcing", "state-management", "temporal", "actor-model", "durable-execution"]
+cluster: distributed-systems
+tags: ["workflows", "event-sourcing", "state-management", "durable-execution", "actor-model"]
 published: 2024
 timestamp: 2026-07-05
 ---

@@ -3,7 +3,8 @@ type: article
 title: "How simple is too simple?"
 description: "North addresses the fundamental design debate between building specifically for current needs versus abstractly for future flexibility."
 resource: https://dannorth.net/blog/how-simple-is-too-simple/
-tags: ["software-design-architecture", "agile", "complexity", "programming", "simplicity"]
+cluster: software-design-architecture
+tags: ["agile", "complexity", "programming", "simplicity"]
 published: 2006-05
 timestamp: 2026-07-05
 ---

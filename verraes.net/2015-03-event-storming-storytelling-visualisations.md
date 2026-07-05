@@ -3,7 +3,8 @@ type: article
 title: "Event Storming, Storytelling, Visualisations"
 description: "This post explores how Event Storming can be adapted as a presentation technique for requirements gathering and highlights the importance of visualization when modeling complex domains."
 resource: https://verraes.net/2015/03/event-storming-storytelling-visualisations/
-tags: ["event-storming", "visualisation", "storytelling", "domain-events", "model-discovery", "presentation-techniques", "workshop-facilitation"]
+cluster: event-storming
+tags: ["visualization", "storytelling", "domain-events", "domain-modelling", "public-speaking", "facilitation"]
 published: 2015-03
 timestamp: 2026-07-05
 ---

@@ -3,7 +3,8 @@ type: article
 title: "The Center Has a Bias"
 description: "Ronacher argues that technology debates create a misleading perception of neutrality among moderate voices."
 resource: https://lucumr.pocoo.org/2026/4/11/the-center-has-a-bias/
-tags: ["ai-and-agents", "ai-adoption", "technology-discourse", "critical-thinking", "coding-agents", "polarization", "engagement"]
+cluster: ai-and-agents
+tags: ["ai-adoption", "critical-thinking", "ai-agents"]
 published: 2026-04
 timestamp: 2026-07-05
 ---

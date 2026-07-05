@@ -3,7 +3,8 @@ type: article
 title: "What Actually Is Claude Code's Plan Mode?"
 description: "Ronacher reverse-engineers Claude Code's plan mode and finds it is primarily a UX wrapper around prompt injection — a markdown file stored in a designated folder, with the agent constrained to read-only tools until the plan is approved."
 resource: https://lucumr.pocoo.org/2025/12/17/what-is-plan-mode/
-tags: ["ai-and-agents", "claude-code", "plan-mode", "prompt-engineering", "agentic-workflows"]
+cluster: ai-and-agents
+tags: ["claude-code", "agentic-coding"]
 published: 2025-12
 timestamp: 2026-07-05
 ---

@@ -3,7 +3,8 @@ type: article
 title: "Eventsourcing Patterns: Migration Events in a Ghost Context"
 description: "When replacing a legacy system with an eventsourced one, there's typically insufficient historical data in the legacy system to reconstruct the real history of domain events."
 resource: https://verraes.net/2019/06/eventsourcing-patterns-migration-events-ghost-context/
-tags: ["event-sourcing-cqrs", "legacy-migration", "bounded-contexts", "ghost-context", "conformist-pattern", "domain-modeling"]
+cluster: event-sourcing-cqrs
+tags: ["legacy-systems", "bounded-contexts", "context-mapping", "domain-modelling"]
 published: 2019-06
 timestamp: 2026-07-05
 ---

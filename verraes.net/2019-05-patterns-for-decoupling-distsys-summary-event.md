@@ -3,7 +3,8 @@ type: article
 title: "Patterns for Decoupling in Distributed Systems: Summary Event"
 description: "Instead of emitting many events during a process, emit a single Summary Event at the end containing only the final result."
 resource: https://verraes.net/2019/05/patterns-for-decoupling-distsys-summary-event/
-tags: ["messaging-distributed-systems", "decoupling", "events", "projections", "consumer-coupling"]
+cluster: messaging-distributed-systems
+tags: ["coupling", "events", "projections"]
 published: 2019-05
 timestamp: 2026-07-05
 ---

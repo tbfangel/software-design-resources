@@ -3,7 +3,8 @@ type: article
 title: "Business Won't Let Me and Other Lies We Tell Ourselves"
 description: "Challenges developers who blame \"business\" for poor technical decisions, arguing this excuse reflects responsibility-avoidance rather than legitimate constraints."
 resource: https://www.architecture-weekly.com/p/business-wont-let-me-and-other-lies
-tags: ["engineering-culture", "professional-responsibility", "technical-decisions", "communication", "accountability"]
+cluster: engineering-culture
+tags: ["accountability", "decision-making", "communication"]
 published: 2024
 timestamp: 2026-07-05
 ---

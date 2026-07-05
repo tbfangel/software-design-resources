@@ -3,7 +3,8 @@ type: article
 title: "My Thoughts on Vertical Slices, CQRS, and Semantic Diffusion"
 description: "Architectural patterns like CQRS and Vertical Slices Architecture (VSA) have become corrupted through \"semantic diffusion\" where original meanings get diluted as ideas spread."
 resource: https://www.architecture-weekly.com/p/my-thoughts-on-vertical-slices-cqrs
-tags: ["architecture-patterns", "vertical-slices-architecture", "cqrs", "semantic-diffusion", "modularity", "feature-organization"]
+cluster: architecture-patterns
+tags: ["software-architecture", "cqrs", "modularity"]
 published: 2025-09
 timestamp: 2026-07-05
 ---

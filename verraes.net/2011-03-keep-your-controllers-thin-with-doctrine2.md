@@ -3,7 +3,8 @@ type: article
 title: "Keep Your Controllers Thin with Doctrine2"
 description: "Doctrine2's repository pattern abstracts persistence, preventing controller coupling to database details."
 resource: https://verraes.net/2011/03/keep-you-controllers-thin-with-doctrine2/
-tags: ["software-engineering", "repositories", "doctrine2", "separation-of-concerns", "domain-language", "query-encapsulation"]
+cluster: software-engineering
+tags: ["repositories", "orm", "separation-of-concerns", "ubiquitous-language"]
 published: 2011-03
 timestamp: 2026-07-05
 ---

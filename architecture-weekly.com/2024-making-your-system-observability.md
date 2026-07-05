@@ -3,7 +3,8 @@ type: article
 title: "Making Your System Observability Predictable"
 description: "Most teams treat observability as an afterthought, adding auto-instrumentation just before production without ensuring predictable, testable telemetry data."
 resource: https://www.architecture-weekly.com/p/making-your-system-observability
-tags: ["observability", "opentelemetry", "test-driven-instrumentation", "telemetry-testing", "spans", "metrics"]
+cluster: observability
+tags: ["opentelemetry", "observability", "metrics"]
 published: 2024
 timestamp: 2026-07-05
 ---

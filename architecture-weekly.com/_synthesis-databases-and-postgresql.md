@@ -2,7 +2,7 @@
 type: synthesis
 title: "PostgreSQL & Database Patterns"
 description: "This cluster explores PostgreSQL-specific features and patterns, database design tradeoffs, query complexity management, JSONB for semi-structured data, write-ahead logs, and unconventional uses of cloud storage as database foundations."
-tags: ["databases-and-postgresql"]
+cluster: databases-and-postgresql
 timestamp: 2026-07-05
 ---
 # PostgreSQL & Database Patterns

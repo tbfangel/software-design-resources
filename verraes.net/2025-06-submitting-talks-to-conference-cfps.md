@@ -3,7 +3,8 @@ type: article
 title: "Submitting talks to a tech conference Call for Papers"
 description: "Advice for conference talk submissions based on 10 years reviewing CFP submissions."
 resource: https://verraes.net/2025/06/submitting-talks-to-conference-cfps/
-tags: ["process-teams-learning", "public-speaking", "conference-submissions", "writing", "communication", "knowledge-sharing"]
+cluster: process-teams-learning
+tags: ["public-speaking", "communication", "knowledge-sharing"]
 published: 2025-06
 timestamp: 2026-07-05
 ---

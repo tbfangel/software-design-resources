@@ -14,54 +14,29 @@ software-design-resources/          <- OKF bundle root
 ├── README.md                       # human-facing entry point
 ├── CLAUDE.md                       # this file — entry point + schema for Claude
 ├── SOURCES.md                      # /sync config: tracked sources
+├── docs/                           # bundle docs (not a site): schema.md, topics.md
 └── <site>/                         # one folder per author/site (e.g. verraes.net)
-    ├── index.md                    # reserved: site intro + listing of the site's cards by cluster-tag
+    ├── index.md                    # reserved: site intro + listing of the site's cards by cluster
     ├── _synthesis-<cluster>.md     # one synthesis card per cluster (type: synthesis) — cross-post "Key Insights"
     └── YYYY-MM-<slug>.md           # one concept card per post (chronological lex-sort)
 ```
 
 The old `overview.md` + `<cluster>.md` layout has been fully migrated to this format.
 
-## Concept card schema (house style — authoritative over generic OKF guidance)
+## Concept card schema
 
-```markdown
----
-type: article            # REQUIRED. The post medium: article | presentation | podcast (or synthesis for cluster cards)
-title: "Post Title"
-description: "One-sentence summary (mirrors the > lead line)."
-resource: https://…      # canonical URL of the source post
-tags: ["<cluster-slug>", "topic-1", "topic-2"]   # cluster-slug FIRST, then topic tags
-published: YYYY-MM        # original publication (month precision)
-timestamp: YYYY-MM-DD     # last meaningful change to the card
----
+The authoritative house-style schema lives in **[`docs/schema.md`](docs/schema.md)** — read it before
+adding or editing cards. In brief:
 
-# Post Title
-
-> One-sentence summary (same text as description).
-
-## Key Facts
-- 2–5 bullets in your own words (from the post's key takeaways)
-
-## Summary
-One paragraph on the post's argument and conclusions.
-
-## Links
-- [Source](https://…) — original post
-
-## Related
-- [Cluster synthesis](/<site>/_synthesis-<cluster>.md)
-- a few sibling cards in the same cluster
-```
-
-Rules:
-- **`type` is the only required field** and must be non-empty. Preserve any extra frontmatter keys
-  (e.g. `co_author`) — OKF consumers must tolerate unknown keys.
-- **The cluster lives on as `tags[0]`** (a slug) and as one `_synthesis-<cluster>.md` card, not as a folder.
-- **Concept ID** = path minus `.md` (e.g. `verraes.net/2023-05-eventsourcing-testing-patterns`).
-- **Relationships are Markdown links**; prefer absolute (`/site/file.md`).
-- **Reserved files**: only `index.md` (navigation; no `type`) and, if present, `log.md`. The bundle-root
-  `index.md` is the sole place `okf_version` is declared.
-- Cards are **digests, never verbatim copies** of the source.
+- Each card is a **digest** (never a verbatim copy) with YAML frontmatter + a `> ` lead line mirroring
+  `description`.
+- **`type` is the only OKF-required field**; preserve any extra keys (e.g. `co_author`).
+- Each card's thematic cluster is a dedicated **`cluster:`** field (a controlled slug with one
+  `_synthesis-<cluster>.md` card each) — **not** `tags[0]`. **`tags`** are optional topic keywords from
+  the controlled vocabulary in [`docs/topics.md`](docs/topics.md).
+- **Concept ID** = path minus `.md`. **Relationships are Markdown links**; prefer absolute (`/site/file.md`).
+- **Reserved files**: `index.md` (navigation; no `type`) and optionally `log.md`; the bundle-root
+  `index.md` is the sole declarer of `okf_version`.
 
 ## Your role
 
@@ -89,12 +64,13 @@ python3 scripts/validate_okf.py
 
 It checks, and fails on violation of:
 - **Structure** — one bundle-root `index.md`, sole declarer of `okf_version`; every site has an `index.md`.
-- **Card frontmatter** — non-empty `type`; `resource` is an http(s) URL; `title`/`description`/`tags`/
-  `published` present; the `> ` lead line matches `description`.
+- **Card frontmatter** — non-empty `type`; `resource` is an http(s) URL; `title`/`description`/`published`
+  present; a non-empty `cluster`; the `> ` lead line matches `description`.
 - **Synthesis cards** — `type: synthesis`.
+- **Topic vocabulary** — every `tags` entry appears in `docs/topics.md`.
 - **Card ↔ index 1:1 correspondence** — every card is linked exactly once from its site `index.md`;
   every card link in an index resolves; the root `index.md` links every site index.
-- **Card ↔ synthesis correspondence** — each card's cluster (`tags[0]`) has a `_synthesis-<cluster>.md`
+- **Card ↔ synthesis correspondence** — each card's `cluster` field has a `_synthesis-<cluster>.md`
   that links the card.
 - **Links** — every internal `.md` link resolves.
 

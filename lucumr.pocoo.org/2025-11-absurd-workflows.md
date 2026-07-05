@@ -3,7 +3,8 @@ type: article
 title: "Absurd Workflows: Durable Execution With Just Postgres"
 description: "Ronacher demonstrates that durable execution — long-lived functions that survive crashes and restarts — requires only PostgreSQL as both queue and state store."
 resource: https://lucumr.pocoo.org/2025/11/3/absurd-workflows/
-tags: ["web-frameworks-and-apis", "durable-execution", "postgres", "workflows", "step-caching", "simplicity", "agents"]
+cluster: web-frameworks-and-apis
+tags: ["durable-execution", "postgresql", "workflows", "caching", "simplicity", "ai-agents"]
 published: 2025-11
 timestamp: 2026-07-05
 ---

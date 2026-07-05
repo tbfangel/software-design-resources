@@ -3,7 +3,8 @@ type: article
 title: "Dealing with the Python Import Blackbox"
 description: "Ronacher identifies a fundamental limitation in the Python import system: ImportError cannot distinguish between \"module doesn't exist\" and \"module exists but failed to import.\" When using fallback imports (`try: import foo; except ImportError: import simplefoo`), a missing dependency of `foo` is indistinguishable from `foo` not existing."
 resource: https://lucumr.pocoo.org/2011/9/21/python-import-blackbox/
-tags: ["python-ecosystem", "python", "import-system", "importerror", "fallback-imports", "traceback-inspection"]
+cluster: python-ecosystem
+tags: ["python", "debugging"]
 published: 2011-09
 timestamp: 2026-07-05
 ---

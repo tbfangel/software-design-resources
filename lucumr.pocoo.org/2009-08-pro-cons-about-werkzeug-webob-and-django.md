@@ -3,7 +3,8 @@ type: article
 title: "Pro/Cons about Werkzeug, WebOb and Django"
 description: "Ronacher analyses three Python web frameworks' request/response implementations."
 resource: https://lucumr.pocoo.org/2009/8/5/pro-cons-about-werkzeug-webob-and-django/
-tags: ["web-frameworks-and-apis", "werkzeug", "webob", "django", "wsgi", "request-response", "framework-comparison"]
+cluster: web-frameworks-and-apis
+tags: ["web-frameworks", "wsgi", "messaging"]
 published: 2009-08
 timestamp: 2026-07-05
 ---

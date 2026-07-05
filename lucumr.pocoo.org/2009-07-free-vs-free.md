@@ -3,7 +3,8 @@ type: article
 title: "free VS free"
 description: "Ronacher's early argument for BSD-style permissive licensing."
 resource: https://lucumr.pocoo.org/2009/7/14/free-vs-free/
-tags: ["open-source-philosophy", "bsd-license", "permissive-licensing", "freedom-philosophy"]
+cluster: open-source-philosophy
+tags: ["open-source-licensing", "open-source"]
 published: 2009-07
 timestamp: 2026-07-05
 ---

@@ -3,7 +3,8 @@ type: article
 title: "Opinionated Frameworks"
 description: "Ronacher defends Django's design by clarifying what it was designed for: content-driven websites with simple database operations."
 resource: https://lucumr.pocoo.org/2009/1/6/opinionated-frameworks/
-tags: ["web-frameworks-and-apis", "django", "framework-opinions", "use-cases", "templating", "tool-selection"]
+cluster: web-frameworks-and-apis
+tags: ["web-frameworks", "requirements", "template-engines", "tooling"]
 published: 2009-01
 timestamp: 2026-07-05
 ---

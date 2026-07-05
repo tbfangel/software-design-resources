@@ -3,7 +3,8 @@ type: article
 title: "Bundleless: Not Doing Things Makes You Fast"
 description: "Ronacher argues that bundleless development is viable when you minimise what gets loaded, not when you consolidate modules."
 resource: https://lucumr.pocoo.org/2023/11/30/not-doing-things-makes-you-fast/
-tags: ["software-design-philosophy", "javascript", "bundling", "vite", "performance", "lazy-loading", "architecture"]
+cluster: software-design-philosophy
+tags: ["javascript", "web-development", "frontend", "performance", "software-architecture"]
 published: 2023-11
 timestamp: 2026-07-05
 ---

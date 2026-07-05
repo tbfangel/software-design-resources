@@ -3,7 +3,8 @@ type: article
 title: "Show Me the Money: Practically Navigating Cloud Costs"
 description: "Building an event-sourced system on Amazon S3 involves complex cost calculations beyond simple \"pay for storage and requests\" assumptions."
 resource: https://www.architecture-weekly.com/p/show-me-the-money-practically-navigating
-tags: ["engineering-culture", "cloud-costs", "s3", "event-sourcing", "cost-optimization", "architecture-economics"]
+cluster: engineering-culture
+tags: ["cost-optimization", "cloud-storage", "event-sourcing", "software-architecture"]
 published: 2024
 timestamp: 2026-07-05
 ---

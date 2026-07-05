@@ -3,7 +3,8 @@ type: article
 title: "The perils of estimation"
 description: "North critiques how agile teams conduct project estimation, arguing they conflate precision with accuracy and inadvertently reframe success from solving business problems to delivering predefined story lists."
 resource: https://dannorth.net/blog/the-perils-of-estimation/
-tags: ["estimation-planning", "agile", "estimation", "lean", "planning", "software"]
+cluster: estimation-planning
+tags: ["agile", "estimation", "lean", "planning", "software-design"]
 published: 2009-07
 timestamp: 2026-07-05
 ---

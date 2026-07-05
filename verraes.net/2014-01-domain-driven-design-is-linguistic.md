@@ -3,7 +3,8 @@ type: article
 title: "Domain-Driven Design is Linguistic"
 description: "This article argues that DDD's central innovation is making linguistics, not mathematics or data structures, the primary concern of software design."
 resource: https://verraes.net/2014/01/domain-driven-design-is-linguistic/
-tags: ["ddd-foundations", "behavior-vs-state", "loss-aversion", "event-sourcing", "aggregates", "domain-language", "psychology"]
+cluster: ddd-foundations
+tags: ["domain-modelling", "cognitive-biases", "event-sourcing", "aggregates", "ubiquitous-language"]
 published: 2014-01
 timestamp: 2026-07-05
 ---

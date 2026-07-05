@@ -3,7 +3,8 @@ type: presentation
 title: "Decoupling the Model from the Framework"
 description: "A presentation demonstrating how to decouple domain models from web frameworks like Symfony."
 resource: https://verraes.net/2014/09/decoupling-model-framework/
-tags: ["event-sourcing-cqrs", "framework-independence", "task-based-ui", "commands", "domain-modeling", "ddd"]
+cluster: event-sourcing-cqrs
+tags: ["coupling", "ux", "cqrs", "domain-modelling", "domain-driven-design"]
 published: 2014-09
 timestamp: 2026-07-05
 ---

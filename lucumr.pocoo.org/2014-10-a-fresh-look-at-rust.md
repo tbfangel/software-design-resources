@@ -3,7 +3,8 @@ type: article
 title: "A Fresh Look at Rust"
 description: "Ronacher's updated assessment of Rust after a break from it."
 resource: https://lucumr.pocoo.org/2014/10/1/a-fresh-look-at-rust/
-tags: ["rust-language", "rust", "language-overview", "borrow-checker", "cargo", "ffi"]
+cluster: rust-language
+tags: ["rust"]
 published: 2014-10
 timestamp: 2026-07-05
 ---

@@ -3,7 +3,8 @@ type: article
 title: "Why I Don't Hate Git: Hidden Consistency"
 description: "Ronacher explains why Git's famously inconsistent surface (different behaviours for `git remote`, `git branch`, `git tag`; unfamiliar `git show` syntax) is nevertheless tolerable."
 resource: https://lucumr.pocoo.org/2015/2/17/ui-and-hidden-consistency/
-tags: ["software-design-philosophy", "git", "ui-design", "consistency", "internal-model", "trust", "reliability"]
+cluster: software-design-philosophy
+tags: ["git", "ux", "distributed-systems", "domain-modelling", "trust", "resilience"]
 published: 2015-02
 timestamp: 2026-07-05
 ---

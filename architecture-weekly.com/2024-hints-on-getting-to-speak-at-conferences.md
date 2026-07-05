@@ -3,7 +3,8 @@ type: article
 title: "Hints on Getting to Speak at Conferences"
 description: "Persistent effort, not talent or connections, is the key to securing conference speaking opportunities."
 resource: https://www.architecture-weekly.com/p/hints-on-getting-to-speak-at-conferences
-tags: ["engineering-culture", "conference-speaking", "cfp-submissions", "public-speaking", "career-development"]
+cluster: engineering-culture
+tags: ["public-speaking", "career"]
 published: 2024
 timestamp: 2026-07-05
 ---

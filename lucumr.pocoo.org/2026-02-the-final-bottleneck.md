@@ -3,7 +3,8 @@ type: article
 title: "The Final Bottleneck"
 description: "Ronacher argues that AI has inverted the historical bottleneck in software engineering."
 resource: https://lucumr.pocoo.org/2026/2/13/the-final-bottleneck/
-tags: ["ai-and-agents", "ai-productivity", "code-review", "accountability", "bottleneck-theory"]
+cluster: ai-and-agents
+tags: ["ai", "code-review", "accountability"]
 published: 2026-02
 timestamp: 2026-07-05
 ---

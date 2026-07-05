@@ -3,7 +3,8 @@ type: article
 title: "Rust Any Part 3: Finally we have Upcasts"
 description: "Rust 1.86 finally adds support for upcasting to supertraits, fixing a three-year limitation in the `Any` trait."
 resource: https://lucumr.pocoo.org/2025/3/27/any-upcast/
-tags: ["rust-language", "rust", "any-trait", "upcasting", "rust-1-86", "trait-objects"]
+cluster: rust-language
+tags: ["rust"]
 published: 2025-03
 timestamp: 2026-07-05
 ---

@@ -3,7 +3,8 @@ type: article
 title: "Writing Forwards Compatible Python Code"
 description: "Guidance on writing Python 2 code compatible with the `2to3` tool, enabling smooth migration to Python 3."
 resource: https://lucumr.pocoo.org/2011/1/22/forwards-compatible-python/
-tags: ["python-ecosystem", "python-2", "python-3", "2to3", "compatibility", "migration"]
+cluster: python-ecosystem
+tags: ["python", "backwards-compatibility", "migration"]
 published: 2011-01
 timestamp: 2026-07-05
 ---

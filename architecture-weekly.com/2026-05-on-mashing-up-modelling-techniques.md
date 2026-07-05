@@ -3,7 +3,8 @@ type: article
 title: "On mashing up modelling techniques for fun and profit"
 description: "Oskar Dudycz argues that architects should combine complementary modelling techniques rather than committing to a single methodology."
 resource: https://www.architecture-weekly.com/p/on-mashing-up-modelling-techniques
-tags: ["architecture-patterns", "software-modelling", "c4-model", "context-mapping", "eventstorming", "model-storming", "architecture-design"]
+cluster: architecture-patterns
+tags: ["domain-modelling", "software-architecture", "context-mapping", "eventstorming"]
 published: 2026-05
 timestamp: 2026-07-05
 ---

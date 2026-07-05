@@ -3,7 +3,8 @@ type: article
 title: "Deduplication in Distributed Systems"
 description: "Challenges the widespread marketing claim of \"exactly-once delivery\" in messaging systems, arguing that duplicates are inevitable in distributed systems due to retries, broker failures, and network timeouts."
 resource: https://www.architecture-weekly.com/p/deduplication-in-distributed-systems
-tags: ["messaging-and-kafka", "deduplication", "exactly-once-processing", "idempotency", "message-brokers", "distributed-systems"]
+cluster: messaging-and-kafka
+tags: ["idempotency", "message-processing", "message-brokers", "distributed-systems"]
 published: 2024
 timestamp: 2026-07-05
 ---

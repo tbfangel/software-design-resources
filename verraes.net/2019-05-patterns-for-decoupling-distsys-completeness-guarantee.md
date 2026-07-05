@@ -3,7 +3,8 @@ type: article
 title: "Patterns for Decoupling in Distributed Systems: Completeness Guarantee"
 description: "Design the set of Domain Events so they can rebuild a producer's entire state."
 resource: https://verraes.net/2019/05/patterns-for-decoupling-distsys-completeness-guarantee/
-tags: ["messaging-distributed-systems", "events", "event-sourcing", "decoupling", "system-design"]
+cluster: messaging-distributed-systems
+tags: ["events", "event-sourcing", "coupling", "system-design"]
 published: 2019-05
 timestamp: 2026-07-05
 ---

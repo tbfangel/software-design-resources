@@ -3,7 +3,8 @@ type: article
 title: "Introducing Deliberate Discovery"
 description: "North argues that traditional agile planning focused on stories, estimation, and story points addresses the wrong problem."
 resource: https://dannorth.net/blog/introducing-deliberate-discovery/
-tags: ["learning-expertise", "agile", "discovery", "learning", "planning", "programming", "software"]
+cluster: learning-expertise
+tags: ["agile", "requirements", "learning", "planning", "programming", "software-design"]
 published: 2010-08
 timestamp: 2026-07-05
 ---

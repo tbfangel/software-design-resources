@@ -3,7 +3,8 @@ type: article
 title: "Better Models: Worse Tools"
 description: "Ronacher documents a regression in which newer Anthropic models (Opus 4.8, Sonnet 5) increasingly fail to follow alternative tool schemas correctly—inventing spurious fields in nested JSON—despite older models adapting well."
 resource: https://lucumr.pocoo.org/2026/7/4/better-models-worse-tools/
-tags: ["ai-and-agents", "llm-tool-use", "tool-schema-design", "reinforcement-learning", "constrained-decoding", "harness-design", "claude-models"]
+cluster: ai-and-agents
+tags: ["tool-design", "ai", "llms", "agent-architecture"]
 published: 2026-07
 timestamp: 2026-07-05
 ---

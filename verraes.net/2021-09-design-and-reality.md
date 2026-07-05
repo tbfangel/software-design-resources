@@ -3,7 +3,8 @@ type: article
 title: "Design and Reality"
 description: "This foundational essay challenges the fallacy that domain modelling is a linear process: understand the problem, apply design, deliver solution."
 resource: https://verraes.net/2021/09/design-and-reality/
-tags: ["modelling-design-heuristics", "domain-modelling", "design-fallacy", "linear-thinking", "reframing", "problem-space", "solution-space"]
+cluster: modelling-design-heuristics
+tags: ["domain-modelling", "software-design", "problem-solving"]
 published: 2021-09
 co_author: "Rebecca Wirfs-Brock"
 timestamp: 2026-07-05

@@ -2,7 +2,7 @@
 type: synthesis
 title: "Productivity & Metrics"
 description: "This cluster challenges conventional thinking about productivity measurement and software craftsmanship, arguing that value delivery matters more than technical perfection."
-tags: ["productivity-metrics"]
+cluster: productivity-metrics
 timestamp: 2026-07-05
 ---
 # Productivity & Metrics

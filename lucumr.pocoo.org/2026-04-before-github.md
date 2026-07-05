@@ -3,7 +3,8 @@ type: article
 title: "Before GitHub"
 description: "Ronacher reflects on GitHub's central role in shaping modern open source culture while expressing concern about its decline under Microsoft."
 resource: https://lucumr.pocoo.org/2026/4/28/before-github/
-tags: ["open-source-philosophy", "github", "open-source-infrastructure", "centralization", "decentralization", "software-preservation", "platform-dependency"]
+cluster: open-source-philosophy
+tags: ["github", "open-source", "decentralization", "vendor-lock-in"]
 published: 2026-04
 timestamp: 2026-07-05
 ---

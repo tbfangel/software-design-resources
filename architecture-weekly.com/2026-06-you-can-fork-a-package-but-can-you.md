@@ -3,7 +3,8 @@ type: article
 title: "You can fork a package, but can you own it?"
 description: "Reacting to Mitchell Hashimoto's advice to fork dependencies, Oskar Dudycz argues the real issue isn't forking but consciously deciding which dependencies you can genuinely own and maintain."
 resource: https://www.architecture-weekly.com/p/you-can-fork-a-package-but-can-you
-tags: ["engineering-culture", "dependency-management", "supply-chain-security", "open-source-maintenance", "sbom", "bus-factor", "technical-decision-making"]
+cluster: engineering-culture
+tags: ["dependencies", "supply-chain-security", "open-source-sustainability", "decision-making"]
 published: 2026-06
 timestamp: 2026-07-05
 ---

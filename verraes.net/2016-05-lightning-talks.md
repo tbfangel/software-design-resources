@@ -3,7 +3,8 @@ type: presentation
 title: "Lightning Talks"
 description: "A reflection on lightning talks as a practice ground for public speaking."
 resource: https://verraes.net/2016/05/lightning-talks/
-tags: ["process-teams-learning", "public-speaking", "presentation-skills", "learning", "teaching", "communication"]
+cluster: process-teams-learning
+tags: ["public-speaking", "learning", "coaching", "communication"]
 published: 2016-05
 timestamp: 2026-07-05
 ---

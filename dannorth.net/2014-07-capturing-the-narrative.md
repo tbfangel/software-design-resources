@@ -3,7 +3,8 @@ type: article
 title: "Capturing the narrative"
 description: "North addresses how to preserve important context and decisions beyond executable specifications, proposing four distinct documentation categories rather than relying on wikis (which often become \"information graveyards\")."
 resource: https://dannorth.net/blog/capturing-the-narrative/
-tags: ["bdd-foundations", "agile", "bdd", "documentation", "process"]
+cluster: bdd-foundations
+tags: ["agile", "bdd", "documentation"]
 published: 2014-07
 timestamp: 2026-07-05
 ---

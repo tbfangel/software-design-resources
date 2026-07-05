@@ -3,7 +3,8 @@ type: article
 title: "The Problem with Implicit Scoping in CoffeeScript"
 description: "Ronacher documents a dangerous CoffeeScript scoping rule: \"always reassign unless unknown from higher scope.\" A real-world bug: importing `{log}` from Math at file level silently made a local `log` variable inside a function global, breaking functionality."
 resource: https://lucumr.pocoo.org/2011/12/22/implicit-scoping-in-coffeescript/
-tags: ["software-design-philosophy", "coffeescript", "scoping", "language-design", "variable-shadowing", "implicit-behaviour"]
+cluster: software-design-philosophy
+tags: ["javascript", "programming", "language-design", "explicit-vs-implicit"]
 published: 2011-12
 timestamp: 2026-07-05
 ---

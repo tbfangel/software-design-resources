@@ -3,7 +3,8 @@ type: article
 title: "Don't overestimate domain expertise"
 description: "Oskar Dudycz argues that LLMs can compile information quickly but cannot replace domain experts or engineering judgment in software design."
 resource: https://www.architecture-weekly.com/p/dont-overestimate-domain-expertise
-tags: ["engineering-culture", "domain-driven-design", "llm-limitations", "domain-expertise", "ubiquitous-language", "collaboration", "modelling"]
+cluster: engineering-culture
+tags: ["domain-driven-design", "llms", "domain-experts", "ubiquitous-language", "collaboration", "domain-modelling"]
 published: 2026-05
 timestamp: 2026-07-05
 ---

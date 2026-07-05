@@ -3,7 +3,8 @@ type: article
 title: "Improved Error Handling in Rust"
 description: "A follow-up to the earlier error handling post, documenting improvements as Rust approaches 1.0."
 resource: https://lucumr.pocoo.org/2014/11/6/error-handling-in-rust/
-tags: ["rust-language", "rust", "error-handling", "fromerror", "multidispatch", "api-design"]
+cluster: rust-language
+tags: ["rust", "error-handling", "python", "api-design"]
 published: 2014-11
 timestamp: 2026-07-05
 ---

@@ -3,7 +3,8 @@ type: presentation
 title: "Domain-Driven Design: Bounded Contexts, Modelling"
 description: "This presentation covers the strategic design aspects of DDD, focusing on how to identify and define Bounded Contexts as linguistic and model boundaries within a larger system."
 resource: https://verraes.net/2014/02/domain-driven-design-basics/
-tags: ["ddd-foundations", "bounded-contexts", "domain-modeling", "strategic-design", "linguistic-boundaries", "model-separation", "ubiquitous-language"]
+cluster: ddd-foundations
+tags: ["bounded-contexts", "domain-modelling", "strategic-design", "ubiquitous-language"]
 published: 2014-02
 timestamp: 2026-07-05
 ---

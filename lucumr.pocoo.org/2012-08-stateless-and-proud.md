@@ -3,7 +3,8 @@ type: article
 title: "Stateless and Proud in the Realtime World"
 description: "Ronacher argues that real-time web capabilities (push notifications, live updates) don't require making WSGI frameworks stateful."
 resource: https://lucumr.pocoo.org/2012/8/5/stateless-and-proud/
-tags: ["web-frameworks-and-apis", "statelessness", "real-time", "pub-sub", "redis", "websockets", "wsgi"]
+cluster: web-frameworks-and-apis
+tags: ["session-management", "stream-processing", "messaging", "redis", "websockets", "wsgi"]
 published: 2012-08
 timestamp: 2026-07-05
 ---

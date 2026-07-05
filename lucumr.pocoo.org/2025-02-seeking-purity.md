@@ -3,7 +3,8 @@ type: article
 title: "Seeking Purity"
 description: "Ronacher argues that ideological purity in technology — whether Rust's memory safety movement or Python 3 migration — becomes harmful when methodology is prioritised over outcomes."
 resource: https://lucumr.pocoo.org/2025/2/8/seeking-purity/
-tags: ["software-design-philosophy", "ideological-purity", "rust", "python-3", "pragmatism", "community-dynamics"]
+cluster: software-design-philosophy
+tags: ["rust", "python", "pragmatism", "community"]
 published: 2025-02
 timestamp: 2026-07-05
 ---

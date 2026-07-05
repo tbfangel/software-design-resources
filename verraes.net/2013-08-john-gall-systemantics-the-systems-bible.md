@@ -3,7 +3,8 @@ type: book review
 title: "Systemantics - The Systems Bible"
 description: "A review of John Gall's 1975 classic \"Systemantics,\" which warns against designing large complex systems and expecting to predict their behavior."
 resource: https://verraes.net/2013/08/john-gall-systemantics-the-systems-bible/
-tags: ["process-teams-learning", "systems-thinking", "complexity", "organizational-behavior", "problem-solving", "system-design"]
+cluster: process-teams-learning
+tags: ["systems-thinking", "complexity", "organizational-design", "problem-solving", "system-design"]
 published: 2013-08
 timestamp: 2026-07-05
 ---

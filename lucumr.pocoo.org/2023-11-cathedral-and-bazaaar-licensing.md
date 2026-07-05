@@ -3,7 +3,8 @@ type: article
 title: "FSL: A License For the Bazaar, Not the Cathedral"
 description: "Ronacher comments on Sentry's adoption of the Functional Source License (FSL)."
 resource: https://lucumr.pocoo.org/2023/11/19/cathedral-and-bazaaar-licensing/
-tags: ["open-source-philosophy", "fsl", "sentry", "bazaar-development-model", "saas", "open-source-licensing"]
+cluster: open-source-philosophy
+tags: ["open-source-licensing", "observability", "open-source", "saas"]
 published: 2023-11
 timestamp: 2026-07-05
 ---

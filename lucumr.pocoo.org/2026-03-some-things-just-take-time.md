@@ -3,7 +3,8 @@ type: article
 title: "Some Things Just Take Time"
 description: "Ronacher argues that certain valuable outcomes—trees, trust, or quality software—cannot be rushed regardless of technological acceleration."
 resource: https://lucumr.pocoo.org/2026/3/20/some-things-just-take-time/
-tags: ["ai-and-agents", "patience", "ai-productivity-paradox", "open-source-sustainability", "software-quality", "friction", "trust"]
+cluster: ai-and-agents
+tags: ["ai", "open-source-sustainability", "code-quality", "developer-experience", "trust"]
 published: 2026-03
 timestamp: 2026-07-05
 ---

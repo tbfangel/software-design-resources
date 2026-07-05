@@ -3,7 +3,8 @@ type: article
 title: "Multiversion Python Thoughts"
 description: "Ronacher explores how to enable multiple incompatible versions of Python libraries to coexist."
 resource: https://lucumr.pocoo.org/2024/9/9/multiversion-python/
-tags: ["python-ecosystem", "python", "multiversion", "uv", "sys-modules", "import-system", "c-extensions"]
+cluster: python-ecosystem
+tags: ["python", "databases", "uv"]
 published: 2024-09
 timestamp: 2026-07-05
 ---

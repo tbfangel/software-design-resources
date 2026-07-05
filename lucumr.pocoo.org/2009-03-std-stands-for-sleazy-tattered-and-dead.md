@@ -3,7 +3,8 @@ type: article
 title: "STD stands for Sleazy, Tattered and Dead"
 description: "Ronacher critiques specific Python standard library modules for containing outdated, poorly-designed code that cannot be improved because it's locked into the stdlib."
 resource: https://lucumr.pocoo.org/2009/3/2/std-stands-for-sleazy-tattered-and-dead/
-tags: ["python-ecosystem", "python-stdlib", "cgi-fieldstorage", "cookie", "urllib", "standard-library-design"]
+cluster: python-ecosystem
+tags: ["python", "session-management", "api-design"]
 published: 2009-03
 timestamp: 2026-07-05
 ---

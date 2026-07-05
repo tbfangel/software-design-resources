@@ -3,7 +3,8 @@ type: podcast
 title: "Domain-Driven Design Applied"
 description: "This podcast episode discusses practical application of Domain-Driven Design in real projects."
 resource: https://verraes.net/2022/03/domain-driven-design-applied/
-tags: ["ddd-foundations", "ddd-in-practice", "case-studies", "real-world-application", "modeling-techniques", "implementation", "lessons-learned"]
+cluster: ddd-foundations
+tags: ["domain-driven-design", "domain-modelling"]
 published: 2022-03
 timestamp: 2026-07-05
 ---

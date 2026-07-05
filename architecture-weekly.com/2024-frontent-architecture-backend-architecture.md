@@ -3,7 +3,8 @@ type: discussion
 title: "Frontend Architecture, Backend Architecture, or Just Architecture?"
 description: "Challenges the traditional separation of \"frontend\" and \"backend\" architecture as distinct disciplines."
 resource: https://www.architecture-weekly.com/p/frontent-architecture-backend-architecture
-tags: ["architecture-patterns", "frontend-architecture", "cross-functional-teams", "conway-s-law", "unified-design", "full-stack"]
+cluster: architecture-patterns
+tags: ["frontend", "team-topologies", "conways-law", "software-design", "web-development"]
 published: 2024
 timestamp: 2026-07-05
 ---

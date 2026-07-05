@@ -3,7 +3,8 @@ type: article
 title: "Documenting Event-Driven Architecture"
 description: "Teams struggle with documenting event-driven systems because schemas capture technical structure but fail to convey semantic meaning—the \"why\" and business context behind events."
 resource: https://www.architecture-weekly.com/p/documenting-event-driven-architecture
-tags: ["event-driven-architecture", "documentation", "eventcatalog", "event-discovery", "schema-management", "governance"]
+cluster: event-driven-architecture
+tags: ["documentation", "event-driven-architecture", "eventstorming", "schema-evolution", "organizational-design"]
 published: 2024
 timestamp: 2026-07-05
 ---

@@ -3,7 +3,8 @@ type: article
 title: "Agentic Coding Recommendations"
 description: "Ronacher's practical guide to setting up for agentic development."
 resource: https://lucumr.pocoo.org/2025/6/12/agentic-coding/
-tags: ["ai-and-agents", "agentic-coding", "go", "tool-design", "code-philosophy", "observability"]
+cluster: ai-and-agents
+tags: ["agentic-coding", "go", "tool-design", "design-philosophy", "observability"]
 published: 2025-06
 timestamp: 2026-07-05
 ---

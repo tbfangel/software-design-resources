@@ -3,7 +3,8 @@ type: article
 title: "Sneaky Code Bites Back"
 description: "Clever, hidden code complexity inevitably creates maintenance nightmares."
 resource: https://www.architecture-weekly.com/p/sneaky-code-bites-back
-tags: ["architecture-patterns", "api-design", "code-complexity", "explicit-vs-implicit", "promise-memoization", "developer-experience"]
+cluster: architecture-patterns
+tags: ["api-design", "complexity", "explicit-vs-implicit", "async-programming", "developer-experience"]
 published: 2025-10
 timestamp: 2026-07-05
 ---

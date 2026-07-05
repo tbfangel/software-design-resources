@@ -3,7 +3,8 @@ type: article
 title: "Common Mistakes as Python Web Developer"
 description: "A catalogue of common mistakes in Python web applications: encoding issues, mutable default arguments, incorrect use of `is` vs `==` for string comparison, thread safety in mutable global state, WSGI streaming issues, and incorrect response code usage."
 resource: https://lucumr.pocoo.org/2010/12/24/common-mistakes-as-web-developer/
-tags: ["web-frameworks-and-apis", "python", "web-development", "security", "common-mistakes", "wsgi"]
+cluster: web-frameworks-and-apis
+tags: ["python", "web-development", "security", "anti-patterns", "wsgi"]
 published: 2010-12
 timestamp: 2026-07-05
 ---

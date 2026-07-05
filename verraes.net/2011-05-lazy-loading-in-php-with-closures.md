@@ -3,7 +3,8 @@ type: article
 title: "Lazy Loading in PHP with Closures"
 description: "Lazy loading defers expensive operations (database queries) until needed."
 resource: https://verraes.net/2011/05/lazy-loading-with-closures/
-tags: ["software-engineering", "lazy-loading", "closures", "ddd", "repositories", "design-patterns"]
+cluster: software-engineering
+tags: ["performance", "programming", "domain-driven-design", "repositories", "design-patterns"]
 published: 2011-05
 timestamp: 2026-07-05
 ---

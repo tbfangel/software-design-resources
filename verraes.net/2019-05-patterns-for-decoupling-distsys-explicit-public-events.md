@@ -3,7 +3,8 @@ type: article
 title: "Patterns for Decoupling in Distributed Systems: Explicit Public Events"
 description: "Mark a small subset of events as public using @Public annotations, marker interfaces, or isPublic() methods; keep the rest private by default."
 resource: https://verraes.net/2019/05/patterns-for-decoupling-distsys-explicit-public-events/
-tags: ["messaging-distributed-systems", "decoupling", "bounded-contexts", "api-design", "event-visibility"]
+cluster: messaging-distributed-systems
+tags: ["coupling", "bounded-contexts", "api-design", "event-design"]
 published: 2019-05
 timestamp: 2026-07-05
 ---

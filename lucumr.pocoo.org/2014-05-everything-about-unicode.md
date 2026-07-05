@@ -3,7 +3,8 @@ type: article
 title: "Everything you did not want to know about Unicode in Python 3"
 description: "Ronacher argues that Python 3's \"everything is Unicode\" assumption is misaligned with how Unix works — Unix is fundamentally byte-based with no reliable encoding information."
 resource: https://lucumr.pocoo.org/2014/5/12/everything-about-unicode/
-tags: ["python-ecosystem", "python-3", "unicode", "bytes", "c-locale", "surrogate-escaping", "unix"]
+cluster: python-ecosystem
+tags: ["python", "unicode"]
 published: 2014-05
 timestamp: 2026-07-05
 ---

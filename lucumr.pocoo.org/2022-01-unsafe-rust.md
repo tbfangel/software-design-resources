@@ -3,7 +3,8 @@ type: article
 title: "Uninitialized Memory: Unsafe Rust is Too Hard"
 description: "Ronacher argues that writing unsafe Rust has become unnecessarily difficult compared to C/C++."
 resource: https://lucumr.pocoo.org/2022/1/30/unsafe-rust/
-tags: ["rust-language", "rust", "unsafe", "maybeuninit", "uninitialized-memory", "ergonomics"]
+cluster: rust-language
+tags: ["rust", "developer-experience"]
 published: 2022-01
 timestamp: 2026-07-05
 ---

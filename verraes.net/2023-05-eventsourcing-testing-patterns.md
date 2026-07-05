@@ -3,7 +3,8 @@ type: article
 title: "EventSourcing Testing Patterns"
 description: "This article documents common testing patterns for eventsourced applications using Given-When-Then scenarios at the domain abstraction level."
 resource: https://verraes.net/2023/05/eventsourcing-testing-patterns/
-tags: ["event-sourcing-cqrs", "testing-patterns", "event-sourcing", "command-handlers", "projections", "process-managers", "domain-driven-design"]
+cluster: event-sourcing-cqrs
+tags: ["testing", "event-sourcing", "cqrs", "projections", "deployment", "domain-driven-design"]
 published: 2023-05
 timestamp: 2026-07-05
 ---

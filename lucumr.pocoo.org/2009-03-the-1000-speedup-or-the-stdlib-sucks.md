@@ -3,7 +3,8 @@ type: article
 title: "The 1000% Speedup, or, the stdlib sucks"
 description: "Ronacher documents a 1000% performance improvement from a single import change, revealing that a stdlib module had a slow implementation that an alternative could trivially beat."
 resource: https://lucumr.pocoo.org/2009/3/1/the-1000-speedup-or-the-stdlib-sucks/
-tags: ["python-ecosystem", "python", "performance", "stdlib", "import-optimisation"]
+cluster: python-ecosystem
+tags: ["python", "performance"]
 published: 2009-03
 timestamp: 2026-07-05
 ---

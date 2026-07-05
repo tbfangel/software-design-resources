@@ -3,7 +3,8 @@ type: article
 title: "Surfacing Worldviews in Design"
 description: "Through the story of a Maker Lab struggling with lost inventory, this essay demonstrates how design choices reflect implicit worldviews."
 resource: https://verraes.net/2023/07/surfacing-worldviews-in-design/
-tags: ["modelling-design-heuristics", "worldviews", "design-assumptions", "social-systems", "technical-solutions", "unintended-consequences", "enabling-vs-coercion"]
+cluster: modelling-design-heuristics
+tags: ["mental-models", "software-design", "systems-thinking"]
 published: 2023-07
 co_author: "Rebecca Wirfs-Brock"
 timestamp: 2026-07-05

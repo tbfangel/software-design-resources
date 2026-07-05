@@ -3,7 +3,8 @@ type: article
 title: "How to Read More Books"
 description: "A practical guide to building a reading habit despite competing demands."
 resource: https://verraes.net/2012/12/2012-12-23-how-to-read-more-books/
-tags: ["process-teams-learning", "learning", "reading-habits", "professional-development", "knowledge-acquisition", "continuous-learning"]
+cluster: process-teams-learning
+tags: ["learning", "career"]
 published: 2012-12
 timestamp: 2026-07-05
 ---

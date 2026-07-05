@@ -3,7 +3,8 @@ type: article
 title: "Rust Any Part 1: Extension Maps in Rust"
 description: "Ronacher introduces the extension map pattern: using Rust's `Any` trait to store arbitrary `'static` types in a `HashMap<TypeId, Box<dyn Any>>`, avoiding the need for generic type parameters that would make APIs like `App<Config>` unwieldy."
 resource: https://lucumr.pocoo.org/2022/1/6/rust-extension-map/
-tags: ["rust-language", "rust", "any-trait", "extension-maps", "type-erasure", "interior-mutability"]
+cluster: rust-language
+tags: ["rust"]
 published: 2022-01
 timestamp: 2026-07-05
 ---

@@ -3,7 +3,8 @@ type: article
 title: "Be careful with exec and eval in Python"
 description: "Ronacher explains how `exec` and `eval` work in Python (different in Python 2 vs 3) and why they should generally be avoided."
 resource: https://lucumr.pocoo.org/2011/2/1/exec-in-python/
-tags: ["python-ecosystem", "python", "exec", "eval", "security", "scoping"]
+cluster: python-ecosystem
+tags: ["python", "security", "programming"]
 published: 2011-02
 timestamp: 2026-07-05
 ---

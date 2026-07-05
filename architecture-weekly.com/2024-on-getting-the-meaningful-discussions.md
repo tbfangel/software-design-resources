@@ -3,7 +3,8 @@ type: article
 title: "On Getting the Meaningful Discussions"
 description: "Software architects must develop strong communication skills to successfully implement their designs."
 resource: https://www.architecture-weekly.com/p/on-getting-the-meaningful-discussions
-tags: ["engineering-culture", "communication", "architecture", "collaboration", "persuasion", "technical-leadership"]
+cluster: engineering-culture
+tags: ["communication", "software-architecture", "collaboration", "leadership"]
 published: 2024
 timestamp: 2026-07-05
 ---

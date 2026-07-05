@@ -3,7 +3,8 @@ type: article
 title: "Start Alone, Then Together: Why Software Modelling Needs Solitary Brainstorming"
 description: "Identifies the \"CTO effect\" where senior voices dominate software modeling sessions, suppressing junior perspectives."
 resource: https://www.architecture-weekly.com/p/start-alone-then-together-why-software
-tags: ["architecture-patterns", "eventstorming", "collaboration", "brainstorming", "team-dynamics", "modeling", "design-process"]
+cluster: architecture-patterns
+tags: ["eventstorming", "collaboration", "facilitation", "team-dynamics", "domain-modelling", "software-design"]
 published: 2024
 timestamp: 2026-07-05
 ---

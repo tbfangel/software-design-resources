@@ -3,7 +3,8 @@ type: article
 title: "Goal-oriented vocabulary - saying what you mean"
 description: "North argues that language shapes how we think about problems, advocating naming things after their purpose rather than describing tasks mechanically."
 resource: https://dannorth.net/blog/goal-oriented-vocabulary/
-tags: ["software-design-architecture", "agile", "bdd", "design", "language", "problem-solving"]
+cluster: software-design-architecture
+tags: ["agile", "bdd", "software-design", "problem-solving"]
 published: 2008-02
 timestamp: 2026-07-05
 ---

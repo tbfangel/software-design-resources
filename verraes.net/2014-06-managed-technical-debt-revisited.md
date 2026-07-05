@@ -3,7 +3,8 @@ type: presentation
 title: "Managed Technical Debt (revisited)"
 description: "A presentation revisiting earlier ideas on managing technical debt."
 resource: https://verraes.net/2014/06/managed-technical-debt-revisited/
-tags: ["process-teams-learning", "technical-debt", "debt-management", "organizational-change"]
+cluster: process-teams-learning
+tags: ["technical-debt", "organizational-change"]
 published: 2014-06
 timestamp: 2026-07-05
 ---

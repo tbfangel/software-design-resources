@@ -3,7 +3,8 @@ type: article
 title: "Content for Content's Sake"
 description: "Ronacher argues that LLMs are degrading digital discourse by making content creation frictionless, flooding platforms with low-effort material that paradoxically performs well algorithmically."
 resource: https://lucumr.pocoo.org/2026/5/4/content-for-contents-sake/
-tags: ["ai-and-agents", "ai-generated-content", "llm-impact", "trust-erosion", "platform-design", "social-media", "friction"]
+cluster: ai-and-agents
+tags: ["ai", "trust", "platform-engineering", "developer-experience"]
 published: 2026-05
 timestamp: 2026-07-05
 ---

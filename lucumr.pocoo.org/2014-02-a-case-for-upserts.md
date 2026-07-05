@@ -3,7 +3,8 @@ type: article
 title: "A Case for Upserts"
 description: "Ronacher argues that upserts (INSERT OR UPDATE) are not a design smell but a necessity for reliable web applications."
 resource: https://lucumr.pocoo.org/2014/2/16/a-case-for-upserts/
-tags: ["web-frameworks-and-apis", "sql", "upserts", "postgresql", "idempotency", "network-reliability", "concurrency"]
+cluster: web-frameworks-and-apis
+tags: ["sql", "postgresql", "idempotency", "distributed-systems", "concurrency"]
 published: 2014-02
 timestamp: 2026-07-05
 ---

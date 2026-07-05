@@ -4,17 +4,18 @@ A curated collection of resources on software design — with a focus on Domain-
 
 ## Format
 
-This knowledge base is an **[Open Knowledge Format](https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/okf) (OKF) v0.1 bundle**: a tree of small Markdown **concept cards**, one per blog post. Each card has YAML frontmatter (`type`, `title`, `resource`, `tags`, `published`) and a short digest — `## Key Facts`, `## Summary`, `## Links`, `## Related` — that points to the original rather than copying it.
+This knowledge base is an **[Open Knowledge Format](https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/okf) (OKF) v0.1 bundle**: a tree of small Markdown **concept cards**, one per blog post. Each card has YAML frontmatter (`type`, `title`, `resource`, `cluster`, `tags`, `published`) and a short digest — `## Key Facts`, `## Summary`, `## Links`, `## Related` — that points to the original rather than copying it.
 
 ```
 index.md            # OKF navigation root (declares okf_version)
+docs/               # bundle docs: schema.md, topics.md
 <site>/
-  index.md          # site intro + listing of its cards by cluster-tag
-  _synthesis-*.md   # one synthesis card per theme (cross-post "Key Insights")
+  index.md          # site intro + listing of its cards by cluster
+  _synthesis-*.md   # one synthesis card per cluster (cross-post "Key Insights")
   YYYY-MM-*.md      # one concept card per post (sorts chronologically)
 ```
 
-Start at [`index.md`](index.md), or open any site folder. The cluster a post belongs to is the first entry in its `tags`, and each cluster has a `_synthesis-*` card distilling the cross-cutting lessons.
+Start at [`index.md`](index.md), or open any site folder. Each post has a `cluster` field naming its theme, and each cluster has a `_synthesis-*` card distilling the cross-cutting lessons. See [`docs/schema.md`](docs/schema.md) for the full card schema.
 
 ## Claude Code Setup
 

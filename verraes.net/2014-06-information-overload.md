@@ -3,7 +3,8 @@ type: article
 title: "Information Overload"
 description: "When reading or learning, humans default to scanning and categorizing: \"Oh, this is like that thing I already know.\" This strategy saves cognitive load but prevents deep learning."
 resource: https://verraes.net/2014/06/information-overload/
-tags: ["process-teams-learning", "learning", "critical-thinking", "knowledge-work", "intellectual-rigor", "pattern-recognition"]
+cluster: process-teams-learning
+tags: ["learning", "critical-thinking", "knowledge-sharing", "heuristics"]
 published: 2014-06
 timestamp: 2026-07-05
 ---

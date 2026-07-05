@@ -3,7 +3,8 @@ type: article
 title: "Borys had the best dribbling"
 description: "A reflective, nostalgic essay in which Oskar Dudycz contrasts childhood soccer memories with his adult tendency to leave ambitious projects unfinished."
 resource: https://www.architecture-weekly.com/p/borys-had-the-best-dribbling
-tags: ["engineering-culture", "shipping", "perfectionism", "productivity", "goal-setting", "motivation", "personal-development"]
+cluster: engineering-culture
+tags: ["deployment", "productivity", "planning", "career"]
 published: 2026-05
 timestamp: 2026-07-05
 ---

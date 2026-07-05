@@ -3,7 +3,8 @@ type: article
 title: "How I Cheated on Transactions"
 description: "Oskar Dudycz describes a pragmatic architectural tradeoff he made while building Dumbo, a multi-database abstraction layer."
 resource: https://www.architecture-weekly.com/p/how-i-cheated-on-transactions
-tags: ["databases-and-postgresql", "transactions", "distributed-systems", "api-design", "cloudflare-d1", "database-abstraction"]
+cluster: databases-and-postgresql
+tags: ["databases", "distributed-systems", "api-design", "orm"]
 published: 2026-02
 timestamp: 2026-07-05
 ---

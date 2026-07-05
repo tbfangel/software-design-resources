@@ -3,7 +3,8 @@ type: article
 title: "Getting Started with WSGI"
 description: "A foundational introduction to WSGI — Python's Web Server Gateway Interface — explaining how it works, why it exists, and how to write a minimal WSGI application."
 resource: https://lucumr.pocoo.org/2007/5/21/getting-started-with-wsgi/
-tags: ["web-frameworks-and-apis", "wsgi", "python", "web-development", "first-principles"]
+cluster: web-frameworks-and-apis
+tags: ["wsgi", "python", "web-development", "critical-thinking"]
 published: 2007-05
 timestamp: 2026-07-05
 ---

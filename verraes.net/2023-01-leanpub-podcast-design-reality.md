@@ -3,7 +3,8 @@ type: podcast
 title: "Design and Reality (Leanpub Podcast)"
 description: "Podcast interview discussing the themes of \"Design and Reality\" essays."
 resource: https://verraes.net/2023/01/leanpub-podcast-design-reality/
-tags: ["modelling-design-heuristics", "design", "reality", "domain-driven-design", "modelling", "podcast"]
+cluster: modelling-design-heuristics
+tags: ["software-design", "domain-driven-design", "domain-modelling"]
 published: 2023-01
 timestamp: 2026-07-05
 ---

@@ -3,7 +3,8 @@ type: podcast
 title: "Software Design for Startups and Scaleups"
 description: "Podcast exploring how design considerations differ between startups and scaleups."
 resource: https://verraes.net/2023/02/software-design-scaleups-startups-.md/
-tags: ["modelling-design-heuristics", "startups", "scaleups", "design-decisions", "growth", "technical-debt", "constraints", "podcast"]
+cluster: modelling-design-heuristics
+tags: ["startups", "decision-making", "technical-debt", "constraints"]
 published: 2023-02
 timestamp: 2026-07-05
 ---

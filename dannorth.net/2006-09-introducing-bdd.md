@@ -3,7 +3,8 @@ type: article
 title: "Introducing BDD"
 description: "North introduces Behavior-Driven Development as a response to confusion around Test-Driven Development, particularly regarding what to test and how to name tests."
 resource: https://dannorth.net/blog/introducing-bdd/
-tags: ["bdd-foundations", "agile", "bdd", "tdd", "testing"]
+cluster: bdd-foundations
+tags: ["agile", "bdd", "tdd", "testing"]
 published: 2006-09
 timestamp: 2026-07-05
 ---

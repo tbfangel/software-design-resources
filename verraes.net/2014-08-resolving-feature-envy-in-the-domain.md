@@ -3,7 +3,8 @@ type: article
 title: "Resolving Feature Envy in the Domain"
 description: "Feature envy—when one object frequently calls methods on another—is a code smell pointing to a deeper domain modelling issue."
 resource: https://verraes.net/2014/08/resolving-feature-envy-in-the-domain/
-tags: ["modelling-design-heuristics", "feature-envy", "domain-modelling", "object-responsibilities", "refactoring", "design-smells"]
+cluster: modelling-design-heuristics
+tags: ["anti-patterns", "domain-modelling", "object-oriented-design", "refactoring"]
 published: 2014-08
 timestamp: 2026-07-05
 ---

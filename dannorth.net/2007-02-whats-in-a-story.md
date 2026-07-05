@@ -3,7 +3,8 @@ type: article
 title: "What's in a Story?"
 description: "North defines the structure of BDD stories as the fundamental unit for capturing requirements in a way that creates shared understanding about what constitutes completion."
 resource: https://dannorth.net/blog/whats-in-a-story/
-tags: ["bdd-foundations", "agile", "bdd", "requirements", "stories"]
+cluster: bdd-foundations
+tags: ["agile", "bdd", "requirements", "storytelling"]
 published: 2007-02
 timestamp: 2026-07-05
 ---

@@ -3,7 +3,8 @@ type: presentation
 title: "Towards Modelling Processes"
 description: "Presentation exploring how to model processes and workflows as explicit domain concepts rather than as imperative procedural code."
 resource: https://verraes.net/2015/05/towards-modelling-processes/
-tags: ["modelling-design-heuristics", "process-modelling", "state-machines", "workflows", "domain-concepts", "choreography"]
+cluster: modelling-design-heuristics
+tags: ["domain-modelling", "state-machines", "workflows", "orchestration"]
 published: 2015-05
 timestamp: 2026-07-05
 ---

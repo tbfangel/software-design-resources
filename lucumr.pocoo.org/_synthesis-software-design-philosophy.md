@@ -2,7 +2,7 @@
 type: synthesis
 title: "Software Design Philosophy"
 description: "This cluster collects Ronacher's broader reflections on software design — how to think about dependencies, abstraction, code quality, concurrency, type systems, and the nature of good tooling."
-tags: ["software-design-philosophy"]
+cluster: software-design-philosophy
 timestamp: 2026-07-05
 ---
 # Software Design Philosophy

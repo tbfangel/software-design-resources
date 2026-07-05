@@ -3,7 +3,8 @@ type: article
 title: "Coping with Change in Software Development"
 description: "Fear of change is the enemy."
 resource: https://verraes.net/2011/07/coping-with-change-in-software-development/
-tags: ["software-engineering", "change-management", "refactoring", "agility", "adaptability", "continuous-improvement"]
+cluster: software-engineering
+tags: ["organizational-change", "refactoring", "agile", "continuous-improvement"]
 published: 2011-07
 timestamp: 2026-07-05
 ---

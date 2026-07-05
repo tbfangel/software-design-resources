@@ -3,7 +3,8 @@ type: article
 title: "Rust Any Part 2: As-Any Hack"
 description: "Ronacher demonstrates the As-Any hack: a workaround for Rust's limitation that you cannot create `Box<dyn Any + Debug>` because only one non-auto trait is allowed in a trait object."
 resource: https://lucumr.pocoo.org/2022/1/7/as-any-hack/
-tags: ["rust-language", "rust", "any-trait", "downcasting", "debug", "trait-objects", "extension-maps"]
+cluster: rust-language
+tags: ["rust", "debugging"]
 published: 2022-01
 timestamp: 2026-07-05
 ---

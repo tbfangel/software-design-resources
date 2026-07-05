@@ -3,7 +3,8 @@ type: article
 title: "Eventsourcing Patterns: Decision Tracking"
 description: "When a consumer applies business logic to events and makes a decision (whether to award a free hat, trigger an alert, etc.), the question arises: should that decision be stored as an event?"
 resource: https://verraes.net/2019/05/eventsourcing-patterns-decision-tracking/
-tags: ["event-sourcing-cqrs", "decision-tracking", "business-rules", "model-evolution", "event-store", "historical-accuracy"]
+cluster: event-sourcing-cqrs
+tags: ["decision-making", "domain-logic", "domain-modelling", "event-store"]
 published: 2019-05
 timestamp: 2026-07-05
 ---

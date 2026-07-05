@@ -3,7 +3,8 @@ type: article
 title: "How to WASM DWARF"
 description: "Ronacher explains why DWARF (not source maps) is the right debugging format for WebAssembly: source maps work for minified JavaScript but fail for WASM's binary complexity and Harvard architecture (separated code/data)."
 resource: https://lucumr.pocoo.org/2020/11/30/how-to-wasm-dwarf/
-tags: ["rust-language", "webassembly", "dwarf", "debugging", "sentry", "wasm-bindgen"]
+cluster: rust-language
+tags: ["webassembly", "debugging", "observability"]
 published: 2020-11
 timestamp: 2026-07-05
 ---

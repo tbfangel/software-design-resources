@@ -3,7 +3,8 @@ type: article
 title: "\"Software design is just theory\""
 description: "The dismissal \"software design is just theory\" misses the point: design is the bridge between theory and practice."
 resource: https://verraes.net/2014/10/software-design-is-just-theory/
-tags: ["modelling-design-heuristics", "design-theory", "craft", "practice", "intentionality", "design-philosophy"]
+cluster: modelling-design-heuristics
+tags: ["software-design", "craftsmanship", "learning", "intentionality", "design-philosophy"]
 published: 2014-10
 timestamp: 2026-07-05
 ---

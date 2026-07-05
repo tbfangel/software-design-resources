@@ -3,7 +3,8 @@ type: article
 title: "Yoda Principle for better integrations"
 description: "Oskar Dudycz argues that commands in APIs and workflows should be named for the definitive business action they perform, not for a tentative check."
 resource: https://www.architecture-weekly.com/p/yoda-principle-for-better-integrations
-tags: ["architecture-patterns", "api-design", "integration-patterns", "command-naming", "command-query-separation", "race-conditions", "system-boundaries"]
+cluster: architecture-patterns
+tags: ["api-design", "messaging", "cqrs", "command-query-separation", "race-conditions", "system-design"]
 published: 2026-04
 timestamp: 2026-07-05
 ---

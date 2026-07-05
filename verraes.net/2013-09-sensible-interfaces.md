@@ -3,7 +3,8 @@ type: article
 title: "Sensible Interfaces"
 description: "Interfaces communicate contracts and expected polymorphism."
 resource: https://verraes.net/2013/09/sensible-interfaces/
-tags: ["software-engineering", "naming", "interface-design", "polymorphism", "contract", "segregation"]
+cluster: software-engineering
+tags: ["naming", "api-design", "object-oriented-design", "separation-of-concerns"]
 published: 2013-09
 timestamp: 2026-07-05
 ---

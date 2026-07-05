@@ -3,7 +3,8 @@ type: article
 title: "You Can't Do That: Abstracting over Ownership in Rust with Higher-Rank Type Bounds"
 description: "Ronacher documents a fundamental limitation: creating APIs that transparently handle both `&str` and `String` breaks down when higher-ranked trait bounds (HRTBs) are involved."
 resource: https://lucumr.pocoo.org/2022/9/11/abstracting-over-ownership/
-tags: ["rust-language", "rust", "hrtbs", "ownership-abstraction", "type-system-limits", "closures"]
+cluster: rust-language
+tags: ["rust", "type-systems", "programming"]
 published: 2022-09
 timestamp: 2026-07-05
 ---

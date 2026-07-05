@@ -3,7 +3,8 @@ type: article
 title: "Software Design in the Agentic Age: Place Your Bets"
 description: "Verraes argues that while low-level code quality is increasingly automatable—and remains valuable for long-term maintainability and token efficiency—high-level software design (domain models, ubiquitous language, bounded contexts) remains fundamentally human territory, enhanced rather than replaced by AI."
 resource: https://verraes.net/2026/07/software-design-in-the-agentic-age/
-tags: ["modelling-design-heuristics", "agentic-development", "software-design", "domain-driven-design", "ubiquitous-language", "bounded-contexts", "specification-driven-development"]
+cluster: modelling-design-heuristics
+tags: ["agentic-coding", "software-design", "domain-driven-design", "ubiquitous-language", "bounded-contexts", "specifications"]
 published: 2026-07
 timestamp: 2026-07-05
 ---

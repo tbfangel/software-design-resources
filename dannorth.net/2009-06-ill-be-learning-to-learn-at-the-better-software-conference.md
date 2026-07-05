@@ -3,7 +3,8 @@ type: conference announcement
 title: "I'll be Learning to Learn at the Better Software conference"
 description: "North presented at Better Software Conference in Las Vegas on learning models and thinking frameworks, focusing on teaching people to think more effectively rather than simply learn better."
 resource: https://dannorth.net/blog/ill-be-learning-to-learn-at-the-better-software-conference/
-tags: ["learning-expertise", "bsce", "events", "learning", "sqe", "talks"]
+cluster: learning-expertise
+tags: ["events", "learning"]
 published: 2009-06
 timestamp: 2026-07-05
 ---

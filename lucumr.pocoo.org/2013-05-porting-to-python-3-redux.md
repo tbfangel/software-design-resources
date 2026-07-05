@@ -3,7 +3,8 @@ type: article
 title: "Porting to Python 3 Redux"
 description: "Revised guidance for maintaining a single codebase supporting Python 2.6+ and 3.3+."
 resource: https://lucumr.pocoo.org/2013/5/21/porting-to-python-3-redux/
-tags: ["python-ecosystem", "python-2", "python-3", "single-codebase", "six", "unicode", "compatibility"]
+cluster: python-ecosystem
+tags: ["python", "project-organization", "unicode", "backwards-compatibility"]
 published: 2013-05
 timestamp: 2026-07-05
 ---

@@ -3,7 +3,8 @@ type: article
 title: "Talk is Cheap, Show Me the Numbers: Benchmarking for Performance"
 description: "The author encountered performance issues with his open-source Node.js tools (Emmett and Pongo) when users deployed them in serverless environments where initial requests took over one second."
 resource: https://www.architecture-weekly.com/p/talk-is-cheap-show-me-the-numbers
-tags: ["observability", "performance-benchmarking", "connection-pooling", "serverless", "opentelemetry", "flame-graphs"]
+cluster: observability
+tags: ["performance", "databases", "serverless", "opentelemetry"]
 published: 2024
 timestamp: 2026-07-05
 ---

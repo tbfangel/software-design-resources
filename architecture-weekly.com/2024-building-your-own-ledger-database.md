@@ -3,7 +3,8 @@ type: article
 title: "Building Your Own Ledger Database"
 description: "Amazon is sunsetting QLDB, forcing companies to migrate."
 resource: https://www.architecture-weekly.com/p/building-your-own-ledger-database
-tags: ["databases-and-postgresql", "ledger-databases", "s3", "duckdb", "qldb", "immutability", "cost-optimization"]
+cluster: databases-and-postgresql
+tags: ["databases", "cloud-storage", "immutability", "cost-optimization"]
 published: 2024
 timestamp: 2026-07-05
 ---

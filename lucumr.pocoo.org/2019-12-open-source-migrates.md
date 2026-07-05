@@ -3,7 +3,8 @@ type: article
 title: "Open Source Migrates With Emotional Distress"
 description: "Ronacher argues that open source communities manage backwards-incompatible migrations through a process powered by shared emotional strain rather than technical merit."
 resource: https://lucumr.pocoo.org/2019/12/28/open-source-migrates/
-tags: ["open-source-philosophy", "python-3", "migration", "community-pressure", "backwards-compatibility", "sustainability"]
+cluster: open-source-philosophy
+tags: ["python", "migration", "community", "backwards-compatibility", "open-source-sustainability"]
 published: 2019-12
 timestamp: 2026-07-05
 ---

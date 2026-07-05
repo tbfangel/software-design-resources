@@ -3,7 +3,8 @@ type: article
 title: "The Write-Ahead Log: A Foundation for Reliability"
 description: "Write-Ahead Logs (WALs) are an underappreciated yet foundational concept in modern systems, ubiquitous across databases, message brokers, and distributed systems."
 resource: https://www.architecture-weekly.com/p/the-write-ahead-log-a-foundation
-tags: ["databases-and-postgresql", "write-ahead-log", "wal", "durability", "crash-recovery", "replication", "database-internals"]
+cluster: databases-and-postgresql
+tags: ["write-ahead-log", "resilience", "crash-recovery", "replication", "databases"]
 published: 2024
 timestamp: 2026-07-05
 ---

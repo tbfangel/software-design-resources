@@ -3,7 +3,8 @@ type: presentation (video)
 title: "Critically Engaging With Models (DDD Europe Keynote)"
 description: "Video presentation of the keynote \"Critically Engaging with Models\" at DDD Europe 2022."
 resource: https://verraes.net/2023/01/critically-engaging-with-models/
-tags: ["modelling-design-heuristics", "models", "worldviews", "critical-thinking", "organizational-design", "keynote"]
+cluster: modelling-design-heuristics
+tags: ["domain-modelling", "mental-models", "critical-thinking", "organizational-design", "public-speaking"]
 published: 2023-01
 co_author: "Rebecca Wirfs-Brock"
 timestamp: 2026-07-05

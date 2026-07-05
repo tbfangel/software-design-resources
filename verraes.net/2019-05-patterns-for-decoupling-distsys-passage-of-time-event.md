@@ -3,7 +3,8 @@ type: article
 title: "Patterns for Decoupling in Distributed Systems: Passage of Time Event"
 description: "Replace cron jobs and scheduled commands with a generic Passage of Time Event (DayHasPassed, QuarterHasPassed)."
 resource: https://verraes.net/2019/05/patterns-for-decoupling-distsys-passage-of-time-event/
-tags: ["messaging-distributed-systems", "scheduling", "time", "events", "domain-driven-design", "reactive-patterns"]
+cluster: messaging-distributed-systems
+tags: ["workflows", "date-time", "events", "domain-driven-design", "async-programming"]
 published: 2019-05
 timestamp: 2026-07-05
 ---

@@ -3,7 +3,8 @@ type: article (snapshot from ongoing conversation with rebecca wirfs-brock)
 title: "Tensions when Designing Evolvable Bounded Contexts"
 description: "This piece identifies fundamental tensions in designing systems of bounded contexts."
 resource: https://verraes.net/2021/04/tensions-when-designing-evolvable-bounded-contexts/
-tags: ["bounded-contexts", "evolution", "interfaces", "design-tensions", "trade-offs"]
+cluster: bounded-contexts
+tags: ["api-design", "trade-offs"]
 published: 2021-04
 timestamp: 2026-07-05
 ---

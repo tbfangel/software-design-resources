@@ -3,7 +3,8 @@ type: article
 title: "Code Reviews and Blame Culture"
 description: "Pre-merge code reviews are not inherently bad; context matters."
 resource: https://verraes.net/2016/04/code-reviews-and-blame-culture/
-tags: ["software-engineering", "code-reviews", "team-culture", "continuous-integration", "quality-practices"]
+cluster: software-engineering
+tags: ["code-review", "organizational-culture", "continuous-integration", "code-quality"]
 published: 2016-04
 timestamp: 2026-07-05
 ---

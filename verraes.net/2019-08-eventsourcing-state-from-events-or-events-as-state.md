@@ -3,7 +3,8 @@ type: article
 title: "Eventsourcing: State from Events or Events as State?"
 description: "This article clarifies the distinction between two related but different concepts."
 resource: https://verraes.net/2019/08/eventsourcing-state-from-events-vs-events-as-state/
-tags: ["event-sourcing-cqrs", "event-sourcing-definition", "projections", "stream-processing", "aggregates", "constraints"]
+cluster: event-sourcing-cqrs
+tags: ["event-sourcing", "projections", "stream-processing", "aggregates", "constraints"]
 published: 2019-08
 timestamp: 2026-07-05
 ---

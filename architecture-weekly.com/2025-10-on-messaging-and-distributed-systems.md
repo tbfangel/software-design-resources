@@ -3,7 +3,8 @@ type: interview
 title: "On Messaging and Distributed Systems with Ian Cooper"
 description: "Discussion on why messaging remains a critical yet non-commoditized skill in distributed systems architecture."
 resource: https://www.architecture-weekly.com/p/on-messaging-and-distributed-systems
-tags: ["messaging-and-kafka", "messaging-patterns", "distributed-systems", "ian-cooper", "event-driven-architecture", "system-boundaries"]
+cluster: messaging-and-kafka
+tags: ["messaging", "distributed-systems", "event-driven-architecture", "system-design"]
 published: 2025-10
 timestamp: 2026-07-05
 ---

@@ -3,7 +3,8 @@ type: article
 title: "McKinsey Developer Productivity Review"
 description: "North critiques McKinsey's approach to measuring developer productivity, identifying two fundamental errors: assuming software development is reducible to measurable components like factory work, and equating productivity primarily with code-writing output."
 resource: https://dannorth.net/blog/mckinsey-review/
-tags: ["productivity-metrics", "productivity", "programming", "metrics"]
+cluster: productivity-metrics
+tags: ["productivity", "programming", "metrics"]
 published: 2023-10
 timestamp: 2026-07-05
 ---

@@ -3,7 +3,8 @@ type: article
 title: "Clanker: A Word For The Machine"
 description: "Ronacher argues that calling LLM-based systems \"clankers\" rather than \"agents\" serves an important purpose: maintaining conceptual distance between humans and machines."
 resource: https://lucumr.pocoo.org/2026/5/26/clankers/
-tags: ["ai-and-agents", "ai-terminology", "anthropomorphism", "machine-responsibility", "ai-ethics", "language-and-framing", "agency"]
+cluster: ai-and-agents
+tags: ["ai", "ai-ethics", "ubiquitous-language"]
 published: 2026-05
 timestamp: 2026-07-05
 ---

@@ -3,7 +3,8 @@ type: article
 title: "BDD is like TDD if"
 description: "North clarifies the relationship between BDD and TDD, arguing they appear identical in programming-only teams but diverge significantly when non-programmers join."
 resource: https://dannorth.net/blog/bdd-is-like-tdd-if/
-tags: ["bdd-foundations", "agile", "bdd", "programming", "tdd"]
+cluster: bdd-foundations
+tags: ["agile", "bdd", "programming", "tdd"]
 published: 2012-05
 timestamp: 2026-07-05
 ---

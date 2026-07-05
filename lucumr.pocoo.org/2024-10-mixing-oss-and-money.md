@@ -3,7 +3,8 @@ type: article
 title: "The Inevitability of Mixing Open Source and Money"
 description: "Ronacher argues that money has always been part of open source — Linux has corporate contributors, Redis and MariaDB commercialised, Next.js is a marketing vehicle for Vercel."
 resource: https://lucumr.pocoo.org/2024/10/14/mixing-oss-and-money/
-tags: ["open-source-philosophy", "open-source-sustainability", "funding", "maintainer-burnout", "wordpress", "xz-utils"]
+cluster: open-source-philosophy
+tags: ["open-source-sustainability", "open-source-funding", "burnout", "web-development", "supply-chain-security"]
 published: 2024-10
 timestamp: 2026-07-05
 ---

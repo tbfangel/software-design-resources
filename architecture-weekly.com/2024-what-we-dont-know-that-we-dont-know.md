@@ -3,7 +3,8 @@ type: article
 title: "What We Don't Know That We Don't Know"
 description: "Explores the challenge of distinguishing between knowledge and ignorance using a hospital visit as a springboard."
 resource: https://www.architecture-weekly.com/p/what-we-dont-know-that-we-dont-know
-tags: ["engineering-culture", "epistemology", "decision-making", "uncertainty", "professional-judgment", "risk-management"]
+cluster: engineering-culture
+tags: ["critical-thinking", "decision-making", "uncertainty", "craftsmanship", "risk-management"]
 published: 2024
 timestamp: 2026-07-05
 ---

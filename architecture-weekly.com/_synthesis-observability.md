@@ -2,7 +2,7 @@
 type: synthesis
 title: "Observability & System Quality"
 description: "This cluster explores observability strategies, measurement practices, OpenTelemetry implementation, modern tracing approaches, defining success metrics, performance benchmarking, and transitioning from monitoring to true system understanding."
-tags: ["observability"]
+cluster: observability
 timestamp: 2026-07-05
 ---
 # Observability & System Quality

@@ -3,7 +3,8 @@ type: article
 title: "Pre-merge Code Reviews"
 description: "Pre-merge code reviews establish team responsibility for code quality."
 resource: https://verraes.net/2013/10/pre-merge-code-reviews/
-tags: ["software-engineering", "code-review-process", "pull-requests", "team-maturity", "defect-detection", "knowledge-sharing"]
+cluster: software-engineering
+tags: ["code-review", "team-dynamics", "testing", "knowledge-sharing"]
 published: 2013-10
 timestamp: 2026-07-05
 ---

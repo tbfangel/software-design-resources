@@ -3,7 +3,8 @@ type: article
 title: "Handling Events Coming in an Unknown Order"
 description: "Addresses how to handle events that arrive out of order when you don't know what events should come or in what sequence."
 resource: https://www.architecture-weekly.com/p/handling-events-coming-in-an-unknown
-tags: ["event-driven-architecture", "event-ordering", "out-of-order-events", "revision-numbers", "message-processing", "event-architecture"]
+cluster: event-driven-architecture
+tags: ["message-processing", "versioning", "event-driven-architecture"]
 published: 2025-11
 timestamp: 2026-07-05
 ---

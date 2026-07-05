@@ -3,7 +3,8 @@ type: article
 title: "CUPID: the back story"
 description: "North developed CUPID as an alternative to SOLID after years of questioning their relevance to modern software development, emerging from a presentation at PubConf London."
 resource: https://dannorth.net/blog/cupid-the-back-story/
-tags: ["software-design-architecture", "design", "programming"]
+cluster: software-design-architecture
+tags: ["software-design", "programming"]
 published: 2021-03
 timestamp: 2026-07-05
 ---

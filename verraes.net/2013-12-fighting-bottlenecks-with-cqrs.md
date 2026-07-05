@@ -3,7 +3,8 @@ type: presentation
 title: "Fighting Bottlenecks with CQRS"
 description: "A presentation on Command Query Responsibility Segregation at the first ResearchGate Developer Day in Berlin."
 resource: https://verraes.net/2013/12/fighting-bottlenecks-with-cqrs/
-tags: ["event-sourcing-cqrs", "cqrs", "architecture", "performance", "scalability", "separation-of-concerns"]
+cluster: event-sourcing-cqrs
+tags: ["cqrs", "software-architecture", "performance", "scalability", "separation-of-concerns"]
 published: 2013-12
 timestamp: 2026-07-05
 ---

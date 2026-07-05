@@ -3,7 +3,8 @@ type: article
 title: "Websockets 101"
 description: "Ronacher introduces the WebSocket specification with critical commentary."
 resource: https://lucumr.pocoo.org/2012/9/24/websockets-101/
-tags: ["web-frameworks-and-apis", "websockets", "protocol-design", "tls", "authentication", "proxy-compatibility"]
+cluster: web-frameworks-and-apis
+tags: ["websockets", "api-design", "security", "authentication"]
 published: 2012-09
 timestamp: 2026-07-05
 ---

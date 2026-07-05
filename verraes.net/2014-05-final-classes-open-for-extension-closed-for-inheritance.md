@@ -3,7 +3,8 @@ type: article
 title: "Final Classes: Open for Extension, Closed for Inheritance"
 description: "The concept of \"open for extension, closed for modification\" is better achieved through composition than inheritance."
 resource: https://verraes.net/2014/05/final-classes-in-php/
-tags: ["software-engineering", "inheritance", "final-keyword", "php", "object-design", "solid-principles"]
+cluster: software-engineering
+tags: ["object-oriented-design", "php", "design-principles"]
 published: 2014-05
 timestamp: 2026-07-05
 ---

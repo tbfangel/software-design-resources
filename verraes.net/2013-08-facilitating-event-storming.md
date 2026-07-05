@@ -3,7 +3,8 @@ type: article
 title: "Facilitating Event Storming"
 description: "This is Verraes' early, detailed facilitator's guide based on his first Event Storming session with the Qandidate.com team, following an early draft of Alberto Brandolini's work."
 resource: https://verraes.net/2013/08/facilitating-event-storming/
-tags: ["event-storming", "facilitation", "workshop-techniques", "domain-driven-design", "cqrs", "domain-events", "modeling"]
+cluster: event-storming
+tags: ["facilitation", "domain-driven-design", "cqrs", "domain-events", "domain-modelling"]
 published: 2013-08
 timestamp: 2026-07-05
 ---

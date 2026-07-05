@@ -3,7 +3,8 @@ type: article
 title: "Ordering, Grouping and Consistency in Messaging Systems"
 description: "Distributed systems processing asynchronous messages face challenges with out-of-order arrival, duplicate handling, and concurrent operations breaking assumptions."
 resource: https://www.architecture-weekly.com/p/ordering-grouping-and-consistency
-tags: ["event-driven-architecture", "message-ordering", "task-grouping", "queue-brokers", "idempotency", "distributed-systems"]
+cluster: event-driven-architecture
+tags: ["message-processing", "workflows", "message-brokers", "idempotency", "distributed-systems"]
 published: 2024
 timestamp: 2026-07-05
 ---

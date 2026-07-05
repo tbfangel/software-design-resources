@@ -3,7 +3,8 @@ type: article
 title: "The Legacy Mirror Heuristic"
 description: "When designing a new system or bounded context, look at existing legacy systems for clues about what the domain actually requires."
 resource: https://verraes.net/2021/03/heuristic-legacy-mirror/
-tags: ["modelling-design-heuristics", "legacy-systems", "existing-code", "design-heuristics", "constraints", "learning-from-implementation"]
+cluster: modelling-design-heuristics
+tags: ["legacy-systems", "heuristics", "constraints", "learning"]
 published: 2021-03
 timestamp: 2026-07-05
 ---

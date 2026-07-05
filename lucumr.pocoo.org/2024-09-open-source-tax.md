@@ -3,7 +3,8 @@ type: article
 title: "Accidental Spending: A Case For an Open Source Tax?"
 description: "Ronacher explores whether a mandatory funding mechanism for open source could work like cloud cost \"accidental spending.\" His conclusion: a percentage tax through platforms like AWS or GitHub has intuitive appeal but fails because open source lacks governance infrastructure to distribute funds and project values vary by company."
 resource: https://lucumr.pocoo.org/2024/9/19/open-source-tax/
-tags: ["open-source-philosophy", "open-source-funding", "open-source-pledge", "accidental-spending", "tax-analogy"]
+cluster: open-source-philosophy
+tags: ["open-source-funding", "cost-optimization"]
 published: 2024-09
 timestamp: 2026-07-05
 ---

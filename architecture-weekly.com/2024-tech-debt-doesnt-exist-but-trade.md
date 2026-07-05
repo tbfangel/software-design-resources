@@ -3,7 +3,8 @@ type: article
 title: "Tech Debt Doesn't Exist, But Trade-Offs Do"
 description: "\"Technical debt\" is a harmful metaphor that obscures the real issue: making informed trade-offs."
 resource: https://www.architecture-weekly.com/p/tech-debt-doesnt-exist-but-trade
-tags: ["engineering-culture", "technical-debt", "trade-offs", "decision-making", "communication", "architecture"]
+cluster: engineering-culture
+tags: ["technical-debt", "trade-offs", "decision-making", "communication", "software-architecture"]
 published: 2024
 timestamp: 2026-07-05
 ---

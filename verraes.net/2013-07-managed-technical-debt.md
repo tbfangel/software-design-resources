@@ -3,7 +3,8 @@ type: article
 title: "Managed Technical Debt"
 description: "The core distinction is between managed and unmanaged technical debt."
 resource: https://verraes.net/2013/07/managed-technical-debt/
-tags: ["process-teams-learning", "technical-debt", "team-discipline", "estimation", "refactoring", "architectural-decisions"]
+cluster: process-teams-learning
+tags: ["technical-debt", "team-dynamics", "estimation", "refactoring", "decision-making"]
 published: 2013-07
 timestamp: 2026-07-05
 ---

@@ -3,7 +3,8 @@ type: article
 title: "Distributed Locking: A Practical Guide"
 description: "In distributed systems with multiple processes accessing shared resources simultaneously, data corruption and race conditions occur without coordination."
 resource: https://www.architecture-weekly.com/p/distributed-locking-a-practical-guide
-tags: ["distributed-systems", "distributed-locking", "redis", "zookeeper", "etcd", "postgresql", "concurrency-control"]
+cluster: distributed-systems
+tags: ["distributed-locking", "redis", "distributed-systems", "postgresql", "concurrency"]
 published: 2024
 timestamp: 2026-07-05
 ---

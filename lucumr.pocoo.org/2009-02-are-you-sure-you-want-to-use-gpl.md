@@ -3,7 +3,8 @@ type: article
 title: "Are you sure you want to use GPL?"
 description: "Ronacher urges developers to consider GPL's practical consequences before defaulting to it."
 resource: https://lucumr.pocoo.org/2009/2/12/are-you-sure-you-want-to-use-gpl/
-tags: ["open-source-philosophy", "gpl", "bsd", "licensing-philosophy", "incompatibility"]
+cluster: open-source-philosophy
+tags: ["open-source-licensing", "backwards-compatibility"]
 published: 2009-02
 timestamp: 2026-07-05
 ---

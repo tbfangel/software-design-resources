@@ -3,7 +3,8 @@ type: article
 title: "Python Packaging: Hate, hate, hate everywhere"
 description: "Ronacher defends setuptools against criticism that led to its replacement with tools that lost important functionality."
 resource: https://lucumr.pocoo.org/2012/6/22/hate-hate-hate-everywhere/
-tags: ["python-ecosystem", "python-packaging", "setuptools", "pip", "eggs", "binary-distributions", "deployment"]
+cluster: python-ecosystem
+tags: ["python-packaging", "deployment"]
 published: 2012-06
 timestamp: 2026-07-05
 ---

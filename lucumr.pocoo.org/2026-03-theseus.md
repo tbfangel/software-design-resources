@@ -3,7 +3,8 @@ type: article
 title: "AI And The Ship of Theseus"
 description: "Armin Ronacher uses the chardet relicensing controversy as a lens to examine what happens when AI makes reimplementing GPL software trivially cheap."
 resource: https://lucumr.pocoo.org/2026/3/5/theseus/
-tags: ["open-source-philosophy", "open-source-licensing", "copyleft", "ai-generated-code", "reimplementation", "copyright"]
+cluster: open-source-philosophy
+tags: ["open-source-licensing", "ai-generated-code", "migration"]
 published: 2026-03
 timestamp: 2026-07-05
 ---

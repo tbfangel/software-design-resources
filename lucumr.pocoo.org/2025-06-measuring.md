@@ -3,7 +3,8 @@ type: article
 title: "We Can Just Measure Things"
 description: "Ronacher proposes using programming agents as objective tools for measuring developer experience and code quality."
 resource: https://lucumr.pocoo.org/2025/6/17/measuring/
-tags: ["ai-and-agents", "developer-experience-measurement", "agents-as-evaluators", "code-quality"]
+cluster: ai-and-agents
+tags: ["developer-experience", "ai-agents", "code-quality"]
 published: 2025-06
 timestamp: 2026-07-05
 ---

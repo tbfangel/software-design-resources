@@ -3,7 +3,8 @@ type: article
 title: "Rye: A Vision Continued"
 description: "Ronacher describes Rye's ambition: \"a comprehensive user experience, designed so that the only tool a Python programmer would need.\" Inspired by Rust's Cargo and rustup, Rye bundles existing tools (virtualenv, pip-tools, ruff, build, twine) rather than reinventing them, and provides automatic Python version management, virtual environments, and dependency handling."
 resource: https://lucumr.pocoo.org/2024/2/4/rye-a-vision/
-tags: ["python-ecosystem", "rye", "python-packaging", "cargo-inspiration", "opinionated-defaults", "single-tool-vision"]
+cluster: python-ecosystem
+tags: ["python-packaging", "rust", "api-design"]
 published: 2024-02
 timestamp: 2026-07-05
 ---

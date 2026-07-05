@@ -3,7 +3,8 @@ type: article
 title: "Critical Software Redesign"
 description: "When a software system develops critical flaws—poor performance, unmaintainable code, wrong abstractions—a complete redesign may be necessary."
 resource: https://verraes.net/2024/01/critical-software-redesign/
-tags: ["modelling-design-heuristics", "redesign", "refactoring", "intentionality", "design-flaws", "systems-thinking"]
+cluster: modelling-design-heuristics
+tags: ["refactoring", "intentionality", "anti-patterns", "systems-thinking"]
 published: 2024-01
 co_author: "Rebecca Wirfs-Brock"
 timestamp: 2026-07-05

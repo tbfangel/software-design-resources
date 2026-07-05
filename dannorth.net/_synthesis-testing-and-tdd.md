@@ -2,7 +2,7 @@
 type: synthesis
 title: "Testing & TDD"
 description: "This cluster explores testing practices, frameworks, and philosophy beyond the BDD methodology, including TDD approaches, testing tools, and the relationship between testing and development."
-tags: ["testing-and-tdd"]
+cluster: testing-and-tdd
 timestamp: 2026-07-05
 ---
 # Testing & TDD

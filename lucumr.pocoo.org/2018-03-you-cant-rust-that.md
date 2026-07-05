@@ -3,7 +3,8 @@ type: article
 title: "You can't Rust that"
 description: "Ronacher's practical guide to three common Rust patterns that frustrate beginners: self-referential structs (use handles/offsets instead of pointers), ownership ambiguity (use `Arc<T>` and `Rc<T>` instead of fighting the borrow checker), and interior mutability for shared mutable state (promote new state to \"current\" rather than enabling mutation through `RwLock`)."
 resource: https://lucumr.pocoo.org/2018/3/31/you-cant-rust-that/
-tags: ["rust-language", "rust", "ownership", "self-referential-structs", "reference-counting", "interior-mutability"]
+cluster: rust-language
+tags: ["rust", "ownership", "memory-management"]
 published: 2018-03
 timestamp: 2026-07-05
 ---

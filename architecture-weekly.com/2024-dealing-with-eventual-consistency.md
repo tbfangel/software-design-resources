@@ -3,7 +3,8 @@ type: article
 title: "Dealing with Eventual Consistency"
 description: "Accepting eventual consistency for file uploads—rather than forcing synchronous operations—improves user experience while leveraging cloud infrastructure effectively."
 resource: https://www.architecture-weekly.com/p/dealing-with-eventual-consistency
-tags: ["event-driven-architecture", "eventual-consistency", "predictable-identifiers", "urns", "cloud-storage", "asynchronous-processing"]
+cluster: event-driven-architecture
+tags: ["eventual-consistency", "cloud-storage", "async-programming"]
 published: 2024
 timestamp: 2026-07-05
 ---

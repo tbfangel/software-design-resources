@@ -3,7 +3,8 @@ type: publication announcement
 title: "Published: The art of misdirection"
 description: "North announced publication of \"The Art of Misdirection\" in The Developer magazine ahead of NDC 2012 conference in Oslo."
 resource: https://dannorth.net/blog/published-the-art-of-misdirection/
-tags: ["learning-expertise", "agile", "articles", "effectiveness-patterns", "tdd"]
+cluster: learning-expertise
+tags: ["agile", "best-practices", "tdd"]
 published: 2012-06
 timestamp: 2026-07-05
 ---

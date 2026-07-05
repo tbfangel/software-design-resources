@@ -3,7 +3,8 @@ type: article
 title: "Licensing in a Post Copyright World"
 description: "Ronacher traces the impact of GPL fragmentation: the GPLv3/GPLv2 split means Linux (GPLv2-only) and most GNU software (GPLv3) are now incompatible."
 resource: https://lucumr.pocoo.org/2013/7/23/licensing/
-tags: ["open-source-philosophy", "gpl-fragmentation", "gplv3", "apple", "licensing-drift", "github"]
+cluster: open-source-philosophy
+tags: ["open-source-licensing", "github"]
 published: 2013-07
 timestamp: 2026-07-05
 ---

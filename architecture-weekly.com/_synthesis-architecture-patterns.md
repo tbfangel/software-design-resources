@@ -2,7 +2,7 @@
 type: synthesis
 title: "Architecture Patterns & System Design"
 description: "This cluster explores architectural patterns including CQRS and Vertical Slices, monolith-to-microservices strategies, modular design principles, frontend-backend integration, state management, collaborative design processes, and code design philosophy."
-tags: ["architecture-patterns"]
+cluster: architecture-patterns
 timestamp: 2026-07-05
 ---
 # Architecture Patterns & System Design

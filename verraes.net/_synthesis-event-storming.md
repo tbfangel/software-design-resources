@@ -2,7 +2,7 @@
 type: synthesis
 title: "Event Storming"
 description: "Event Storming is a lightweight facilitation technique for understanding complex business domains through collaborative modeling."
-tags: ["event-storming"]
+cluster: event-storming
 timestamp: 2026-07-05
 ---
 # Event Storming

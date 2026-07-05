@@ -3,7 +3,8 @@ type: article
 title: "DDD and Messaging Architectures"
 description: "This comprehensive article explores the relationship between DDD and messaging-based system architectures."
 resource: https://verraes.net/2019/05/ddd-msg-arch/
-tags: ["ddd-foundations", "messaging", "distributed-systems", "asynchronous-communication", "domain-events", "bounded-contexts", "decoupling"]
+cluster: ddd-foundations
+tags: ["messaging", "distributed-systems", "async-programming", "domain-events", "bounded-contexts", "coupling"]
 published: 2019-05
 timestamp: 2026-07-05
 ---

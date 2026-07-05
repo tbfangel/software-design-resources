@@ -3,7 +3,8 @@ type: article
 title: "TypeScript Migrates to Go: What's Really Behind the Speed Gains"
 description: "Microsoft's announcement of a \"10x faster TypeScript\" compiler is misleading—the performance gains stem from fundamental architectural differences between JavaScript and Go, not because JavaScript is inherently slow."
 resource: https://www.architecture-weekly.com/p/typescript-migrates-to-go-whats-really
-tags: ["engineering-culture", "typescript", "go", "performance", "compiler-design", "technology-choices"]
+cluster: engineering-culture
+tags: ["typescript", "go", "performance", "language-design", "decision-making"]
 published: 2024
 timestamp: 2026-07-05
 ---

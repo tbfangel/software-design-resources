@@ -3,7 +3,8 @@ type: article
 title: "In Support Of Shitty Types"
 description: "Ronacher documents that complex type systems hurt AI agent performance."
 resource: https://lucumr.pocoo.org/2025/8/4/shitty-types/
-tags: ["ai-and-agents", "type-systems", "llms", "go", "typescript", "agent-friendly-design"]
+cluster: ai-and-agents
+tags: ["type-systems", "llms", "go", "typescript", "agent-architecture"]
 published: 2025-08
 timestamp: 2026-07-05
 ---

@@ -3,7 +3,8 @@ type: article
 title: "CUPID: for joyful coding"
 description: "North proposes CUPID as a replacement framework for SOLID principles, arguing that principles function as rigid rules while properties offer flexible goals to move toward."
 resource: https://dannorth.net/blog/cupid-for-joyful-coding/
-tags: ["software-design-architecture", "design", "programming"]
+cluster: software-design-architecture
+tags: ["software-design", "programming"]
 published: 2022-02
 timestamp: 2026-07-05
 ---

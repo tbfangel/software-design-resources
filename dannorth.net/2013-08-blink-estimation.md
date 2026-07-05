@@ -3,7 +3,8 @@ type: article
 title: "Blink Estimation"
 description: "North proposes that experienced teams can make accurate high-level project estimates through rapid intuitive assessment rather than detailed story-by-story planning."
 resource: https://dannorth.net/blog/blink-estimation/
-tags: ["estimation-planning", "agile", "effectiveness-patterns", "estimation", "planning", "software"]
+cluster: estimation-planning
+tags: ["agile", "best-practices", "estimation", "planning", "software-design"]
 published: 2013-08
 timestamp: 2026-07-05
 ---

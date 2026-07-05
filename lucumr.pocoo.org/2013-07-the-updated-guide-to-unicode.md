@@ -3,7 +3,8 @@ type: article
 title: "The Updated Guide to Unicode on Python"
 description: "Revised guidance for Python 2 and 3 Unicode handling."
 resource: https://lucumr.pocoo.org/2013/7/2/the-updated-guide-to-unicode/
-tags: ["python-ecosystem", "python", "unicode", "bytes", "str", "encoding-best-practices"]
+cluster: python-ecosystem
+tags: ["python", "unicode"]
 published: 2013-07
 timestamp: 2026-07-05
 ---

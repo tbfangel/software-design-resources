@@ -3,7 +3,8 @@ type: article
 title: "SOA for the rest of us"
 description: "North wrote an introductory article on service-oriented architecture for non-technical audiences, published in Better Software magazine's May 2007 issue."
 resource: https://dannorth.net/blog/soa-for-the-rest-of-us/
-tags: ["software-design-architecture", "agile", "architecture", "articles", "programming", "services", "soa", "software"]
+cluster: software-design-architecture
+tags: ["agile", "software-architecture", "programming", "microservices", "service-oriented-architecture", "software-design"]
 published: 2007-09
 timestamp: 2026-07-05
 ---

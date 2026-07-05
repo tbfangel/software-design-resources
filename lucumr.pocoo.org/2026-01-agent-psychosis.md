@@ -3,7 +3,8 @@ type: article
 title: "Agent Psychosis: Are We Going Insane?"
 description: "Ronacher argues that the AI builder community has developed an unhealthy relationship with agent tools — forming parasocial attachments, generating low-quality pull requests without critical review, running wasteful token loops, and reinforcing poor practices in echo-chamber communities."
 resource: https://lucumr.pocoo.org/2026/1/18/agent-psychosis/
-tags: ["ai-and-agents", "ai-community", "quality-degradation", "dependency", "epistemic-risk"]
+cluster: ai-and-agents
+tags: ["ai", "code-quality", "dependencies", "critical-thinking"]
 published: 2026-01
 timestamp: 2026-07-05
 ---

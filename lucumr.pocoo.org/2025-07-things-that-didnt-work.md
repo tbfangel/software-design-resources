@@ -3,7 +3,8 @@ type: article
 title: "Agentic Coding Things That Didn't Work"
 description: "Ronacher catalogues agentic coding patterns he tried and abandoned: pre-written slash commands (too rigid), automated commit message generation (not worth the complexity), automated test addition (agents skip meaningful cases), automated linting fixes (causes regressions), hook-based automation (minimal gains), print mode (unreliable), sub-task parallelisation (works only for investigative tasks)."
 resource: https://lucumr.pocoo.org/2025/7/30/things-that-didnt-work/
-tags: ["ai-and-agents", "agentic-coding", "failures", "slash-commands", "automation", "honesty"]
+cluster: ai-and-agents
+tags: ["agentic-coding", "resilience", "claude-code", "tooling", "trust"]
 published: 2025-07
 timestamp: 2026-07-05
 ---

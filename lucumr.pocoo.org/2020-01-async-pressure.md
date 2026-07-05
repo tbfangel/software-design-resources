@@ -3,7 +3,8 @@ type: article
 title: "I'm not feeling the async pressure"
 description: "Ronacher argues that async/await systems systematically ignore back pressure — the resistance that communicates resource constraints upstream."
 resource: https://lucumr.pocoo.org/2020/1/1/async-pressure/
-tags: ["software-design-philosophy", "async-await", "back-pressure", "flow-control", "http-2", "asyncio", "system-design"]
+cluster: software-design-philosophy
+tags: ["async-programming", "resilience", "programming", "http", "system-design"]
 published: 2020-01
 timestamp: 2026-07-05
 ---

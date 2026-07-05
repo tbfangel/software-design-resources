@@ -3,7 +3,8 @@ type: presentation (with video)
 title: "Bounded Contexts: Manage the Understandability of Your Systems (DDD Australia)"
 description: "A presentation arguing that modularization by domain or technical architecture alone isn't enough—both leave teams struggling to understand interconnected systems."
 resource: https://verraes.net/2023/03/bounded-contexts-manage-understandability-ddd-australia/
-tags: ["bounded-contexts", "cognitive-load", "semantic-boundaries", "team-organization", "complexity-management"]
+cluster: bounded-contexts
+tags: ["complexity", "bounded-contexts", "team-topologies"]
 published: 2023-03
 timestamp: 2026-07-05
 ---

@@ -3,7 +3,8 @@ type: article
 title: "Pushing Local Models With Focus And Polish"
 description: "Ronacher argues that although local model inference technically works, its developer experience remains fragmented and unpolished compared to hosted APIs—missing features like tool parameter streaming and drowning users in configuration."
 resource: https://lucumr.pocoo.org/2026/5/8/local-models/
-tags: ["ai-and-agents", "local-model-inference", "developer-experience", "model-optimization", "deepseek-v4", "pi", "vendor-lock-in"]
+cluster: ai-and-agents
+tags: ["llms", "developer-experience", "domain-modelling", "vendor-lock-in"]
 published: 2026-05
 timestamp: 2026-07-05
 ---

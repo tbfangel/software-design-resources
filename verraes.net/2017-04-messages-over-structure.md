@@ -3,7 +3,8 @@ type: presentation
 title: "Messages Over Structure"
 description: "A keynote presentation at Neos Conference 2017 in Hamburg, available as a YouTube video."
 resource: https://verraes.net/2017/04/messages-over-structure/
-tags: ["messaging-distributed-systems", "messaging", "system-design", "architecture", "distributed-systems"]
+cluster: messaging-distributed-systems
+tags: ["messaging", "system-design", "software-architecture", "distributed-systems"]
 published: 2017-04
 timestamp: 2026-07-05
 ---

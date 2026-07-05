@@ -3,7 +3,8 @@ type: article
 title: "On Programming Communities"
 description: "Ronacher reflects on ten years in the Python community, distinguishing attachment to community from attachment to technology."
 resource: https://lucumr.pocoo.org/2014/2/13/programming-communities/
-tags: ["software-design-philosophy", "python-community", "mentorship", "community-vs-technology", "career"]
+cluster: software-design-philosophy
+tags: ["python", "coaching", "community", "career"]
 published: 2014-02
 timestamp: 2026-07-05
 ---

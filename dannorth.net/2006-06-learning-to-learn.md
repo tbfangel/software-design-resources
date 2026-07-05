@@ -3,7 +3,8 @@ type: article
 title: "Learning to learn"
 description: "North advocates for teaching learning itself as a core school subject, arguing that this creates exponential benefits: teachers who study learning become better educators while simultaneously improving as learners, and students gain metacognitive awareness enabling them to communicate their learning needs and approach subjects more effectively."
 resource: https://dannorth.net/blog/learning-to-learn/
-tags: ["learning-expertise", "coaching", "dreyfus", "learning"]
+cluster: learning-expertise
+tags: ["coaching", "dreyfus-model", "learning"]
 published: 2006-06
 timestamp: 2026-07-05
 ---

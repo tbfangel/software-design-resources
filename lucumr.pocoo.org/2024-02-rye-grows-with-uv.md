@@ -3,7 +3,8 @@ type: article
 title: "Rye Grows With UV"
 description: "Ronacher announces Astral's stewardship of Rye and its integration with uv, achieving dramatic speed improvements — virtualenv syncing drops from 5 seconds to nearly instant."
 resource: https://lucumr.pocoo.org/2024/2/15/rye-grows-with-uv/
-tags: ["python-ecosystem", "rye", "uv", "astral", "python-packaging", "performance"]
+cluster: python-ecosystem
+tags: ["python-packaging", "uv", "performance"]
 published: 2024-02
 timestamp: 2026-07-05
 ---

@@ -3,7 +3,8 @@ type: article
 title: "SQLAlchemy and You"
 description: "Ronacher argues that SQLAlchemy is more approachable than its reputation suggests and is often preferable to Django's ORM for non-Django applications."
 resource: https://lucumr.pocoo.org/2011/7/19/sqlachemy-and-you/
-tags: ["web-frameworks-and-apis", "sqlalchemy", "django-orm", "python", "database", "orm-comparison"]
+cluster: web-frameworks-and-apis
+tags: ["orm", "python", "databases"]
 published: 2011-07
 timestamp: 2026-07-05
 ---

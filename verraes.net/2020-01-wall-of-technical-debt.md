@@ -3,7 +3,8 @@ type: article
 title: "The Wall of Technical Debt"
 description: "Technical debt is invisible by default, buried in code and processes."
 resource: https://verraes.net/2020/01/wall-of-technical-debt/
-tags: ["process-teams-learning", "technical-debt", "visualization", "team-management", "continuous-improvement", "organizational-communication"]
+cluster: process-teams-learning
+tags: ["technical-debt", "visualization", "leadership", "continuous-improvement", "communication"]
 published: 2020-01
 timestamp: 2026-07-05
 ---

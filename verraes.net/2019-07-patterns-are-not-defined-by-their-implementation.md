@@ -3,7 +3,8 @@ type: article
 title: "Patterns Are Not Defined by Their Implementation"
 description: "A design pattern is defined by the problem it solves and the forces it balances, not by the code structure used to implement it."
 resource: https://verraes.net/2019/07/patterns-are-not-defined-by-their-implementation/
-tags: ["modelling-design-heuristics", "design-patterns", "implementation", "behavioral-equivalence", "domain-concepts", "pattern-misuse"]
+cluster: modelling-design-heuristics
+tags: ["design-patterns", "domain-modelling", "anti-patterns"]
 published: 2019-07
 timestamp: 2026-07-05
 ---

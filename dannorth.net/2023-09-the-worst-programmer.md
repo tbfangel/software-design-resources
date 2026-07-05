@@ -3,7 +3,8 @@ type: article
 title: "The Worst Programmer I Know"
 description: "North tells the story of Tim Mackinnon, whose productivity score was consistently zero because he never claimed individual story points."
 resource: https://dannorth.net/blog/the-worst-programmer/
-tags: ["productivity-metrics", "productivity", "metrics", "parable"]
+cluster: productivity-metrics
+tags: ["productivity", "metrics"]
 published: 2023-09
 timestamp: 2026-07-05
 ---

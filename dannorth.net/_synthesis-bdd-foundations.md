@@ -2,7 +2,7 @@
 type: synthesis
 title: "BDD Foundations"
 description: "This cluster captures Dan North's foundational writing on Behavior-Driven Development (BDD), which he originated in the mid-2000s."
-tags: ["bdd-foundations"]
+cluster: bdd-foundations
 timestamp: 2026-07-05
 ---
 # BDD Foundations

@@ -3,7 +3,8 @@ type: article
 title: "Build It Yourself"
 description: "Ronacher advocates a cultural shift toward writing small functions instead of adding dependencies for stable, simple functionality."
 resource: https://lucumr.pocoo.org/2025/1/24/build-it-yourself/
-tags: ["software-design-philosophy", "dependencies", "diy", "supply-chain", "corporate-culture", "stability"]
+cluster: software-design-philosophy
+tags: ["dependencies", "supply-chain-security", "organizational-culture", "backwards-compatibility"]
 published: 2025-01
 timestamp: 2026-07-05
 ---

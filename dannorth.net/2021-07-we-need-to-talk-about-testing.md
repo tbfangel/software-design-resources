@@ -3,7 +3,8 @@ type: article
 title: "We need to talk about testing"
 description: "North argues that testing's fundamental purpose is to increase stakeholder confidence through evidence, not merely to validate code functionality."
 resource: https://dannorth.net/blog/we-need-to-talk-about-testing/
-tags: ["bdd-foundations", "agile", "bdd", "programming", "tdd", "testing"]
+cluster: bdd-foundations
+tags: ["agile", "bdd", "programming", "tdd", "testing"]
 published: 2021-07
 timestamp: 2026-07-05
 ---

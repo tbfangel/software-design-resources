@@ -3,7 +3,8 @@ type: article
 title: "Thoughts on Python 3"
 description: "Ronacher's mid-migration assessment: Python 3 \"changed just too much that it broke all our code and not nearly enough that it would warrant upgrading immediately.\" 2to3 was counterproductive — maintaining dual codebases produces compromised code (he describes Jinja2 on Python 3 as \"horrible\")."
 resource: https://lucumr.pocoo.org/2011/12/7/thoughts-on-python3/
-tags: ["python-ecosystem", "python-3", "backwards-compatibility", "unicode", "2to3", "stdlib-gaps"]
+cluster: python-ecosystem
+tags: ["python", "backwards-compatibility", "unicode"]
 published: 2011-12
 timestamp: 2026-07-05
 ---

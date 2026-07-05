@@ -3,7 +3,8 @@ type: article
 title: "Communities of Not"
 description: "Ronacher examines how communities organized around rejecting something—childlessness, cars, or LLMs—often harden into tribal identities that devolve into policing and mob behavior."
 resource: https://lucumr.pocoo.org/2026/6/6/communities-of-not/
-tags: ["ai-and-agents", "community-dynamics", "tribalism", "online-harassment", "technology-adoption", "llm-adoption", "social-polarization"]
+cluster: ai-and-agents
+tags: ["community", "technology-adoption", "ai-adoption"]
 published: 2026-06
 timestamp: 2026-07-05
 ---

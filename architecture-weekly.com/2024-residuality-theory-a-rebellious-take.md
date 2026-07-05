@@ -3,7 +3,8 @@ type: article
 title: "Residuality Theory: A Rebellious Take on Resilience"
 description: "Barry O'Reilly's Residuality Theory offers an alternative to traditional risk analysis by asking \"What survives when ANY stress hits?\" rather than trying to predict and prepare for specific failures."
 resource: https://www.architecture-weekly.com/p/residuality-theory-a-rebellious-take
-tags: ["engineering-culture", "resilience", "risk-management", "residuality-theory", "barry-o-reilly", "failure-analysis"]
+cluster: engineering-culture
+tags: ["resilience", "risk-management", "software-architecture"]
 published: 2024
 timestamp: 2026-07-05
 ---

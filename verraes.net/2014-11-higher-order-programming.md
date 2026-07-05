@@ -3,7 +3,8 @@ type: article
 title: "Higher Order Programming"
 description: "Higher-order programming involves functions (or methods) that take functions as arguments or return functions."
 resource: https://verraes.net/2014/11/higher-order-programming/
-tags: ["software-engineering", "functional-programming", "php", "callbacks", "closures", "composition"]
+cluster: software-engineering
+tags: ["functional-programming", "php", "async-programming", "programming", "object-oriented-design"]
 published: 2014-11
 timestamp: 2026-07-05
 ---

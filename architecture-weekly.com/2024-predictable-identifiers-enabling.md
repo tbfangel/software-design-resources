@@ -3,7 +3,8 @@ type: article
 title: "Predictable Identifiers: Enabling Autonomous Communication"
 description: "In distributed systems, modules need to communicate while remaining autonomous, but traditional event-driven architectures create tight coupling where payment modules must know about orders, reimbursements, and subscriptions."
 resource: https://www.architecture-weekly.com/p/predictable-identifiers-enabling
-tags: ["distributed-systems", "urns", "uniform-resource-names", "correlation-ids", "routing", "decoupling", "multi-tenancy"]
+cluster: distributed-systems
+tags: ["observability", "web-development", "coupling", "multi-tenancy"]
 published: 2024
 timestamp: 2026-07-05
 ---

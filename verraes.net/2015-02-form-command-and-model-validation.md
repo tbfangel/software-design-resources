@@ -3,7 +3,8 @@ type: article
 title: "Form, Command, and Model Validation"
 description: "This article distinguishes three completely independent validation concerns: form validation (UX concern), command validation (message concern), and model validation (business rule concern)."
 resource: https://verraes.net/2015/02/form-command-model-validation/
-tags: ["event-sourcing-cqrs", "validation-layers", "separation-of-concerns", "commands", "forms", "domain-models"]
+cluster: event-sourcing-cqrs
+tags: ["api-design", "separation-of-concerns", "cqrs", "web-development", "domain-modelling"]
 published: 2015-02
 timestamp: 2026-07-05
 ---

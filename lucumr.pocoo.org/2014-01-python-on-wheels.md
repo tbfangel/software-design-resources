@@ -3,7 +3,8 @@ type: article
 title: "Python on Wheels"
 description: "Ronacher explains wheel-based Python deployment: the `.whl` format provides pre-compiled binary distributions that eliminate compilation at install time."
 resource: https://lucumr.pocoo.org/2014/1/27/python-on-wheels/
-tags: ["python-ecosystem", "python-packaging", "wheels", "binary-distributions", "pip", "deployment"]
+cluster: python-ecosystem
+tags: ["python-packaging", "deployment"]
 published: 2014-01
 timestamp: 2026-07-05
 ---

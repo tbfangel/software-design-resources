@@ -3,7 +3,8 @@ type: article
 title: "Dangerous Technology For Americans Only"
 description: "Ronacher critiques U.S."
 resource: https://lucumr.pocoo.org/2026/6/13/americans-only/
-tags: ["ai-and-agents", "ai-governance", "export-controls", "geopolitics", "european-tech-dependency", "international-cooperation", "open-source"]
+cluster: ai-and-agents
+tags: ["ai-ethics", "geopolitics", "open-source"]
 published: 2026-06
 timestamp: 2026-07-05
 ---

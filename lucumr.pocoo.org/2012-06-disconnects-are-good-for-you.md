@@ -3,7 +3,8 @@ type: article
 title: "ZeroMQ: Disconnects are Good for You"
 description: "Ronacher documents a dangerous ZeroMQ abstraction: the framework hides network disconnects from applications, leaving REQ/REP socket pairs in invalid state with no way to reset them."
 resource: https://lucumr.pocoo.org/2012/6/26/disconnects-are-good-for-you/
-tags: ["web-frameworks-and-apis", "zeromq", "networking", "disconnects", "req-rep", "state-machines", "infrastructure"]
+cluster: web-frameworks-and-apis
+tags: ["messaging", "distributed-systems", "state-machines"]
 published: 2012-06
 timestamp: 2026-07-05
 ---

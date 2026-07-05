@@ -3,7 +3,8 @@ type: article
 title: "LLM APIs are a Synchronization Problem"
 description: "Ronacher argues that current LLM message-based APIs are the wrong abstraction."
 resource: https://lucumr.pocoo.org/2025/11/22/llm-apis/
-tags: ["ai-and-agents", "llm-api-design", "distributed-state", "synchronisation", "hidden-context"]
+cluster: ai-and-agents
+tags: ["llms", "distributed-systems", "concurrency"]
 published: 2025-11
 timestamp: 2026-07-05
 ---

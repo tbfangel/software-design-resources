@@ -3,7 +3,8 @@ type: article
 title: "Porting to Python 3 — A Guide"
 description: "Practical notes from porting Jinja2 to Python 3 using 2to3."
 resource: https://lucumr.pocoo.org/2010/2/11/porting-to-python-3-a-guide/
-tags: ["python-ecosystem", "python-3", "porting", "2to3", "jinja2", "practical-guide"]
+cluster: python-ecosystem
+tags: ["python", "migration", "template-engines"]
 published: 2010-02
 timestamp: 2026-07-05
 ---

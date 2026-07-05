@@ -2,7 +2,7 @@
 type: synthesis
 title: "Messaging & Distributed Systems Patterns"
 description: "This cluster gathers Verraes' foundational thinking on messaging in distributed systems, exploring how messages serve as the primary communication mechanism between decoupled services."
-tags: ["messaging-distributed-systems"]
+cluster: messaging-distributed-systems
 timestamp: 2026-07-05
 ---
 # Messaging & Distributed Systems Patterns

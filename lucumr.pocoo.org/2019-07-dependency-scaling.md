@@ -3,7 +3,8 @@ type: article
 title: "Updated Thoughts on Trust Scaling"
 description: "Ronacher revisits his trust scaling concern: typical Rust applications now have hundreds of dependencies, making comprehensive security auditing impossible."
 resource: https://lucumr.pocoo.org/2019/7/29/dependency-scaling/
-tags: ["open-source-philosophy", "trust", "dependencies", "supply-chain-security", "rust-ecosystem", "auditing"]
+cluster: open-source-philosophy
+tags: ["trust", "dependencies", "supply-chain-security", "rust", "auditing"]
 published: 2019-07
 timestamp: 2026-07-05
 ---

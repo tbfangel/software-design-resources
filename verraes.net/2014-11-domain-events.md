@@ -3,7 +3,8 @@ type: article
 title: "Domain Events"
 description: "Domain Events are messages describing something that has happened in the past within the domain and is of interest to the business."
 resource: https://verraes.net/2014/11/domain-events/
-tags: ["ddd-foundations", "events", "system-boundaries", "messaging", "immutability", "domain-language", "event-naming", "event-design"]
+cluster: ddd-foundations
+tags: ["events", "system-design", "messaging", "immutability", "ubiquitous-language", "event-design"]
 published: 2014-11
 timestamp: 2026-07-05
 ---

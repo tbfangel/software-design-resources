@@ -3,7 +3,8 @@ type: article
 title: "No, Your Domains and Bounded Contexts Don't Map 1 on 1"
 description: "A practical rebuttal to the myth that bounded contexts should mirror business domains."
 resource: https://verraes.net/2025/08/domain-and-bounded-contexts-dont-map-one-on-one/
-tags: ["bounded-contexts", "domain-driven-design", "organizational-structure", "pragmatic-design", "context-mapping"]
+cluster: bounded-contexts
+tags: ["domain-driven-design", "organizational-design", "pragmatism", "context-mapping"]
 published: 2025-08
 timestamp: 2026-07-05
 ---

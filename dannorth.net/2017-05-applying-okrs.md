@@ -3,7 +3,8 @@ type: article
 title: "Applying OKRs"
 description: "North shares experience implementing OKRs (Objectives and Key Results) across organizations ranging from hundreds to thousands of employees."
 resource: https://dannorth.net/blog/applying-okrs/
-tags: ["estimation-planning", "management", "planning", "strategy"]
+cluster: estimation-planning
+tags: ["leadership", "planning", "decision-making"]
 published: 2017-05
 timestamp: 2026-07-05
 ---

@@ -3,7 +3,8 @@ type: presentation
 title: "Small Uncontrolled Experiments (revisited)"
 description: "A presentation expanding on the blog post about small experiments."
 resource: https://verraes.net/2014/10/small-controlled-experiments-revisited/
-tags: ["process-teams-learning", "continuous-improvement", "team-learning", "organizational-transformation", "agile-practices"]
+cluster: process-teams-learning
+tags: ["continuous-improvement", "team-dynamics", "organizational-change", "agile"]
 published: 2014-10
 timestamp: 2026-07-05
 ---

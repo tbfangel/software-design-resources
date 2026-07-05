@@ -3,7 +3,8 @@ type: article
 title: "Open Source Financing"
 description: "An early exploration of open source funding mechanisms."
 resource: https://lucumr.pocoo.org/2012/8/27/open-source-financing/
-tags: ["open-source-philosophy", "open-source-funding", "gittip", "kickstarter", "recurring-micropayments"]
+cluster: open-source-philosophy
+tags: ["open-source-funding"]
 published: 2012-08
 timestamp: 2026-07-05
 ---

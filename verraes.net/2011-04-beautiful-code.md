@@ -3,7 +3,8 @@ type: article
 title: "Beautiful Code"
 description: "Business value doesn't depend on beautiful code."
 resource: https://verraes.net/2011/04/beautiful-code/
-tags: ["software-engineering", "code-quality", "craftsmanship", "maintainability", "refactoring", "professional-pride"]
+cluster: software-engineering
+tags: ["code-quality", "craftsmanship", "maintainability", "refactoring"]
 published: 2011-04
 timestamp: 2026-07-05
 ---

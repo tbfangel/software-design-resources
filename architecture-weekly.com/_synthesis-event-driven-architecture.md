@@ -2,7 +2,7 @@
 type: synthesis
 title: "Event-Driven Architecture & Event Sourcing"
 description: "This cluster explores event-driven architecture patterns, event sourcing fundamentals, read model management, and handling the challenges of eventual consistency and out-of-order events in distributed systems."
-tags: ["event-driven-architecture"]
+cluster: event-driven-architecture
 timestamp: 2026-07-05
 ---
 # Event-Driven Architecture & Event Sourcing

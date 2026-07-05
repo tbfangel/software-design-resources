@@ -3,7 +3,8 @@ type: article
 title: "SQL is Agile"
 description: "Ronacher advocates SQL databases for new projects, contrary to the NoSQL trend."
 resource: https://lucumr.pocoo.org/2012/12/29/sql-is-agile/
-tags: ["web-frameworks-and-apis", "sql", "nosql", "mongodb", "database-choice", "schema-flexibility", "agility"]
+cluster: web-frameworks-and-apis
+tags: ["sql", "databases", "agile"]
 published: 2012-12
 timestamp: 2026-07-05
 ---

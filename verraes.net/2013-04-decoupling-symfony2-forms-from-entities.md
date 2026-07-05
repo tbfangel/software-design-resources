@@ -3,7 +3,8 @@ type: article
 title: "Decoupling (Symfony2) Forms from Entities"
 description: "This article demonstrates how form libraries' CRUD-oriented design violates domain model boundaries by expecting setters and flexible constructors."
 resource: https://verraes.net/2013/04/decoupling-symfony2-forms-from-entities/
-tags: ["event-sourcing-cqrs", "forms", "entities", "crud", "commands", "symfony", "encapsulation"]
+cluster: event-sourcing-cqrs
+tags: ["web-development", "entities", "crud", "databases", "cqrs", "web-frameworks", "encapsulation"]
 published: 2013-04
 timestamp: 2026-07-05
 ---

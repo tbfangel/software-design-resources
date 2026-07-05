@@ -3,7 +3,8 @@ type: article
 title: "On Rebuilding Read Models, Dead-Letter Queues and Why Letting Go is Sometimes the Answer"
 description: "Identifies a critical race condition in event-driven read model rebuilds where events appended in uncommitted transactions may skip projection during rebuild but commit after the rebuild completes, leaving them unprojected."
 resource: https://www.architecture-weekly.com/p/on-rebuilding-read-models-dead-letter
-tags: ["event-driven-architecture", "read-models", "dead-letter-queues", "race-conditions", "event-processing", "system-messages"]
+cluster: event-driven-architecture
+tags: ["read-models", "messaging", "race-conditions", "stream-processing"]
 published: 2026-01
 timestamp: 2026-07-05
 ---

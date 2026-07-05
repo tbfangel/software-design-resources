@@ -3,7 +3,8 @@ type: discussion
 title: "Papers We Love #1: Sagas by Hector Garcia-Molina"
 description: "The inaugural \"Papers We Love\" meetup examined the foundational \"Sagas\" whitepaper by Hector Garcia-Molina and Kenneth Salem, revealing that the original concept addresses distributed database transactions, not business process orchestration as commonly understood today."
 resource: https://www.architecture-weekly.com/p/papers-we-love-1-sagas-hector-garcia
-tags: ["engineering-culture", "sagas", "distributed-transactions", "academic-papers", "two-phase-commit", "event-driven-architecture"]
+cluster: engineering-culture
+tags: ["sagas", "distributed-systems", "event-driven-architecture"]
 published: 2024
 timestamp: 2026-07-05
 ---

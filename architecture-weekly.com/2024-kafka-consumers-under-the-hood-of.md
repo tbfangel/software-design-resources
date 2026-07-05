@@ -3,7 +3,8 @@ type: article
 title: "Kafka Consumers: Under the Hood of Message Processing"
 description: "While Kafka's consumer architecture appears straightforward, the underlying mechanics around partition assignment, rebalancing, and fault tolerance involve significant complexity and trade-offs."
 resource: https://www.architecture-weekly.com/p/kafka-consumers-under-the-hood-of
-tags: ["messaging-and-kafka", "kafka-consumers", "partition-assignment", "rebalancing", "consumer-groups", "fault-tolerance"]
+cluster: messaging-and-kafka
+tags: ["kafka", "resilience"]
 published: 2024
 timestamp: 2026-07-05
 ---

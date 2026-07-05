@@ -3,7 +3,8 @@ type: article
 title: "Automatic Server Reloading in Rust on Change: What is listenfd/systemfd?"
 description: "Ronacher introduces socket activation — inheriting file descriptors from a parent process — as the mechanism for zero-downtime server reloading during development."
 resource: https://lucumr.pocoo.org/2025/1/19/what-is-systemfd/
-tags: ["web-frameworks-and-apis", "rust", "listenfd", "systemfd", "socket-activation", "auto-reloading", "developer-experience"]
+cluster: web-frameworks-and-apis
+tags: ["rust", "tooling", "developer-experience"]
 published: 2025-01
 timestamp: 2026-07-05
 ---

@@ -3,7 +3,8 @@ type: article
 title: "Simple Models, Scaffolding, Enabling Constraints"
 description: "When building complex domains, start with simple models that organize thinking without premature optimization or over-engineering."
 resource: https://verraes.net/2021/04/simple-models-scaffolding-enabling-constraints/
-tags: ["modelling-design-heuristics", "simplicity", "scaffolding", "constraints", "iterative-design", "dreyfus-model", "expertise"]
+cluster: modelling-design-heuristics
+tags: ["simplicity", "tooling", "constraints", "software-design", "dreyfus-model", "learning"]
 published: 2021-04
 timestamp: 2026-07-05
 ---

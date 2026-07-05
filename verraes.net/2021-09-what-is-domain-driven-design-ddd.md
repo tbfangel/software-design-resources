@@ -3,7 +3,8 @@ type: article
 title: "What is Domain-Driven Design (DDD)"
 description: "Domain-Driven Design is presented as an all-encompassing design discipline centered on five key principles: building shared understanding of complex domains with domain experts, formalizing that understanding into a Ubiquitous Language, expressing understanding through shared models, explicitly embracing essential domain complexity, and separating complex domains into separately-modeled Bounded Contexts."
 resource: https://verraes.net/2021/09/what-is-domain-driven-design-ddd/
-tags: ["ddd-foundations", "ddd-definition", "ubiquitous-language", "bounded-contexts", "complexity", "domain-expertise", "design-discipline"]
+cluster: ddd-foundations
+tags: ["domain-driven-design", "ubiquitous-language", "bounded-contexts", "complexity", "domain-experts", "software-design"]
 published: 2021-09
 timestamp: 2026-07-05
 ---

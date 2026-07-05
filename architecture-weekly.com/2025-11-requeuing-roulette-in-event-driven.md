@@ -3,7 +3,8 @@ type: article
 title: "Requeuing Roulette in Event-Driven Architecture and Messaging"
 description: "Identifies \"Requeuing Roulette\" as a risky anti-pattern where messages are put back into queues when processing fails, hoping they'll eventually process in correct order."
 resource: https://www.architecture-weekly.com/p/requeuing-roulette-in-event-driven
-tags: ["event-driven-architecture", "message-requeuing", "anti-patterns", "message-ordering", "distributed-systems", "queue-management"]
+cluster: event-driven-architecture
+tags: ["messaging", "anti-patterns", "message-processing", "distributed-systems", "message-brokers"]
 published: 2025-11
 timestamp: 2026-07-05
 ---

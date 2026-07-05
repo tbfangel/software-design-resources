@@ -3,7 +3,8 @@ type: article
 title: "The Underestimated Power of Hot Spots and Notes in EventStorming"
 description: "While EventStorming practitioners focus heavily on orange event sticky notes, they systematically undervalue two critical elements: Hot Spots (red notes marking uncertainties) and Notes (white notes capturing assumptions and decisions)."
 resource: https://www.architecture-weekly.com/p/the-underestimated-power-of-hot-spots
-tags: ["engineering-culture", "eventstorming", "collaborative-design", "facilitation", "knowledge-management", "workshops"]
+cluster: engineering-culture
+tags: ["eventstorming", "collaboration", "facilitation", "knowledge-sharing"]
 published: 2024
 timestamp: 2026-07-05
 ---

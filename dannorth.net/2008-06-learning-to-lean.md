@@ -3,7 +3,8 @@ type: article
 title: "Learning to Lean"
 description: "North connects the Dreyfus Model of Skills Acquisition with Lean methodology implementation, arguing that Lean operates as a metaphor in software delivery: too abstract for beginners, yet too concrete for experts to articulate easily."
 resource: https://dannorth.net/blog/learning-to-lean/
-tags: ["learning-expertise", "agile", "coaching", "dreyfus", "lean", "learning"]
+cluster: learning-expertise
+tags: ["agile", "coaching", "dreyfus-model", "lean", "learning"]
 published: 2008-06
 timestamp: 2026-07-05
 ---

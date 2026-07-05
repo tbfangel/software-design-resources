@@ -3,7 +3,8 @@ type: article
 title: "Stop Being Cute and Clever"
 description: "Ronacher's experience-report critique of JavaScript library culture: `!~indexOf()` instead of explicit conditionals, unary `+` for type conversion, performance bugs from wrong data structures (linear search in hash tables), mutation-by-default APIs (moment.js), and monkeypatching."
 resource: https://lucumr.pocoo.org/2013/12/9/stop-being-clever/
-tags: ["software-design-philosophy", "javascript", "code-clarity", "operator-abuse", "moment-js", "angular", "technical-debt"]
+cluster: software-design-philosophy
+tags: ["javascript", "code-quality", "web-frameworks", "technical-debt"]
 published: 2013-12
 timestamp: 2026-07-05
 ---
