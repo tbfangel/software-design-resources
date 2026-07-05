@@ -2,6 +2,7 @@
 type: article
 title: "Eventsourcing Patterns: Forgettable Payloads"
 description: "The Forgettable Payloads pattern removes sensitive information from event definitions and stores it in a separate database, with the event containing only a reference or URL."
+resource: https://verraes.net/2019/05/eventsourcing-patterns-forgettable-payloads/
 tags: ["event-sourcing-cqrs", "sensitive-data", "payload-storage", "gdpr", "access-control", "data-deletion"]
 published: 2019-05
 timestamp: 2026-07-05
@@ -20,7 +21,7 @@ timestamp: 2026-07-05
 The Forgettable Payloads pattern removes sensitive information from event definitions and stores it in a separate database, with the event containing only a reference or URL. Consumers requiring sensitive data query the payload database, while the eventstore remains immutable. When deletion is requested, only the payload is removed; the event record remains intact. The payload can be deleted or replaced with fake data. This pattern breaks the concept of the eventstore as a single source of truth and introduces coupling since consumers must query a separate database. A critical weakness is that sensitive data must also be deleted from consumer systems that have cached it, requiring consumers to listen for deletion events and clean up locally.
 
 ## Links
-- _Source URL not yet recovered (see migration report)._
+- [Source](https://verraes.net/2019/05/eventsourcing-patterns-forgettable-payloads/) — original post
 
 ## Related
 - [Cluster synthesis](/verraes.net/_synthesis-event-sourcing-cqrs.md)

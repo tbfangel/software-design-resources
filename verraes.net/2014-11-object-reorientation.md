@@ -2,6 +2,7 @@
 type: presentation
 title: "Object Reorientation"
 description: "A presentation on reorienting object-oriented code from structural data models toward behavioral models that capture meaning."
+resource: https://verraes.net/2014/11/object-reorientation/
 tags: ["software-engineering", "object-oriented-design", "refactoring", "ddd", "design-patterns"]
 published: 2014-11
 timestamp: 2026-07-05
@@ -19,7 +20,7 @@ timestamp: 2026-07-05
 A presentation on reorienting object-oriented code from structural data models toward behavioral models that capture meaning. Moving from "what data does this hold?" to "what does this thing do?" improves expressiveness and maintainability.
 
 ## Links
-- _Source URL not yet recovered (see migration report)._
+- [Source](https://verraes.net/2014/11/object-reorientation/) — original post
 
 ## Related
 - [Cluster synthesis](/verraes.net/_synthesis-software-engineering.md)

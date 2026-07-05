@@ -2,6 +2,7 @@
 type: article
 title: "Eventsourcing Patterns: Multi-temporal Events"
 description: "Domain events typically carry a single timestamp for when they were recorded in the eventstore, but the actual time an event occurred may differ from when it was captured."
+resource: https://verraes.net/2022/03/multi-temporal-events/
 tags: ["event-sourcing-cqrs", "temporal-modeling", "event-payload", "domain-events", "timestamps", "gdpr"]
 published: 2022-03
 timestamp: 2026-07-05
@@ -20,7 +21,7 @@ timestamp: 2026-07-05
 Domain events typically carry a single timestamp for when they were recorded in the eventstore, but the actual time an event occurred may differ from when it was captured. The multi-temporal events pattern distinguishes between when something happened and when it was recorded by adding domain-specific timestamp properties to event payloads. For example, a bank transaction event should track both when the transaction occurred and when the statement was received. This approach decouples infrastructure concerns (recording time) from domain concerns (occurrence time), improves consumer independence, and enables evolution as domain understanding deepens.
 
 ## Links
-- _Source URL not yet recovered (see migration report)._
+- [Source](https://verraes.net/2022/03/multi-temporal-events/) — original post
 
 ## Related
 - [Cluster synthesis](/verraes.net/_synthesis-event-sourcing-cqrs.md)

@@ -2,6 +2,7 @@
 type: article
 title: "How Much Testing is Too Much?"
 description: "Code coverage is a poor metric for quality—it only measures what was executed, not whether outcomes were tested."
+resource: https://verraes.net/2014/12/how-much-testing-is-too-much/
 tags: ["software-engineering", "code-coverage", "tdd-experimentation", "test-metrics", "over-design", "test-maintenance"]
 published: 2014-12
 timestamp: 2026-07-05
@@ -21,7 +22,7 @@ timestamp: 2026-07-05
 Code coverage is a poor metric for quality—it only measures what was executed, not whether outcomes were tested. Rather than chasing coverage percentages, adopt a time-boxed experiment: be overzealous with TDD for a couple of weeks, writing tests first for everything. Discover which tests are unnecessary (getters, empty constructors) and which bring real value. Then back down gradually and develop instincts about the right balance. Over-design in tests, like over-design in code, creates technical debt if not refactored away as understanding deepens.
 
 ## Links
-- _Source URL not yet recovered (see migration report)._
+- [Source](https://verraes.net/2014/12/how-much-testing-is-too-much/) — original post
 
 ## Related
 - [Cluster synthesis](/verraes.net/_synthesis-software-engineering.md)

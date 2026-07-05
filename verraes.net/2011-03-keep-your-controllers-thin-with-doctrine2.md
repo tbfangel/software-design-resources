@@ -2,6 +2,7 @@
 type: article
 title: "Keep Your Controllers Thin with Doctrine2"
 description: "Doctrine2's repository pattern abstracts persistence, preventing controller coupling to database details."
+resource: https://verraes.net/2011/03/keep-you-controllers-thin-with-doctrine2/
 tags: ["software-engineering", "repositories", "doctrine2", "separation-of-concerns", "domain-language", "query-encapsulation"]
 published: 2011-03
 timestamp: 2026-07-05
@@ -20,7 +21,7 @@ timestamp: 2026-07-05
 Doctrine2's repository pattern abstracts persistence, preventing controller coupling to database details. Rather than writing queries in controllers, ask the repository for domain concepts: findAllFixedBugs() instead of findBy(array('status' => 'fixed')). The repository encapsulates query logic; if schema changes, only the repository changes. Controllers speak the domain language and stay clean.
 
 ## Links
-- _Source URL not yet recovered (see migration report)._
+- [Source](https://verraes.net/2011/03/keep-you-controllers-thin-with-doctrine2/) — original post
 
 ## Related
 - [Cluster synthesis](/verraes.net/_synthesis-software-engineering.md)

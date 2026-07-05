@@ -2,6 +2,7 @@
 type: article
 title: "Interface Discovery with PHPUnit's Mock Objects"
 description: "Writing tests with mock objects before building implementations forces you to discover what interfaces your code actually needs."
+resource: https://verraes.net/2011/03/interface-discovery-with-phpunit-mock-objects/
 tags: ["software-engineering", "tdd", "interface-discovery", "mock-objects", "phpunit", "design-driven-testing"]
 published: 2011-03
 timestamp: 2026-07-05
@@ -20,7 +21,7 @@ timestamp: 2026-07-05
 Writing tests with mock objects before building implementations forces you to discover what interfaces your code actually needs. Mock the dependency, write tests that tell it what to do, then build the real implementation. This approach ensures the design is right for the caller, not the implementer. You discover minimal, fitting interfaces rather than building something then cutting it to size.
 
 ## Links
-- _Source URL not yet recovered (see migration report)._
+- [Source](https://verraes.net/2011/03/interface-discovery-with-phpunit-mock-objects/) — original post
 
 ## Related
 - [Cluster synthesis](/verraes.net/_synthesis-software-engineering.md)

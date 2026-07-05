@@ -2,6 +2,7 @@
 type: presentation
 title: "Practical Event Sourcing"
 description: "A presentation with video and slides demonstrating practical event sourcing in PHP."
+resource: https://verraes.net/2014/03/practical-event-sourcing/
 tags: ["event-sourcing-cqrs", "event-sourcing", "practical-implementation", "php", "domain-events", "architecture"]
 published: 2014-03
 timestamp: 2026-07-05
@@ -20,7 +21,7 @@ timestamp: 2026-07-05
 A presentation with video and slides demonstrating practical event sourcing in PHP. The talk covers how to build event-sourced domain models using concrete code examples from systems shipped in production. Rather than focusing on theory, it shows how event sourcing is "quite simple, elegant, and powerful" by replaying domain events to restore object state. The presentation aims to demystify event sourcing for practitioners and provide hands-on understanding of implementation.
 
 ## Links
-- _Source URL not yet recovered (see migration report)._
+- [Source](https://verraes.net/2014/03/practical-event-sourcing/) — original post
 
 ## Related
 - [Cluster synthesis](/verraes.net/_synthesis-event-sourcing-cqrs.md)

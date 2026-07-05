@@ -2,6 +2,7 @@
 type: article
 title: "Beautiful Code"
 description: "Business value doesn't depend on beautiful code."
+resource: https://verraes.net/2011/04/beautiful-code/
 tags: ["software-engineering", "code-quality", "craftsmanship", "maintainability", "refactoring", "professional-pride"]
 published: 2011-04
 timestamp: 2026-07-05
@@ -20,7 +21,7 @@ timestamp: 2026-07-05
 Business value doesn't depend on beautiful code. Yet all good programmers care about it. Beautiful code makes developers happy, confident, and productive. Changes are handled with grace; refactoring pays dividends. Leave every piece of code cleaner than you found it—small, invisible improvements compound into elegant systems over time.
 
 ## Links
-- _Source URL not yet recovered (see migration report)._
+- [Source](https://verraes.net/2011/04/beautiful-code/) — original post
 
 ## Related
 - [Cluster synthesis](/verraes.net/_synthesis-software-engineering.md)

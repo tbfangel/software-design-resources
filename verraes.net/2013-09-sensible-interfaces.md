@@ -2,6 +2,7 @@
 type: article
 title: "Sensible Interfaces"
 description: "Interfaces communicate contracts and expected polymorphism."
+resource: https://verraes.net/2013/09/sensible-interfaces/
 tags: ["software-engineering", "naming", "interface-design", "polymorphism", "contract", "segregation"]
 published: 2013-09
 timestamp: 2026-07-05
@@ -21,7 +22,7 @@ timestamp: 2026-07-05
 Interfaces communicate contracts and expected polymorphism. Avoid suffixing with "Interface" or prefixing with "I"—the interface name should be the concept, and implementations should have descriptive names (e.g., Translator, XmlTranslator, CachedTranslator). The "-able" suffix (Serializable, Translatable) feels unnatural; instead, use full English phrases (CastsToJson, HasTimestamp) that form readable sentences. Respect contracts by never calling methods outside the interface you typehint. Segregate interfaces when clients don't use all methods. Use roles to give classes multiple behaviors without splitting them prematurely.
 
 ## Links
-- _Source URL not yet recovered (see migration report)._
+- [Source](https://verraes.net/2013/09/sensible-interfaces/) — original post
 
 ## Related
 - [Cluster synthesis](/verraes.net/_synthesis-software-engineering.md)

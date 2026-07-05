@@ -2,6 +2,7 @@
 type: article
 title: "Religiously RESTful"
 description: "REST is a protocol with varying maturity levels."
+resource: https://verraes.net/2014/03/religiously-restful/
 tags: ["software-engineering", "rest", "api-design", "maturity-levels", "pragmatism", "http"]
 published: 2014-03
 timestamp: 2026-07-05
@@ -20,7 +21,7 @@ timestamp: 2026-07-05
 REST is a protocol with varying maturity levels. Strict adherence costs effort in team understanding and tooling. If your API has only your own web UI and mobile app as clients, and you expect to replace it within a few years, RESTish (pragmatic REST) may suffice. Only build truly RESTful APIs if you expect long maintenance and many external clients. The effort is better spent on domain model clarity than infrastructure perfection.
 
 ## Links
-- _Source URL not yet recovered (see migration report)._
+- [Source](https://verraes.net/2014/03/religiously-restful/) — original post
 
 ## Related
 - [Cluster synthesis](/verraes.net/_synthesis-software-engineering.md)

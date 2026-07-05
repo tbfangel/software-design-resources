@@ -20,7 +20,7 @@ Goal: convert this repo from overview+cluster files into an OKF v0.1 bundle (one
 ## Phases & status
 - [x] P1: Conversion script `_okf-migration/convert.py` — DONE. Handles 3 metadata layouts (A: `### [t](url)`; B: bare `### t` no url; C: bare `### t` + raw URL on next line). Preserves extra fields (co_author etc.) as custom frontmatter.
 - [x] P2: Ran script → 397 cards + `_synthesis-*` + site `index.md` + root `index.md` (okf_version) + report. COMMITTED (this checkpoint). Report clean: Missing Type/Date/summary/takeaways all 0.
-- [ ] P3: URL recovery for **40** remaining bare posts (verraes event-sourcing-cqrs + software-engineering clusters). Crawl verraes archive, fuzzy match title→URL, fill `resource:` + `## Links`. See report.md list.
+- [x] P3: URL recovery DONE. `_okf-migration/recover_urls.py` matched 38/40 against `verraes-archive.txt` (year + slug-token overlap); 2 obvious ones patched manually. **All 397 cards now have `resource:`.**
 - [ ] P4: Rewrite `ask`/`sync` skills + `web-resource-crawler` agent + `CLAUDE.md` + `README.md` for OKF.
 - [ ] P5: Delete old `overview.md`/`<cluster>.md`, run validator, resolve the 1 duplicate, remove `_okf-migration/`. COMMIT + open PR.
 

@@ -2,6 +2,7 @@
 type: article
 title: "Random Thoughts on Using Git"
 description: "Reflections on Git versus centralized version control."
+resource: https://verraes.net/2011/03/git-vs-svn/
 tags: ["software-engineering", "git", "version-control", "workflows", "distributed-vcs", "branching"]
 published: 2011-03
 timestamp: 2026-07-05
@@ -20,7 +21,7 @@ timestamp: 2026-07-05
 Reflections on Git versus centralized version control. Git's distributed nature and local branching enable powerful workflows that Subversion can't match. Atomic commits, easy branching, and reflog (reference logs) that survive history rewrites make Git more forgiving and flexible for software development.
 
 ## Links
-- _Source URL not yet recovered (see migration report)._
+- [Source](https://verraes.net/2011/03/git-vs-svn/) — original post
 
 ## Related
 - [Cluster synthesis](/verraes.net/_synthesis-software-engineering.md)

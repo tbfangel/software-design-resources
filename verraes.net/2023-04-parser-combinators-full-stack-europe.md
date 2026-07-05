@@ -2,6 +2,7 @@
 type: presentation
 title: "Parser Combinators (Full Stack Europe)"
 description: "A talk on parser combinators—combining small, composable parsers declaratively to build larger ones."
+resource: https://verraes.net/2023/04/parser-combinators-full-stack-europe/
 tags: ["software-engineering", "parsing", "functional-programming", "composition", "dsls"]
 published: 2023-04
 timestamp: 2026-07-05
@@ -19,7 +20,7 @@ timestamp: 2026-07-05
 A talk on parser combinators—combining small, composable parsers declaratively to build larger ones. Parsers take unstructured input and return structured output. Using composition instead of procedural code makes parsers easier to build, understand, and modify.
 
 ## Links
-- _Source URL not yet recovered (see migration report)._
+- [Source](https://verraes.net/2023/04/parser-combinators-full-stack-europe/) — original post
 
 ## Related
 - [Cluster synthesis](/verraes.net/_synthesis-software-engineering.md)

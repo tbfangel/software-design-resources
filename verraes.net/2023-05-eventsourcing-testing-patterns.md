@@ -2,6 +2,7 @@
 type: article
 title: "EventSourcing Testing Patterns"
 description: "This article documents common testing patterns for eventsourced applications using Given-When-Then scenarios at the domain abstraction level."
+resource: https://verraes.net/2023/05/eventsourcing-testing-patterns/
 tags: ["event-sourcing-cqrs", "testing-patterns", "event-sourcing", "command-handlers", "projections", "process-managers", "domain-driven-design"]
 published: 2023-05
 timestamp: 2026-07-05
@@ -20,7 +21,7 @@ timestamp: 2026-07-05
 This article documents common testing patterns for eventsourced applications using Given-When-Then scenarios at the domain abstraction level. Testing command handlers involves verifying that given a history of events, when a command is received, then specific events are produced (or nothing, or an exception). Projections are tested by verifying that given events, when a query is asked, then the correct response is returned. Process managers are tested to verify they listen to events and produce appropriate outcomes—whether new events, commands, or I/O side effects. The post argues against testing projection state as an anti-pattern in domain-level testing, instead advocating for query-based tests that preserve API contracts while allowing implementation flexibility.
 
 ## Links
-- _Source URL not yet recovered (see migration report)._
+- [Source](https://verraes.net/2023/05/eventsourcing-testing-patterns/) — original post
 
 ## Related
 - [Cluster synthesis](/verraes.net/_synthesis-event-sourcing-cqrs.md)

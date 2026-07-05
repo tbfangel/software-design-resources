@@ -2,6 +2,7 @@
 type: article
 title: "Verbs in Class Names"
 description: "Classes with verbs in their names express concepts that don't naturally map to nouns."
+resource: https://verraes.net/2013/10/verbs-in-class-names/
 tags: ["software-engineering", "naming", "domain-language", "messages", "commands", "events", "specifications"]
 published: 2013-10
 timestamp: 2026-07-05
@@ -20,7 +21,7 @@ timestamp: 2026-07-05
 Classes with verbs in their names express concepts that don't naturally map to nouns. Domain commands and events use imperative and past-tense verbs (AttackEnemy, EnemyWasDefeated) to stay close to the business language and distinguish intent. Specifications model business rules as questions (CustomerIsPremium, OrderIsReadyForShipment). Domain exceptions use past-tense names (OrderShipmentHasFailed, BankAccountWasOverdrawn) to mirror events and emphasize what went wrong. Interfaces combining verbs and roles (HasPermissions, DomainCommand) read as natural English sentences.
 
 ## Links
-- _Source URL not yet recovered (see migration report)._
+- [Source](https://verraes.net/2013/10/verbs-in-class-names/) — original post
 
 ## Related
 - [Cluster synthesis](/verraes.net/_synthesis-software-engineering.md)

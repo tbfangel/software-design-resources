@@ -2,6 +2,7 @@
 type: article
 title: "Pre-merge Code Reviews"
 description: "Pre-merge code reviews establish team responsibility for code quality."
+resource: https://verraes.net/2013/10/pre-merge-code-reviews/
 tags: ["software-engineering", "code-review-process", "pull-requests", "team-maturity", "defect-detection", "knowledge-sharing"]
 published: 2013-10
 timestamp: 2026-07-05
@@ -21,7 +22,7 @@ timestamp: 2026-07-05
 Pre-merge code reviews establish team responsibility for code quality. The rules are simple: never push to master, never merge your own code, review work-in-progress before starting new tasks, and never merge code you don't understand or disagree with. Benefits include early defect detection, shared knowledge, reduced bus factor, and freedom to make mistakes knowing colleagues will catch issues. Making reviews easier requires atomic stories, clear acceptance criteria, atomic commits, treating pull requests as conversations, and integrating frequently. Pitfalls include merge buddies (gaming the system), gatekeepers (single reviewers), and total lockdown (eroding trust).
 
 ## Links
-- _Source URL not yet recovered (see migration report)._
+- [Source](https://verraes.net/2013/10/pre-merge-code-reviews/) — original post
 
 ## Related
 - [Cluster synthesis](/verraes.net/_synthesis-software-engineering.md)

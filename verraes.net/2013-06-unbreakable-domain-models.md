@@ -2,6 +2,7 @@
 type: presentation
 title: "Unbreakable Domain Models"
 description: "A presentation on building domain models using DDD patterns—value objects for consistency, entities with boundaries, repositories for persistence abstraction, and specifications for business rules."
+resource: https://verraes.net/2013/06/unbreakable-domain-models/
 tags: ["software-engineering", "ddd", "value-objects", "entities", "repositories", "specifications", "domain-logic"]
 published: 2013-06
 timestamp: 2026-07-05
@@ -20,7 +21,7 @@ timestamp: 2026-07-05
 A presentation on building domain models using DDD patterns—value objects for consistency, entities with boundaries, repositories for persistence abstraction, and specifications for business rules. These patterns protect invariants and express meaning, moving from structural data models to rich behavioral models that capture domain knowledge.
 
 ## Links
-- _Source URL not yet recovered (see migration report)._
+- [Source](https://verraes.net/2013/06/unbreakable-domain-models/) — original post
 
 ## Related
 - [Cluster synthesis](/verraes.net/_synthesis-software-engineering.md)

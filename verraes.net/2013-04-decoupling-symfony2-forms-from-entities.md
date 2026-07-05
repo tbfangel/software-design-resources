@@ -2,6 +2,7 @@
 type: article
 title: "Decoupling (Symfony2) Forms from Entities"
 description: "This article demonstrates how form libraries' CRUD-oriented design violates domain model boundaries by expecting setters and flexible constructors."
+resource: https://verraes.net/2013/04/decoupling-symfony2-forms-from-entities/
 tags: ["event-sourcing-cqrs", "forms", "entities", "crud", "commands", "symfony", "encapsulation"]
 published: 2013-04
 timestamp: 2026-07-05
@@ -20,7 +21,7 @@ timestamp: 2026-07-05
 This article demonstrates how form libraries' CRUD-oriented design violates domain model boundaries by expecting setters and flexible constructors. The solution uses the Gang of Four Command pattern to create explicit command objects (HireEmployeeCommand, PromoteEmployeeCommand) that match the semantic operations of the domain. Forms bind to Commands rather than Entities, preserving domain invariants—employees are "hired" (not "created"), and "promoted" (not edited). The Command becomes a DTO that can represent form input and can be used to invoke domain methods without setters or reflection. A CommandHandler translates the command into domain method invocations, separating concerns between form handling and domain logic.
 
 ## Links
-- _Source URL not yet recovered (see migration report)._
+- [Source](https://verraes.net/2013/04/decoupling-symfony2-forms-from-entities/) — original post
 
 ## Related
 - [Cluster synthesis](/verraes.net/_synthesis-event-sourcing-cqrs.md)

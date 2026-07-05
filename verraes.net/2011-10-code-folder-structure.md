@@ -2,6 +2,7 @@
 type: article
 title: "Code Folder Structure"
 description: "Organizing code by technical role (Controllers, Models, Repositories) follows framework conventions but misses communication opportunities."
+resource: https://verraes.net/2011/10/code-folder-structure/
 tags: ["software-engineering", "project-organization", "coupling", "bounded-contexts", "dependencies", "folder-hierarchy"]
 published: 2011-10
 timestamp: 2026-07-05
@@ -20,7 +21,7 @@ timestamp: 2026-07-05
 Organizing code by technical role (Controllers, Models, Repositories) follows framework conventions but misses communication opportunities. Instead, group by domain concepts—BlogDomain, CoreDomain—to show coupling and context boundaries. BlogPost and Comment live near BlogPostRepository; Comments don't know they belong to BlogPost. This structure makes dependencies explicit and aids refactoring decisions.
 
 ## Links
-- _Source URL not yet recovered (see migration report)._
+- [Source](https://verraes.net/2011/10/code-folder-structure/) — original post
 
 ## Related
 - [Cluster synthesis](/verraes.net/_synthesis-software-engineering.md)

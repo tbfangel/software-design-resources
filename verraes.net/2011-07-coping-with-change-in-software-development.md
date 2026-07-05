@@ -2,6 +2,7 @@
 type: article
 title: "Coping with Change in Software Development"
 description: "Fear of change is the enemy."
+resource: https://verraes.net/2011/07/coping-with-change-in-software-development/
 tags: ["software-engineering", "change-management", "refactoring", "agility", "adaptability", "continuous-improvement"]
 published: 2011-07
 timestamp: 2026-07-05
@@ -20,7 +21,7 @@ timestamp: 2026-07-05
 Fear of change is the enemy. Shielding developers from change requests delays learning crucial skills. Deliberately introducing change—refactoring exercises, trying new techniques—develops coping abilities. The business's value changes as they learn; specs naturally evolve. Rather than resisting change, master it through practice and study.
 
 ## Links
-- _Source URL not yet recovered (see migration report)._
+- [Source](https://verraes.net/2011/07/coping-with-change-in-software-development/) — original post
 
 ## Related
 - [Cluster synthesis](/verraes.net/_synthesis-software-engineering.md)

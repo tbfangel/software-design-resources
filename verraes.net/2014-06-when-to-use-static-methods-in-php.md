@@ -2,6 +2,7 @@
 type: article
 title: "When to Use Static Methods in PHP"
 description: "Static methods are valid when they're referentially transparent—same input always produces the same output, no side effects (e.g., Calculator::sum(1, 2))."
+resource: https://verraes.net/2014/06/when-to-use-static-methods-in-php/
 tags: ["software-engineering", "static-methods", "global-state", "composition", "referential-transparency"]
 published: 2014-06
 timestamp: 2026-07-05
@@ -21,7 +22,7 @@ timestamp: 2026-07-05
 Static methods are valid when they're referentially transparent—same input always produces the same output, no side effects (e.g., Calculator::sum(1, 2)). Problems arise with shared global state, where one part of code affects another's behavior unexpectedly. Avoid static methods for stateful services; use instance objects instead. Static methods are at the lowest level of abstraction and can't be mocked, but composition and higher-order programming can add abstraction when needed.
 
 ## Links
-- _Source URL not yet recovered (see migration report)._
+- [Source](https://verraes.net/2014/06/when-to-use-static-methods-in-php/) — original post
 
 ## Related
 - [Cluster synthesis](/verraes.net/_synthesis-software-engineering.md)

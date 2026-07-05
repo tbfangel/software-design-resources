@@ -2,6 +2,7 @@
 type: article
 title: "Eventsourcing Patterns: Migration Events in a Ghost Context"
 description: "When replacing a legacy system with an eventsourced one, there's typically insufficient historical data in the legacy system to reconstruct the real history of domain events."
+resource: https://verraes.net/2019/06/eventsourcing-patterns-migration-events-ghost-context/
 tags: ["event-sourcing-cqrs", "legacy-migration", "bounded-contexts", "ghost-context", "conformist-pattern", "domain-modeling"]
 published: 2019-06
 timestamp: 2026-07-05
@@ -20,7 +21,7 @@ timestamp: 2026-07-05
 When replacing a legacy system with an eventsourced one, there's typically insufficient historical data in the legacy system to reconstruct the real history of domain events. Rather than force-fitting legacy data into the new domain model (which results in lying about the past) or maintaining hybrid persistence, the solution is to treat the legacy system as its own domain and use Migration Events that explicitly use the legacy system's ubiquitous language. A legacy customer import becomes LegacyCustomerWasImported, not a translated domain event. The legacy system's model can then be treated as a "Ghost Context"—a bounded context with language and internal consistency but no active implementation, existing only in traces within other bounded contexts.
 
 ## Links
-- _Source URL not yet recovered (see migration report)._
+- [Source](https://verraes.net/2019/06/eventsourcing-patterns-migration-events-ghost-context/) — original post
 
 ## Related
 - [Cluster synthesis](/verraes.net/_synthesis-event-sourcing-cqrs.md)

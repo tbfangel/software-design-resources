@@ -2,6 +2,7 @@
 type: article
 title: "Final Classes: Open for Extension, Closed for Inheritance"
 description: "The concept of \"open for extension, closed for modification\" is better achieved through composition than inheritance."
+resource: https://verraes.net/2014/05/final-classes-in-php/
 tags: ["software-engineering", "inheritance", "final-keyword", "php", "object-design", "solid-principles"]
 published: 2014-05
 timestamp: 2026-07-05
@@ -20,7 +21,7 @@ timestamp: 2026-07-05
 The concept of "open for extension, closed for modification" is better achieved through composition than inheritance. Declaring classes final forces you to think about extension points upfront. Inheritance hierarchies are hard to maintain and reason about; composition via constructor injection is more flexible and testable. Final classes encourage interface-based design, making code more robust.
 
 ## Links
-- _Source URL not yet recovered (see migration report)._
+- [Source](https://verraes.net/2014/05/final-classes-in-php/) — original post
 
 ## Related
 - [Cluster synthesis](/verraes.net/_synthesis-software-engineering.md)

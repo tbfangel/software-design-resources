@@ -2,6 +2,7 @@
 type: article
 title: "A Functional Foundation for CQRS/ES"
 description: "This article describes CQRS architecture as a set of composable functions grounded in functional programming concepts."
+resource: https://verraes.net/2014/05/functional-foundation-for-cqrs-event-sourcing/
 tags: ["event-sourcing-cqrs", "functional-programming", "cqrs", "command-query-separation", "pure-functions", "architecture"]
 published: 2014-05
 timestamp: 2026-07-05
@@ -20,7 +21,7 @@ timestamp: 2026-07-05
 This article describes CQRS architecture as a set of composable functions grounded in functional programming concepts. The core architecture consists of four conceptual functions. Protection—f(history, command) → events—applies business rules using event history to decide command outcomes. Interpretation—f(events) → state—is what projectors do, deriving read models from events. Intention—f(state) → command—models user interface translating displayed state into user commands. Automation—f(events) → command—is what process managers do, automatically triggering commands based on events. Pure functions enable deterministic reasoning and the possibility of distributed processing. The post also describes queries as messages—f(history, query) → state—and extends the model to subscriptions for streaming events.
 
 ## Links
-- _Source URL not yet recovered (see migration report)._
+- [Source](https://verraes.net/2014/05/functional-foundation-for-cqrs-event-sourcing/) — original post
 
 ## Related
 - [Cluster synthesis](/verraes.net/_synthesis-event-sourcing-cqrs.md)

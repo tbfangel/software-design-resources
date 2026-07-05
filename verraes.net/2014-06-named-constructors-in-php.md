@@ -2,6 +2,7 @@
 type: article
 title: "Named Constructors in PHP"
 description: "Named constructors are static factory methods that provide more expressive alternatives to direct construction."
+resource: https://verraes.net/2014/06/named-constructors-in-php/
 tags: ["software-engineering", "factory-methods", "object-creation", "expressiveness", "php", "named-constructors"]
 published: 2014-06
 timestamp: 2026-07-05
@@ -20,7 +21,7 @@ timestamp: 2026-07-05
 Named constructors are static factory methods that provide more expressive alternatives to direct construction. Instead of new Time(11, 45, 0), use Time::from("11:45") or Time::midnight(). Named constructors make object creation more readable and can encapsulate validation or complex initialization logic. They also allow different initialization semantics from a single class.
 
 ## Links
-- _Source URL not yet recovered (see migration report)._
+- [Source](https://verraes.net/2014/06/named-constructors-in-php/) — original post
 
 ## Related
 - [Cluster synthesis](/verraes.net/_synthesis-software-engineering.md)

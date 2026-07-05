@@ -2,6 +2,7 @@
 type: article
 title: "Eventsourcing Patterns: Decision Tracking"
 description: "When a consumer applies business logic to events and makes a decision (whether to award a free hat, trigger an alert, etc.), the question arises: should that decision be stored as an event?"
+resource: https://verraes.net/2019/05/eventsourcing-patterns-decision-tracking/
 tags: ["event-sourcing-cqrs", "decision-tracking", "business-rules", "model-evolution", "event-store", "historical-accuracy"]
 published: 2019-05
 timestamp: 2026-07-05
@@ -20,7 +21,7 @@ timestamp: 2026-07-05
 When a consumer applies business logic to events and makes a decision (whether to award a free hat, trigger an alert, etc.), the question arises: should that decision be stored as an event? While the decision is technically redundant—it can be recalculated from the input events—not storing it creates a problem when business rules change. Recalculating with new rules produces different outcomes than the original decision, making the system lie about its own history. Decision Tracking solves this by persisting decision events, preserving the historical record of what was actually decided at the time, even if that decision was wrong. A related pattern, Model Change Tracking, records when the model or rules themselves change, enabling accurate recalculation using the version of logic that was active at the time.
 
 ## Links
-- _Source URL not yet recovered (see migration report)._
+- [Source](https://verraes.net/2019/05/eventsourcing-patterns-decision-tracking/) — original post
 
 ## Related
 - [Cluster synthesis](/verraes.net/_synthesis-event-sourcing-cqrs.md)

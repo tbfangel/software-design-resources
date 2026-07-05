@@ -2,6 +2,7 @@
 type: article
 title: "Economy of Tests"
 description: "Testing has different costs and benefits depending on the project stage."
+resource: https://verraes.net/2015/01/economy-of-tests/
 tags: ["software-engineering", "testing-economics", "test-levels", "test-pyramid", "greenfield", "brownfield-projects", "maintenance-costs"]
 published: 2015-01
 timestamp: 2026-07-05
@@ -21,7 +22,7 @@ timestamp: 2026-07-05
 Testing has different costs and benefits depending on the project stage. In greenfield projects, unit tests, integration tests, and system tests cost roughly the same to introduce but differ in long-term maintenance. Integration and system tests become increasingly expensive over time due to brittleness and speed. The Test Pyramid recommends building mostly unit tests. In brownfield projects, starting with system tests and migrating to lower levels is practical. Test level migration—gradually shifting high-level tests down to unit tests as refactoring improves testability—balances introducing tests quickly with maintaining a sustainable suite.
 
 ## Links
-- _Source URL not yet recovered (see migration report)._
+- [Source](https://verraes.net/2015/01/economy-of-tests/) — original post
 
 ## Related
 - [Cluster synthesis](/verraes.net/_synthesis-software-engineering.md)

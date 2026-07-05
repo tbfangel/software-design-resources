@@ -2,6 +2,7 @@
 type: article
 title: "Accessing Private Properties from Other Instances"
 description: "In PHP, private properties are accessible from other instances of the same class—visibility operates at class level, not instance level."
+resource: https://verraes.net/2011/03/accessing-private-properties-from-other-instances/
 tags: ["software-engineering", "php", "visibility", "access-modifiers", "value-objects", "equality"]
 published: 2011-03
 timestamp: 2026-07-05
@@ -20,7 +21,7 @@ timestamp: 2026-07-05
 In PHP, private properties are accessible from other instances of the same class—visibility operates at class level, not instance level. This lets value objects compare themselves (foo1->equals(foo2)) by accessing private properties of another Foo instance. This feature is useful for implementing equality without exposing internals to outside code.
 
 ## Links
-- _Source URL not yet recovered (see migration report)._
+- [Source](https://verraes.net/2011/03/accessing-private-properties-from-other-instances/) — original post
 
 ## Related
 - [Cluster synthesis](/verraes.net/_synthesis-software-engineering.md)

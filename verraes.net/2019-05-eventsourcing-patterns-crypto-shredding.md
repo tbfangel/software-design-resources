@@ -2,6 +2,7 @@
 type: article
 title: "Eventsourcing Patterns: Crypto-Shredding"
 description: "Crypto-Shredding enables deletion of sensitive data in an immutable eventstore by encrypting sensitive event attributes with a key per resource, then deleting only the encryption keys."
+resource: https://verraes.net/2019/05/eventsourcing-patterns-throw-away-the-key/
 tags: ["event-sourcing-cqrs", "sensitive-data", "encryption", "gdpr", "compliance", "key-management"]
 published: 2019-05
 timestamp: 2026-07-05
@@ -20,7 +21,7 @@ timestamp: 2026-07-05
 Crypto-Shredding enables deletion of sensitive data in an immutable eventstore by encrypting sensitive event attributes with a key per resource, then deleting only the encryption keys. When sensitive information must be erased (such as under GDPR), the key is thrown away, rendering the encrypted data unreadable without modifying or deleting the event itself. This approach respects the append-only nature of eventstores while satisfying data deletion requirements. The pattern works best when consumers consistently store sensitive payloads using encryption with the same key management, and can withstand the legal interpretation of whether crypto-shredded data constitutes adequate deletion.
 
 ## Links
-- _Source URL not yet recovered (see migration report)._
+- [Source](https://verraes.net/2019/05/eventsourcing-patterns-throw-away-the-key/) — original post
 
 ## Related
 - [Cluster synthesis](/verraes.net/_synthesis-event-sourcing-cqrs.md)

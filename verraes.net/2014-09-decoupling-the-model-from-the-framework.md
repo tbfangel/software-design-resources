@@ -2,6 +2,7 @@
 type: presentation
 title: "Decoupling the Model from the Framework"
 description: "A presentation demonstrating how to decouple domain models from web frameworks like Symfony."
+resource: https://verraes.net/2014/09/decoupling-model-framework/
 tags: ["event-sourcing-cqrs", "framework-independence", "task-based-ui", "commands", "domain-modeling", "ddd"]
 published: 2014-09
 timestamp: 2026-07-05
@@ -20,7 +21,7 @@ timestamp: 2026-07-05
 A presentation demonstrating how to decouple domain models from web frameworks like Symfony. When frameworks are designed around CRUD operations and automatic form-to-entity data mapping, they force domain models to expose setters and constructor flexibility that violate domain invariants. The solution uses Commands as an explicit API between the UI and domain—the form produces a HireEmployeeCommand or PromoteEmployeeCommand rather than trying to map directly to domain methods. Commands function as DTOs that can be used equally well for forms, REST APIs, or other clients, while domain models remain pure and independent of framework concerns.
 
 ## Links
-- _Source URL not yet recovered (see migration report)._
+- [Source](https://verraes.net/2014/09/decoupling-model-framework/) — original post
 
 ## Related
 - [Cluster synthesis](/verraes.net/_synthesis-event-sourcing-cqrs.md)

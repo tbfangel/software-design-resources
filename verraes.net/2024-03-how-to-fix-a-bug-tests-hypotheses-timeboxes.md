@@ -2,6 +2,7 @@
 type: article
 title: "How to Fix a Bug: Tests, Hypotheses, Timeboxes"
 description: "An efficient process for fixing bugs that combines collaborative investigation with scientific hypothesis testing."
+resource: https://verraes.net/2024/03/how-to-fix-a-bug-tests-hypotheses-timeboxes/
 tags: ["software-engineering", "debugging", "testing", "collaborative-problem-solving", "tdd", "hypothesis-driven-development"]
 published: 2024-03
 timestamp: 2026-07-05
@@ -20,7 +21,7 @@ timestamp: 2026-07-05
 An efficient process for fixing bugs that combines collaborative investigation with scientific hypothesis testing. Rather than browsing code randomly, pair or ensemble with others, write a failing test to prove the bug exists, brainstorm multiple hypotheses, prioritize them by probability and effort, set timeboxes to test each hypothesis, then fix with confidence. The approach emphasizes that the engineer's duty is building systems that work and remain evolvable over time, making quality and testability investments pay off.
 
 ## Links
-- _Source URL not yet recovered (see migration report)._
+- [Source](https://verraes.net/2024/03/how-to-fix-a-bug-tests-hypotheses-timeboxes/) — original post
 
 ## Related
 - [Cluster synthesis](/verraes.net/_synthesis-software-engineering.md)

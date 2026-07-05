@@ -2,6 +2,7 @@
 type: article
 title: "Code Reviews and Blame Culture"
 description: "Pre-merge code reviews are not inherently bad; context matters."
+resource: https://verraes.net/2016/04/code-reviews-and-blame-culture/
 tags: ["software-engineering", "code-reviews", "team-culture", "continuous-integration", "quality-practices"]
 published: 2016-04
 timestamp: 2026-07-05
@@ -20,7 +21,7 @@ timestamp: 2026-07-05
 Pre-merge code reviews are not inherently bad; context matters. In high-performing teams with strong testing and pair programming, gated reviews may feel like a step backward. But in teams with weak testing and high blame culture, pre-merge reviews paradoxically reduce blame by making failure collective rather than individual. The key is simple rules: open pull requests early, never merge your own code, never merge code you don't understand, always review others' work before starting new tasks.
 
 ## Links
-- _Source URL not yet recovered (see migration report)._
+- [Source](https://verraes.net/2016/04/code-reviews-and-blame-culture/) — original post
 
 ## Related
 - [Cluster synthesis](/verraes.net/_synthesis-software-engineering.md)
