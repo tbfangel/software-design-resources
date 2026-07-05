@@ -139,3 +139,18 @@ Oskar Dudycz describes a pragmatic architectural tradeoff he made while building
 - When building abstractions across heterogeneous platforms, exposing fundamental differences is preferable to hiding them behind a leaky uniform facade.
 - Good API design defaults to the restrictive, safe path and makes weaker guarantees an explicit, named choice.
 
+### [How soon is now in PostgreSQL?](https://www.architecture-weekly.com/p/how-soon-is-now-in-postgresql)
+**Type:** Article
+**Date:** 2026-05
+**Tags/Topics:** PostgreSQL, now() vs clock_timestamp(), Transaction Semantics, Distributed Locking, Retry Logic, Testing Seams
+
+Oskar Dudycz traces a subtle bug in Emmett's distributed processor locking where PostgreSQL's `now()` returns the transaction start time rather than wall-clock time, silently breaking retry logic that runs inside a single transaction. Because `now()` stays frozen for the duration of a transaction, a WHERE-clause predicate comparing against it never advances during in-transaction retries, so a lock condition that should eventually pass never does. The fix was to switch time-sensitive predicates to `clock_timestamp()`, which reads the wall clock on each call. The deeper lesson is that the bug slipped past both unit and end-to-end tests because neither exercised the specific combination—crash, new instance, and retry within a shared transaction—highlighting how defects hide in the blind spots between testing layers.
+
+**Key takeaways:**
+- `now()` returns transaction start time and stays constant for the whole transaction, not elapsed wall-clock time
+- Use `clock_timestamp()` for predicates that must observe real elapsed time, such as retry or lock conditions
+- Retry loops inside a single transaction freeze any WHERE-clause condition built on `now()`
+- The bug lived in the gap between unit tests and real caller patterns, where neither layer covered the triggering combination
+- Reproducing the exact crash-plus-retry scenario was necessary to surface and fix the defect
+- Production bugs often hide in the overlapping blind spots between different testing layers
+

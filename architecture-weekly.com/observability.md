@@ -125,3 +125,18 @@ The author encountered performance issues with his open-source Node.js tools (Em
 - Progress iteratively following: Make It Work → Make It Right → Make It Fast
 - Integrate OpenTelemetry for detailed tracing and use Flame Graphs to visualize performance bottlenecks
 
+### [Vibing, Harness and OODA loop](https://www.architecture-weekly.com/p/vibing-harness-and-ooda-loop)
+**Type:** Article
+**Date:** 2026-04
+**Tags/Topics:** OODA Loop, AI-Assisted Development, Observability, Testing Harness, Feedback Loops, Iteration
+
+Oskar Dudycz argues that rapid LLM-assisted prototyping creates an illusion of progress by accelerating the "Act" phase of the OODA loop while quietly skipping the "Observe" and "Orient" steps. Using his Emmett project as a case study, he contends that sustainable engineering depends on a "harness"—automated observability, testing, CI/CD, and traces—that supplies the mechanical feedback needed to verify AI-generated work. Coding speed is genuinely valuable, but because "Act takes seconds now while Observe takes as long as it always did," professional delivery requires cycling through all four OODA phases repeatedly rather than betting on a single brilliant act.
+
+**Key takeaways:**
+- LLM-assisted "vibing" accelerates Act but compresses or eliminates the Observe and Orient phases
+- A harness of automated tests, CI/CD, monitoring, and traces provides the feedback reliable iteration needs
+- "Act takes seconds now; Observe takes as long as it always did"—observability infrastructure becomes the bottleneck
+- Domain knowledge is essential to orient: models generate code faster than humans can verify it
+- Professional delivery means running complete OODA loops multiple times, not single brilliant acts
+- Established collaboration and engineering practices shouldn't be abandoned despite AI productivity gains
+

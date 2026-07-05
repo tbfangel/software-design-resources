@@ -296,3 +296,49 @@ Armin Ronacher uses the chardet relicensing controversy as a lens to examine wha
 - The chardet case illustrates that permissively-licensed tests and APIs can effectively be used to bootstrap a relicensed replacement.
 - Trademark protection is increasingly more practically useful than copyleft licensing for controlling how a project name and ecosystem are used.
 - The controversy exposes inconsistency in how the industry reacts to AI-assisted reimplementation depending on whose code is being replaced.
+
+### [Gaslighting Openness](https://lucumr.pocoo.org/2026/6/10/gaslighting/)
+**Type:** Article
+**Date:** 2026-06
+**Tags/Topics:** open source, AI regulation, corporate gatekeeping, EU Digital Markets Act, technology democratization, narrative capture
+
+Ronacher argues that large technology companies are manipulating public discourse by framing restricted access as beneficial to users—justifying access limitations through "safety and security" language while pursuing financial interests. As open source faces mounting pressure from AI commoditization and corporate gatekeeping, he contends regulatory frameworks like the EU's Digital Markets Act are crucial safeguards for genuine user agency, despite reflexive skepticism about regulation. His core position: truly democratized access to technology and AI serves everyone's interest even at the cost of short-term product delays, and the community must resist letting corporations reframe access denial as protection.
+
+**Key takeaways:**
+- Corporations increasingly justify access limits with "safety and security" language while pursuing financial interests
+- The EU's DMA matters because it challenges device and data gatekeeping, despite reflexive anti-regulation instincts
+- "True democratized access to technology including AI is in all our interest," even with short-term delays
+- Open source sustainability requires resisting narrative capture by well-resourced companies restricting derivatives
+- Europe's structural technology disadvantages make regulatory counterbalances more important
+- Distinguishing defensible from indefensible restrictions is essential; not all safety claims warrant acceptance
+
+### [Before GitHub](https://lucumr.pocoo.org/2026/4/28/before-github/)
+**Type:** Article
+**Date:** 2026-04
+**Tags/Topics:** GitHub, open source infrastructure, centralization, decentralization, software preservation, platform dependency
+
+Ronacher reflects on GitHub's central role in shaping modern open source culture while expressing concern about its decline under Microsoft. He argues that GitHub's centralization enabled frictionless collaboration and preserved community knowledge, but depending on a single company to house the commons is unsustainable—and ironically contradicts Git's distributed design. Learning from the pre-GitHub era's autonomy (where a dependency meant reputation, longevity, and often vendoring) while avoiding its fragmentation and loss, he advocates a well-funded, "boring" public archive to preserve open source heritage independent of corporate stewardship.
+
+**Key takeaways:**
+- GitHub turned open source from decentralized hosting into centralized social and technical infrastructure "where the community lived"
+- Pre-GitHub, a dependency was more than a package name—it carried reputation, longevity, and vendoring considerations
+- GitHub's centralization ironically contradicted Git's distributed philosophy
+- Its decline is prompting projects (e.g. Ghostty) to reconsider alternatives
+- Decentralization offers autonomy but risks losing social context: issues, reviews, discussions, advisories
+- Open source needs "a public, boring, well-funded archive" independent of corporate influence
+
+<!-- NOTE: classification uncertain — review before merging -->
+### [Equity for Europeans](https://lucumr.pocoo.org/2026/4/23/equity-for-europeans/)
+**Type:** Article
+**Date:** 2026-04
+**Tags/Topics:** equity, finance, language and culture, ownership, wealth building, employee participation
+
+Ronacher argues that English-speaking cultures benefit from "equity" as a single concept bundling legal fairness, financial residual value, and wealth-building agency, while German and continental European languages fragment it into domain-specific terms like Eigenkapital and Beteiligung. This linguistic gap reflects deeper institutional differences between common-law and civil-law traditions and shapes how Europeans approach entrepreneurship, employee participation, and intergenerational wealth. He contends Europeans would benefit from internalizing equity's holistic meaning—not by imitating America, but to think more clearly about ownership as a path to agency and long-term financial participation.
+
+**Key takeaways:**
+- "Equity" bundles legal fairness, financial residual claims, and ownership-as-agency that Europeans often keep separate
+- German lacks an umbrella term; compartmentalized vocabulary disconnects these ideas from everyday discourse
+- English equity courts and mortgage redemption rights historically fused ownership and fairness in financial thinking
+- German's conflation of "Schuld" (debt/guilt) adds moral baggage absent from instrumentalized American debt framing
+- Equity-centered thinking would strengthen European conversations on compensation, participation, and wealth compounding
+- The linguistic-conceptual gap partly explains under-emphasis on ownership structures in continental Europe

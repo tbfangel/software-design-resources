@@ -324,3 +324,77 @@ Oskar Dudycz challenges the dominant narrative that LLMs will eliminate coding, 
 - Future development likely requires spec-driven design: structured inputs, deterministic outputs, formal acceptance criteria — fundamentally different from current chat interfaces
 - Industry should measure impact (cost, quality, delivery time) rather than celebrating code volume
 
+### [You can fork a package, but can you own it?](https://www.architecture-weekly.com/p/you-can-fork-a-package-but-can-you)
+**Type:** Article
+**Date:** 2026-06
+**Tags/Topics:** Dependency Management, Supply Chain Security, Open Source Maintenance, SBOM, Bus Factor, Technical Decision-Making
+
+Reacting to Mitchell Hashimoto's advice to fork dependencies, Oskar Dudycz argues the real issue isn't forking but consciously deciding which dependencies you can genuinely own and maintain. Handwriting small utilities eliminates a specific supply-chain risk, but forking something like React is impractical for most teams. The deeper problem is installing dependencies without deliberate decision-making, which creates invisible liability through transitive dependencies. He advocates explicit dependency inventories (via SBOM), assessing each dependency's criticality and bus factor, and defining upgrade and response strategies—warning that LLMs don't solve ownership; they just make it easier to generate unmaintained "shadow IT."
+
+**Key takeaways:**
+- Trivial libraries are prime supply-chain attack targets; writing your own removes that specific vector
+- Understanding the full transitive dependency tree via SBOM is foundational to any security posture
+- Adopting a "critical" dependency without weighing bus factor and maintainer sustainability creates preventable risk
+- Emotional reactions to license changes or package removals reflect poor initial decisions, not the root problem
+- LLMs don't resolve ownership; they make it easier to create unmaintained shadow code
+- Organizations should define explicit dependency postures: inventory, criticality tiers, upgrade paths, and response protocols
+
+### [Don't overestimate domain expertise](https://www.architecture-weekly.com/p/dont-overestimate-domain-expertise)
+**Type:** Article
+**Date:** 2026-05
+**Tags/Topics:** Domain-Driven Design, LLM Limitations, Domain Expertise, Ubiquitous Language, Collaboration, Modelling
+
+Oskar Dudycz argues that LLMs can compile information quickly but cannot replace domain experts or engineering judgment in software design. Using hospitality management as an example, he shows how LLMs reproduce competitor terminology and industry jargon without understanding why systems evolved that way, producing disconnected, oversimplified models—an "artificial reality." He treats domain language as a cognitive tool for managing complexity rather than gospel truth, warning that both experts and AI can perpetuate outdated practices. Meaningful software requires engineers and domain experts collaborating to distinguish how work is done today from how systems should function, with LLMs useful for organizing findings but not for the domain discovery and design thinking itself.
+
+**Key takeaways:**
+- LLMs blend conflicting vocabularies without understanding why systems evolved, creating "artificial reality" rather than insight
+- Domain language is a tool to manage complexity, not gospel—experts and AI alike can perpetuate outdated practice
+- Engineers must separate "how people work now" from "how systems should function," staying skeptical of both experts and LLM output
+- Genuine innovation requires understanding business problems deeply enough to build differentiated solutions
+- Collaboration remains essential; LLMs assist with organizing findings, not with domain discovery and design
+
+### [Borys had the best dribbling](https://www.architecture-weekly.com/p/borys-had-the-best-dribbling)
+**Type:** Article
+**Date:** 2026-05
+**Tags/Topics:** Shipping, Perfectionism, Productivity, Goal Setting, Motivation, Personal Development
+
+A reflective, nostalgic essay in which Oskar Dudycz contrasts childhood soccer memories with his adult tendency to leave ambitious projects unfinished. Drawing on Amy Hoy's "Just Fucking Ship," he argues that execution beats perfect planning: setting a concrete goal and deadline and simply shipping matters more than endlessly refining foundations. Starting with frameworks and architecture before validating the core idea squanders peak motivation, and the real barrier to finishing is usually emotional resistance rather than technical capability.
+
+**Key takeaways:**
+- Perfectionism and over-engineering the early stages sabotage project completion
+- "Set yourself a goal, a deadline, and just fucking do it" is the foundation of shipping
+- Building frameworks and architecture before validating the core idea wastes peak motivation
+- Small, achievable milestones build momentum better than fixating on grand visions
+- Visible delivery matters more than invisible technical excellence
+- The barrier to success is often emotional resistance, not technical capability
+
+### [The one where Oskar explains Example Mapping](https://www.architecture-weekly.com/p/the-one-where-oskar-explains-example)
+**Type:** Article
+**Date:** 2026-03
+**Tags/Topics:** Example Mapping, Behavior-Driven Design, Collaboration, Requirements Discovery, Facilitation, Given/When/Then
+
+Oskar Dudycz introduces Example Mapping, a structured conversation technique for breaking down user stories through concrete examples. Using a hotel checkout feature, he shows how interviewing stakeholders about specific examples surfaces hidden business rules, edge cases, and previously unconsidered features. Combining Given/When/Then scenarios with color-coded cards (examples, rules, questions), the technique acts as both a modelling tool and a readiness check: when a story accumulates too many open questions or rules, it's a signal the story is incomplete or too large. It complements EventStorming and BDD and needs no formal setup—plain-text Given/When/Then plus discussion is enough.
+
+**Key takeaways:**
+- Example Mapping runs short (25–30 minute) sessions with developers, testers, and business stakeholders exploring features through concrete examples
+- It uncovers hidden business rules, new features, and edge cases that linear requirements miss
+- Color-coded cards for examples, outcomes, rules, and questions reveal when a story is incomplete or too large
+- It complements EventStorming and Behavior-Driven Design using a similar color-coded framework
+- No formal tooling is required—plain-text Given/When/Then plus discussion suffices
+- Usable as a brainstorming, validation, or facilitation tool within any modelling session
+
+### [Interactive Rubber Ducking with GenAI](https://www.architecture-weekly.com/p/interactive-rubber-ducking-with-genai)
+**Type:** Article
+**Date:** 2026-03
+**Tags/Topics:** GenAI, Software Design, Specification, Rubber Ducking, Developer Productivity, Caching
+
+Oskar Dudycz presents "Interactive Rubber-Ducking," a methodology that uses generative AI as a thinking partner rather than a solution generator. Instead of accepting AI-generated designs, the developer prompts the model to ask one probing question at a time to expose blind spots and challenge assumptions, producing both a Q&A log and a concise specification. He demonstrates the technique on a real problem—adding second-level caching to Pongo—showing how systematic questioning about cache placement, invalidation, cascading configuration, and transaction handling yields a comprehensive design while the developer, not the AI, remains the decision driver.
+
+**Key takeaways:**
+- AI serves as an interactive thought partner, not a solution generator—the developer stays the decision driver
+- Prompting for one question at a time prevents yes-man responses and surfaces genuine design tensions
+- More capable models with code context (e.g. Claude Opus) enable deeper questioning than weaker ones
+- Cascading configuration allows override behavior across client, database, collection, session, and per-operation levels
+- Cache-by-id with optimistic concurrency validation preserves correctness while improving performance
+- Recording both the Q&A and the resulting spec preserves reasoning and enables review by others
+
