@@ -26,6 +26,8 @@ Automation for maintaining the bundle (all OKF-aware):
 
 See [`CLAUDE.md`](CLAUDE.md) for the card schema.
 
+**Integrity:** `scripts/validate_okf.py` checks the bundle invariants — card frontmatter, resolvable links, and a strict 1:1 correspondence between concept cards and their index/synthesis listings. CI runs it on every push and PR ([`.github/workflows/validate-okf.yml`](.github/workflows/validate-okf.yml)); run it locally with `python3 scripts/validate_okf.py`.
+
 ---
 
 ## Acknowledgments

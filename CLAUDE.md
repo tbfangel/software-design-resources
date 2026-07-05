@@ -78,6 +78,29 @@ unit), and keep scratch state in temp files that you delete when done.
 |---|---|
 | `web-resource-crawler` | User says "crawl the blogs/articles at &lt;site&gt; and summarize them" |
 
+## Validation (run after any change)
+
+`scripts/validate_okf.py` enforces the bundle invariants; CI runs it on every push/PR
+(`.github/workflows/validate-okf.yml`). Run it locally before committing:
+
+```bash
+python3 scripts/validate_okf.py
+```
+
+It checks, and fails on violation of:
+- **Structure** — one bundle-root `index.md`, sole declarer of `okf_version`; every site has an `index.md`.
+- **Card frontmatter** — non-empty `type`; `resource` is an http(s) URL; `title`/`description`/`tags`/
+  `published` present; the `> ` lead line matches `description`.
+- **Synthesis cards** — `type: synthesis`.
+- **Card ↔ index 1:1 correspondence** — every card is linked exactly once from its site `index.md`;
+  every card link in an index resolves; the root `index.md` links every site index.
+- **Card ↔ synthesis correspondence** — each card's cluster (`tags[0]`) has a `_synthesis-<cluster>.md`
+  that links the card.
+- **Links** — every internal `.md` link resolves.
+
+When you add a card (e.g. via `/sync`), you must also add it to the site `index.md` listing and to its
+`_synthesis-<cluster>.md` `## Related`, or validation fails.
+
 ## Conventions
 
 - All content files are Markdown with YAML frontmatter.

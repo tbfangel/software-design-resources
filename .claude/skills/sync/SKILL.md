@@ -96,7 +96,10 @@ For each cluster that gained cards:
 In the root `index.md`, update each affected site's card count in the Sections list. In `README.md`,
 update the post count / date range for each source that gained posts.
 
-## Step 10 — Commit and open PR
+## Step 10 — Validate, commit, and open PR
+
+Run `python3 scripts/validate_okf.py` and fix any errors before committing (this is what CI enforces —
+new cards must be listed in the site `index.md` and their `_synthesis-<cluster>.md` `## Related`).
 
 Stage only the files you created/modified (never `git add -A`). Commit `Knowledge base sync: YYYY-MM-DD`.
 Then `gh pr create --title "Knowledge base sync: YYYY-MM-DD" --body "…"`. The PR body must include:
