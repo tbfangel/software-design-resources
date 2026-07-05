@@ -2,13 +2,29 @@
 
 A curated collection of resources on software design — with a focus on Domain-Driven Design, distributed systems architecture, and the craft of building well-structured, maintainable software.
 
+## Format
+
+This knowledge base is an **[Open Knowledge Format](https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/okf) (OKF) v0.1 bundle**: a tree of small Markdown **concept cards**, one per blog post. Each card has YAML frontmatter (`type`, `title`, `resource`, `tags`, `published`) and a short digest — `## Key Facts`, `## Summary`, `## Links`, `## Related` — that points to the original rather than copying it.
+
+```
+index.md            # OKF navigation root (declares okf_version)
+<site>/
+  index.md          # site intro + listing of its cards by cluster-tag
+  _synthesis-*.md   # one synthesis card per theme (cross-post "Key Insights")
+  YYYY-MM-*.md      # one concept card per post (sorts chronologically)
+```
+
+Start at [`index.md`](index.md), or open any site folder. The cluster a post belongs to is the first entry in its `tags`, and each cluster has a `_synthesis-*` card distilling the cross-cutting lessons.
+
 ## Claude Code Setup
 
-This repository includes automation for maintaining the knowledge base:
+Automation for maintaining the bundle (all OKF-aware):
 
-- **`web-resource-crawler` agent** (`.claude/agents/`) — Crawl blog sites and generate structured summaries organized into thematic clusters
-- **`/ask` skill** (`.claude/skills/`) — Query the knowledge base with natural language (e.g., `/ask tech debt`, `/ask bounded contexts`)
-- **`/sync` skill** (`.claude/skills/`) — Detect new posts across all tracked sources, summarise and classify them, and open a pull request; safe to run unattended
+- **`/ask` skill** — query the cards in natural language (e.g. `/ask tech debt`, `/ask bounded contexts`).
+- **`/sync` skill** — detect new posts across tracked sources, write one card per post, and open a PR; safe to run unattended.
+- **`web-resource-crawler` agent** — onboard a new site into concept cards organised by theme.
+
+See [`CLAUDE.md`](CLAUDE.md) for the card schema.
 
 ---
 
@@ -18,13 +34,11 @@ This knowledge base exists thanks to practitioners who generously share their in
 
 ---
 
-## Blog Posts
+## Practitioners
 
-Summaries and analyses of writing by practitioners in the field, organised by author and clustered by theme.
-
-| Author | Description |
+| Author | Coverage |
 |---|---|
-| [Mathias Verraes](verraes.net/overview.md) | ~124 posts (2011–2026) covering DDD, Event Sourcing, CQRS, bounded contexts, messaging patterns, modelling theory, and software engineering practice |
-| [Dan North](dannorth.net/overview.md) | ~92 posts (2006–2025) covering BDD, agile delivery, testing, estimation, software design, learning models, and organizational effectiveness |
-| [Oskar Dudycz / Architecture Weekly](architecture-weekly.com/overview.md) | ~80 original articles (2020–2026) covering event-driven architecture, distributed systems, PostgreSQL, Kafka internals, messaging patterns, observability, and pragmatic software engineering |
-| [Armin Ronacher](lucumr.pocoo.org/overview.md) | ~167 posts (2007–2026) covering Flask/Werkzeug/WSGI web infrastructure, deep Rust language work, Python packaging and Unicode, open source economics and licensing, and first-hand agentic coding practice |
+| [Mathias Verraes](verraes.net/index.md) | DDD, Event Sourcing, CQRS, bounded contexts, messaging patterns, modelling theory, and software engineering practice |
+| [Dan North](dannorth.net/index.md) | BDD, agile delivery, testing, estimation, software design, learning models, and organizational effectiveness |
+| [Oskar Dudycz / Architecture Weekly](architecture-weekly.com/index.md) | Event-driven architecture, distributed systems, PostgreSQL, Kafka internals, messaging patterns, observability, and pragmatic software engineering |
+| [Armin Ronacher](lucumr.pocoo.org/index.md) | Flask/Werkzeug/WSGI web infrastructure, Rust, Python packaging and Unicode, open source economics, and first-hand agentic coding practice |

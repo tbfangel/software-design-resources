@@ -1,102 +1,91 @@
 ---
 name: Web Resource Crawler
-description: Summarises a web-based resource (e.g. a blog) into a structured set of Markdown files. Creates a site folder with an overview page and thematic cluster files, each populated with per-item summaries, tags, and key takeaways. Trigger when the user says something like "crawl the blogs/articles at <site> and summarize them".
+description: Summarises a web-based resource (e.g. a blog) into an OKF concept-card bundle. Creates a site folder with an index page, one synthesis card per thematic cluster, and one concept card per post. Trigger when the user says something like "crawl the blogs/articles at <site> and summarize them".
 ---
 
-You are helping maintain a personal knowledge base on software design. Your job is to process a web-based resource — typically a blog — and produce a structured set of Markdown files in this repository.
+You are helping maintain a personal knowledge base on software design. It is an **OKF (Open Knowledge
+Format) bundle** — see `CLAUDE.md` for the card schema. Your job is to process a web-based resource
+(typically a blog) and produce a set of OKF concept cards for it.
 
 ## What you produce
 
-For a given site URL, you create a folder named after the site (e.g. `verraes.net/`) containing:
+For a given site URL, create a folder named after the site (e.g. `verraes.net/`) containing:
 
-- `overview.md` — a hub page linking to all clusters, summarising the site, key themes, and any notable series.
-- `<cluster>.md` — one file per thematic cluster, containing a cluster intro paragraph, a **Key Insights** executive summary, and per-post entries.
+- `index.md` — reserved navigation file (no `type`): a short site intro plus a `## Posts` listing that
+  links every card, grouped by cluster-tag.
+- `_synthesis-<cluster>.md` — one `type: synthesis` card per thematic cluster, holding the cluster's
+  cross-post **Key Insights** and a `## Related` list linking that cluster's post cards.
+- `YYYY-MM-<slug>.md` — one concept card per post (see format below). `YYYY-MM` from the post date;
+  `<slug>` = the URL's last path segment, else a slugified title.
+
+Also add the site to the bundle-root `index.md` Sections list and to `README.md`.
 
 ## Step-by-step process
 
 ### Step 1 — Survey the resource
-
-Navigate to the provided URL. List every post or item you find, capturing for each:
-- Title and URL
-- Type (Article, Presentation, Podcast, etc.) if available
-- Date
-- Short blurb or description
-- Co-author if present
-
-Record all of this in a temp file in your working directory. Do not read individual posts yet.
+Navigate to the URL. List every post, capturing title, URL, type (article/presentation/podcast), date,
+a short blurb, and co-author if present. Record this in a temp file. Don't read full posts yet.
 
 ### Step 2 — Show an example early
-
-Before proceeding further, produce a single example cluster file with 2–3 post summaries at the level of detail you intend to use. Present it for review and wait for feedback on whether the format and depth are right before continuing.
+Produce a single example concept card at the depth you intend to use, and one example
+`_synthesis-<cluster>.md`. Present them for review and wait for feedback before continuing.
 
 ### Step 3 — Cluster the posts
+Using only the Step-1 metadata, group posts into 5–10 thematic clusters. Assign each cluster a **slug**
+(kebab-case, e.g. `event-sourcing-cqrs`) — this becomes `tags[0]` on every card in it. Record assignments.
 
-Using only the metadata collected in Step 1 (titles, blurbs, types, dates — not the full post content), group all posts into thematic clusters. Aim for 5–10 clusters. Record the cluster assignments in your temp file.
+### Step 4 — Spin up sub-agents (one per cluster, parallel)
+Each sub-agent reads every post in its cluster (via URL) and writes one concept card per post directly to
+`<site>/YYYY-MM-<slug>.md`.
 
-Create a stub file for each cluster, and create `overview.md` linking to all of them.
+### Step 5 — Write the synthesis cards
+For each cluster, write `_synthesis-<cluster>.md`: a `type: synthesis` card whose body distils the
+cross-cutting **Key Insights** (patterns and tensions across the posts, not a list of them), followed by
+a `## Related` list linking the cluster's post cards.
 
-### Step 4 — Spin up sub-agents
-
-Spin up one sub-agent per cluster. Each sub-agent should:
-1. Read every post in its cluster by navigating to the URL.
-2. Write its cluster file, replacing the stub.
-
-Run all sub-agents in parallel. Each agent writes directly to its output file and works independently.
-
-### Step 5 — Add executive summaries
-
-Once all cluster files are populated, add a **Key Insights** section near the top of each cluster file (after the intro paragraph, before the per-post entries). This should be a concise synthesis of the most important cross-cutting takeaways from the cluster as a whole — not a repeat of the intro, but the distilled lessons a reader would walk away with.
-
-### Step 6 — Update the README
-
-Add an entry for the new site to the repository's top-level `README.md`, under the appropriate section.
+### Step 6 — Build the indexes
+Write the site `index.md` (intro + `## Posts` grouped by cluster-tag, linking every card and its synthesis
+card). Add the site to the bundle-root `index.md` and to `README.md`.
 
 ### Step 7 — Clean up
+Delete any temp files.
 
-Delete any temp files created during the process.
-
-## Per-post entry format
-
-Each post entry in a cluster file should follow this structure:
-
-```
-### [Post Title](URL)
-**Type:** Article / Presentation / Podcast / etc.
-**Date:** YYYY-MM
-**Tags/Topics:** comma-separated topic tags
-
-One paragraph summarising the post's argument, key ideas, and conclusions.
-
-**Key takeaways:**
-- Bullet point takeaways
-- One per distinct insight
-```
-
-## Cluster file format
+## Concept card format
 
 ```markdown
-# Cluster Name
-
-> Part of the [Site Author overview](overview.md)
-
-One paragraph describing the theme and scope of this cluster.
-
-## Key Insights
-
-**Bold claim or insight.** Supporting explanation...
-
-(3–6 insight paragraphs)
-
+---
+type: article                      # article | presentation | podcast
+title: "Post Title"
+description: "One-sentence summary."
+resource: https://…                # canonical post URL
+tags: ["<cluster-slug>", "topic-1", "topic-2"]
+published: YYYY-MM
+timestamp: YYYY-MM-DD              # today
+co_author: "Name"                 # optional — keep any extra fields as custom keys
 ---
 
-### [Post Title](URL)
-...
+# Post Title
+
+> One-sentence summary (same as description).
+
+## Key Facts
+- 2–5 bullets in your own words — the post's distinct insights.
+
+## Summary
+One paragraph on the argument, key ideas, and conclusions.
+
+## Links
+- [Source](https://…) — original post
+
+## Related
+- [Cluster synthesis](/<site>/_synthesis-<cluster-slug>.md)
+- a few sibling cards in the same cluster
 ```
 
 ## Guidelines
 
-- Cluster by subject matter, not by format or date.
-- Prefer fewer, richer clusters over many shallow ones.
-- Summaries should capture the argument, not just the topic — what does the author actually claim?
-- Key Insights should synthesise across posts, not list them — find the patterns and tensions.
+- Cluster by subject matter, not by format or date. Prefer fewer, richer clusters.
+- Cards are digests, never verbatim copies — capture what the author actually claims.
+- `type` is required and non-empty. Put the cluster slug first in `tags`.
+- Key Facts are your own words; Synthesis cards synthesise across posts, not summarise each.
 - If the browser cannot access a URL, tell the user which URLs were inaccessible before finishing.
