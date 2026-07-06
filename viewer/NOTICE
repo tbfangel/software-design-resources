@@ -1,0 +1,16 @@
+Software Design Resources — OKF viewer
+=======================================
+
+A self-contained, offline, no-dependency faceted browser for this OKF bundle.
+`scripts/build_viewer.py` walks the bundle and inlines the data plus
+`viewer/app.css` and `viewer/app.js` into a single `dist/index.html`.
+
+Design & approach were inspired by:
+  - Google's Open Knowledge Format (OKF) reference viewer
+    https://github.com/GoogleCloudPlatform/knowledge-catalog
+  - The Repodo monorepo's `tools/okf` viewer (walk -> inline -> detail-panel pattern)
+
+No third-party code is vendored in this v1: there is no CDN dependency, no
+bundled cytoscape/marked, and no graph view. Card bodies are rendered by a
+small inline Markdown renderer in app.js. A relationship graph is a planned
+follow-up.

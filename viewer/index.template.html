@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OKF Viewer</title>
+<style>
+/*__APP_CSS__*/
+</style>
+</head>
+<body>
+<header id="topbar">
+  <div class="brand">
+    <strong id="bundle-name"></strong>
+    <span class="muted" id="result-count"></span>
+  </div>
+  <input id="search" type="search" placeholder="Search title, description, tags, text…" autocomplete="off" spellcheck="false">
+  <div class="topbar-actions">
+    <label class="sort">Sort
+      <select id="sort">
+        <option value="date-desc">Newest</option>
+        <option value="date-asc">Oldest</option>
+        <option value="title">Title A–Z</option>
+      </select>
+    </label>
+    <button id="clear-filters" type="button" class="ghost" hidden>Clear filters</button>
+    <button id="theme-toggle" type="button" class="ghost" title="Toggle theme" aria-label="Toggle theme">◑</button>
+  </div>
+</header>
+
+<main>
+  <aside id="facets" aria-label="Filters"></aside>
+
+  <section id="results" aria-label="Results"></section>
+
+  <section id="detail" aria-label="Card detail" hidden>
+    <button id="detail-close" type="button" class="ghost" aria-label="Close detail">✕</button>
+    <article id="detail-content"></article>
+  </section>
+</main>
+
+<script>
+window.BUNDLE = __BUNDLE_DATA__;
+window.BUNDLE_NAME = __BUNDLE_NAME__;
+</script>
+<script>
+/*__APP_JS__*/
+</script>
+</body>
+</html>
