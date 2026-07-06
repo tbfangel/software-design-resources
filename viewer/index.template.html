@@ -16,6 +16,10 @@
   </div>
   <input id="search" type="search" placeholder="Search title, description, tags, text…" autocomplete="off" spellcheck="false">
   <div class="topbar-actions">
+    <div id="viewtoggle" role="tablist" aria-label="View">
+      <button id="view-list" type="button" class="vt active" role="tab" aria-selected="true">List</button>
+      <button id="view-graph" type="button" class="vt" role="tab" aria-selected="false">Graph</button>
+    </div>
     <label class="sort">Sort
       <select id="sort">
         <option value="date-desc">Newest</option>
@@ -32,6 +36,14 @@
   <aside id="facets" aria-label="Filters"></aside>
 
   <section id="results" aria-label="Results"></section>
+
+  <section id="graph" aria-label="Graph view" hidden>
+    <canvas id="graph-canvas"></canvas>
+    <div id="graph-legend" aria-hidden="true"></div>
+    <div id="graph-info" aria-hidden="true" hidden></div>
+    <div id="graph-hint" class="muted">drag to pan · scroll to zoom · click a node to open · drag a node to pin</div>
+    <button id="graph-reset" type="button" class="ghost" title="Reset view">Reset view</button>
+  </section>
 
   <section id="detail" aria-label="Card detail" hidden>
     <button id="detail-close" type="button" class="ghost" aria-label="Close detail">✕</button>
